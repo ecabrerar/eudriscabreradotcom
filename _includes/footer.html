@@ -1,0 +1,32 @@
+<!-- Footer -->
+<footer id="footer">
+
+    <ul class="icons">
+ {% if site.twitter %}
+        <li><a href="http://twitter.com/{{ site.twitter }}" class="icon circle fa-twitter"><span class="label">Twitter</span></a>
+</li>
+   {% endif %}
+
+{% if site.linkedin %}
+        <li><a href="http://linkedin.com/in/{{ site.linkedin }}" class="icon circle fa fa-linkedin"><span class="label">Linkedin</span></a></li>
+ {% endif %}
+
+
+ {% if site.github %}
+        <li><a href="http://github.com/{{ site.github }}" class="icon circle fa-github"><span class="label">Github</span></a></li>
+  {% endif %}
+
+{% if site.email %}
+	  <a href="mailto:{{ site.email}}"><i class="icon circle fa fa-envelope"></i></a>
+    {% endif %}
+
+    </ul>
+
+    <ul class="copyright">
+      <p class="text-muted">Copyright 2015 © eudriscabrera.com |  Powered by <a href="http://jekyllrb.com/">Jekyll</a> and 
+<a href="http://jekyllthemes.org/themes/twenty/">Twenty</a>
+
+ by <a href="http://html5up.net">HTML5 UP</a>
+    </ul>
+
+</footer>

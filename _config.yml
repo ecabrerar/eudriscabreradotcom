@@ -1,0 +1,19 @@
+# Site settings
+title: Personal blog and resume
+
+# the subpath of your site, e.g. /blog/
+url: "http://locahost:4000" # the base hostname & protocol for your site
+
+# edit here to achieve your personal greatness
+baseurl: 
+title: Personal blog and resume
+author: Eudris Cabrera
+description: Personal blog and resume
+avatar: profile.jpg
+email: eudris@gmail.com
+github: ecabrerar
+twitter: eudriscabrera
+linkedin: eudriscabrera
+
+# Build settings
+markdown: kramdown
