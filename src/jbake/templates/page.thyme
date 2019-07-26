@@ -9,30 +9,9 @@
 
 		<!-- Main -->
 			<article id="main">
-
-
-				<header class="special container">
-										<span class="icon solid fa-mobile-alt"></span>
-										<h2 th:text='${content.title}'>And finally there's <strong>No Sidebar</strong></h2>
-										<p><em th:text='${#dates.format(content.date,"dd MMMM yyyy")}'>date</em></p>
-				</header>
-
-
-				<!-- One -->
-						<section class="wrapper style4 container">
-
-							<!-- Content -->
-								<div class="content">
-										<p th:utext='${content.body}'>body</p>
-
-									</div>
-
-						</section>
-
-				</article>
-
+				<p th:utext='${content.body}'>body</p>
+			</article>
 
 				<div th:replace="footer.thyme::footer"></div>
-
 </body>
 </html>

@@ -7,11 +7,9 @@
 				<footer id="footer">
 
 					<ul class="icons">
-						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a th:if="${config.github_username}" href="#" th:href="|http://github.com/${config.github_username}|"  class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<li><a th:if="${config.linkedin_username}" href="|http://linkedin.com/in/${config.linkedin_username}|" class="icon brands circle fa-linkedin"><span class="label">Linkedin</span></a></li>
 					</ul>
 
 					<ul class="copyright">
