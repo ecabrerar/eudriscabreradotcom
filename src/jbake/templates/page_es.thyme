@@ -1,0 +1,17 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="header.thyme::head"/>
+	<body class="no-sidebar">
+	<div id="page-wrapper">
+
+			<header th:insert="menu.thyme::menu_es" id="header"/>
+
+		<!-- Main -->
+			<article id="main">
+				<p th:utext='${content.body}'>body</p>
+			</article>
+
+				<div th:replace="footer.thyme::footer"></div>
+</body>
+</html>

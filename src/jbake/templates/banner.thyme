@@ -1,36 +1,36 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
-	<body>
-  	<div th:fragment="banner" th:remove="tag">
-  <!-- Banner -->
-			<section id="banner">
+<body>
+	<div th:fragment="banner" th:remove="tag">
+		<!-- Banner -->
+		<section id="banner">
 
-				<!--
-					".inner" is set up as an inline-block so it automatically expands
-					in both directions to fit whatever's inside it. This means it won't
-					automatically wrap lines, so be sure to use line breaks where
-					appropriate (<br />).
-				-->
-				<div class="inner">
+			<!--
+			".inner" is set up as an inline-block so it automatically expands
+			in both directions to fit whatever's inside it. This means it won't
+			automatically wrap lines, so be sure to use line breaks where
+			appropriate (<br />).
+		-->
+		<div class="inner">
 
-					<header>
-						<h2>TWENTY</h2>
-					</header>
-					<p>This is <strong>Twenty</strong>, a free
-					<br />
-					responsive template
-					<br />
-					by <a href="http://html5up.net">HTML5 UP</a>.</p>
-					<footer>
-						<ul class="buttons stacked">
-							<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
-						</ul>
-					</footer>
+			<header>
 
-				</div>
+			</header>
 
-			</section>
-	</div>
-  </body>
+			<br />
+			<br />
+			<br />
+
+
+			<footer>
+				<a href="index.html" class="button primary">English</a>
+				<a href="/es/index.html" class="button primary">Español</a>
+			</footer>
+
+		</div>
+
+	</section>
+</div>
+</body>
 </html>
