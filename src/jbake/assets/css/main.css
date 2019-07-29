@@ -1979,6 +1979,15 @@ section, summary, time, mark, audio, video {
 			background: #df93b8;
 		}
 
+		.icon.circle.fa-linkedin {
+			background: #4875B4;
+			color: #fff;
+		}
+
+		.icon.circle.fa-linkedin:hover {
+			background: #428bca;
+		}
+
 		.icon.featured {
 			cursor: default;
 			display: block;
