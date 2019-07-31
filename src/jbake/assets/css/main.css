@@ -1988,6 +1988,15 @@ section, summary, time, mark, audio, video {
 			background: #428bca;
 		}
 
+		.icon.circle.fa-envelope {
+			background: #db6b67;
+			color: white;
+		}
+
+		.icon.circle.fa-envelope:hover {
+			background: #df7b77;
+		}
+
 		.icon.featured {
 			cursor: default;
 			display: block;
@@ -3347,4 +3356,16 @@ section, summary, time, mark, audio, video {
 				height: 34px;
 			}
 
+		}
+
+
+		/* Blog */		
+		.post-next {
+			float: right;
+			margin-right: 3em;
+		}
+
+		.post-prev {
+			float: left;
+			margin-left: 3em;
 		}

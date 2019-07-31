@@ -31,6 +31,10 @@
 				</div>
 			</section>
 
+			 <footer>
+				 	
+			 </footer>
+
 		</article>
 
 		<div th:replace="footer.thyme::footer"></div>

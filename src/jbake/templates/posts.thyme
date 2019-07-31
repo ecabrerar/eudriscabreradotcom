@@ -1,0 +1,40 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="header.thyme::head"/>
+<body class="no-sidebar">
+	<div id="page-wrapper">
+
+		<header th:insert="menu.thyme::menu" id="header"/>
+
+    <article id="main">
+      <header class="special container">
+        <span class="icon fa-mobile"></span>
+        <h2>My <strong>Blog</strong></h2>
+
+      </header>
+
+			<section class="wrapper style4 container">
+			        <ul class="posts" th:each="post : ${published_posts}">
+
+			            <li class="wrapper" th:class="${post.first}? 'style2' : 'style1'">
+			              <h2><a th:href="${post.uri}" href="#" th:utext="${post.title}">title</a></h2>
+			               	<p th:utext='${post.body}'>body</p>
+			                <section class="special">
+			                    <ul class="buttons">
+			                        <li><a href="#" th:href="${post.uri}" class="button">Read more</a></li>
+			                    </ul></section>
+			            </li>
+			        </ul>
+			    </section>
+
+
+    </article>
+
+
+
+
+
+		<div th:replace="footer.thyme::footer"></div>
+	</body>
+	</html>

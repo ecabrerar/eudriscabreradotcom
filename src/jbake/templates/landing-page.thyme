@@ -2,13 +2,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 	<head th:replace="header.thyme::head"/>
-	<body class="no-sidebar">
+	<body class="index">
 	<div id="page-wrapper">
 
-			<header th:insert="menu.thyme::menu_es" id="header"/>
+	<header th:insert="menu.thyme::menu_es" class="alt" id="header"/>
 
-			<p th:utext='${content.body}'>body</p>
+  <p th:utext='${content.body}'>body</p>
 
-			<div th:replace="footer.thyme::footer"></div>
+  <div th:replace="footer.thyme::footer"></div>
 </body>
 </html>
