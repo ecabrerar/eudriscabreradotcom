@@ -13,6 +13,9 @@
 				<span class="icon solid fa-tablet-alt"></span>
 				<h2 th:text='${content.title}'>title</h2>
 				<p><em th:text='${#dates.format(content.date,"dd MMMM yyyy")}'>date</em></p>
+				<ul th:each="tag : ${content.tags}">
+					<li><p th:utext='${tag}'>body</p></li>
+				</ul>
 			</header>
 
 			<!-- One -->
@@ -24,16 +27,17 @@
 						<!-- Content -->
 						<div class="content">
 							<p th:utext='${content.body}'>body</p>
-							<hr />
 						</div>
 
 					</div>
 				</div>
 			</section>
 
-			 <footer>
-				 	
-			 </footer>
+			<footer>
+	        <a th:if="${content.previousContent}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${content.previousContent.uri}" href="#" class="post-prev">&larr; Previous post</a>
+
+	        <a th:if="${content.nextContent}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${content.nextContent.uri}" href="#" class="post-next">Next post &rarr;</a>
+	    </footer>
 
 		</article>
 

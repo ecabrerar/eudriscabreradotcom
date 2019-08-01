@@ -3359,7 +3359,7 @@ section, summary, time, mark, audio, video {
 		}
 
 
-		/* Blog */		
+		/* Blog */
 		.post-next {
 			float: right;
 			margin-right: 3em;
@@ -3369,3 +3369,8 @@ section, summary, time, mark, audio, video {
 			float: left;
 			margin-left: 3em;
 		}
+
+
+  ol.posts, ul.posts {
+		list-style: none;
+	}

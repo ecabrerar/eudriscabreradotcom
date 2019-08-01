@@ -11,26 +11,35 @@
       <header class="special container">
         <span class="icon fa-mobile"></span>
         <h2>My <strong>Blog</strong></h2>
-
+				<ul th:each="tag : ${tags}">
+					<li><p th:utext='${tag.name}'>body</p></li>
+				</ul>
       </header>
 
 			<section class="wrapper style4 container">
-			        <ul class="posts" th:each="post : ${published_posts}">
+			        <ul class="posts" th:each="post, iterStat : ${published_posts}">
+			            <li class="wrapper"  th:class="${iterStat.first}? 'wrapper style2' : 'wrapper style1'">
+			              <h2><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${post.uri}" href="#" th:utext="${post.title}">title</a></h2>
+                      <p th:text='${#dates.format(post.date,"dd MMMM yyyy")}'>date</p>
 
-			            <li class="wrapper" th:class="${post.first}? 'style2' : 'style1'">
-			              <h2><a th:href="${post.uri}" href="#" th:utext="${post.title}">title</a></h2>
-			               	<p th:utext='${post.body}'>body</p>
+											<ul th:each="tag : ${post.tags}">
+												<li><p th:utext='${tag}'>body</p></li>
+											</ul>
+
+											<p th:utext='${post.body}'>body</p>
 			                <section class="special">
 			                    <ul class="buttons">
-			                        <li><a href="#" th:href="${post.uri}" class="button">Read more</a></li>
-			                    </ul></section>
+			                        <li><a
+																th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+																href="#" th:href="${rootpath}+${post.uri}" class="button">Read more</a>
+															</li>
+			                    </ul>
+												</section>
 			            </li>
+									<hr />
 			        </ul>
 			    </section>
-
-
     </article>
-
 
 
 
