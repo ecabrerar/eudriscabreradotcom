@@ -5,7 +5,7 @@
 	<body class="index">
 	<div id="page-wrapper">
 
-	<header th:insert="menu.thyme::menu_es" class="alt" id="header"/>
+	<header th:insert="menu.thyme::menu_es"  id="header"/>
 
   <p th:utext='${content.body}'>body</p>
 

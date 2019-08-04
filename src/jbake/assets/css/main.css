@@ -3371,6 +3371,75 @@ section, summary, time, mark, audio, video {
 		}
 
 
-  ol.posts, ul.posts {
-		list-style: none;
+		ol.posts, ul.posts {
+			list-style: none;
+		}
+
+
+		.topics {
+			margin-bottom:45px
+		}
+
+		@media (min-width:576px) {
+			.topics {
+				padding-bottom:25px;
+				border-bottom:1px solid #eee
+			}
+		}
+
+		@media (max-width:575.98px) {
+			.topics {
+				margin-top:-25px
+			}
+		}
+
+		.topics_inner {
+			max-width:740px;
+			margin:0 auto;
+			position:relative
+		}
+
+		@media (min-width:576px) {
+			.topics_inner {
+				padding-left:70px
+			}
+		}
+
+		@media (min-width:576px) {
+			.topics_inner>a {
+				display:inline-block;
+				padding:5px 10px
+			}
+		}
+
+		@media (max-width:575.98px) {
+			.topics_inner>a {
+				display:block;
+				padding:10px 0;
+				border-bottom:1px dotted #eee
+			}
+		}
+
+		.topics_label {
+			color:#2d2d2d;
+			font-weight:500;
+			margin-right:10px
+		}
+
+		@media (min-width:576px) {
+			.topics_label {
+				position:absolute;
+				left:0;
+				top:5px
+			}
+		}
+
+
+	.list-inline {
+		    list-style: none;
+		    padding: 0;
+	}
+
+	.list-inline > li {
+		    display: inline;
 	}

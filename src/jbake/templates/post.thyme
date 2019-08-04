@@ -12,9 +12,16 @@
 			<header class="special container">
 				<span class="icon solid fa-tablet-alt"></span>
 				<h2 th:text='${content.title}'>title</h2>
-				<p><em th:text='${#dates.format(content.date,"dd MMMM yyyy")}'>date</em></p>
-				<ul th:each="tag : ${content.tags}">
-					<li><p th:utext='${tag}'>body</p></li>
+
+				<ul class="list-inline">
+
+					<li><span th:with="author=(${content.author != null} ? ${content.author} + ' on ' : '')" th:text='${author}'>Author:</span></li>
+					<li th:each="tag : ${content.tags}">
+						<a th:with="rootpath=(${config.tag_path != null} ? '/'+ ${config.tag_path}+'/'+${tag}+'.html' : '')"
+							th:href="${rootpath}" href="#" th:utext='${tag}'></a>
+					</li>
+					<li> | </li>
+					<li> 	<span><em th:text='${#dates.format(content.date,"dd MMMM yyyy")}'>date</em></span> </li>
 				</ul>
 			</header>
 
