@@ -21,7 +21,7 @@
 			<br />
 			<br />
 			<br />
-
+			<div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
 
 			<footer>
 				<a href="index.html" class="button primary">English</a>
