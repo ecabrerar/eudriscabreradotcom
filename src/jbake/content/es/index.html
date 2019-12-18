@@ -3,7 +3,35 @@ date=2013-09-24
 type=landingpage
 status=published
 ~~~~~~
-<div th:replace="banner.thyme::banner"></div>
+<!-- Banner -->
+<section id="banner">
+
+  <!--
+  ".inner" is set up as an inline-block so it automatically expands
+  in both directions to fit whatever's inside it. This means it won't
+  automatically wrap lines, so be sure to use line breaks where
+  appropriate (<br />).
+-->
+<div class="inner">
+
+  <header>
+
+  </header>
+
+  <br />
+  <br />
+  <br />
+
+  <footer>
+  <!--
+    <a href="index.html" class="button primary">English</a>
+    <a href="/es/index.html" class="button primary">Español</a>
+  -->
+    <div id="langlinks"><!--this is where we'll output out custom language switcher menu--></div>
+  </footer>
+
+</div>
+</section>
 
  <!-- Main -->
    <article id="main">

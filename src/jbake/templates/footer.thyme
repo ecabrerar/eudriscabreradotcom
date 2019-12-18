@@ -14,13 +14,13 @@
 					</ul>
 
 					<ul class="copyright">
-						<li>&copy; 2015 - 2019</li>
+						<li>&copy; 2015 - 2019 </li>
 						<li>Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 				</footer>
 
-		</div>
+
 
 		    <!-- Le javascript
 		    ================================================== -->
@@ -40,7 +40,7 @@
 
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
-			<script th:replace="commons.thyme::googleAnalytics" />
+			<script th:replace="commons.thyme::googleAnalytics"></script>
 
     	</div>
   	</body>
