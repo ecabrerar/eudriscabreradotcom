@@ -32,12 +32,9 @@ var linguJSON = {
     },
     {
       "source": "About",
-      "target_es": "Acerca de",
+      "target_es": "Sobre Eudris Cabrera",
     },
-    {
-      "source": "Saturday, June 29, 2019. PUCMM, Santiago de los Caballeros. Dominican Republic.",
-      "target_es": "Sábado 29 de Junio del 2019. PUCMM, Santiago de los Caballeros. República Dominicana.",
-    },
+
     {
       "source": "Name",
       "target_es": "Nombre",
@@ -70,10 +67,7 @@ var linguJSON = {
       "source": "Enter your Email",
       "target_es": "Introducir tu correo electrónico",
     },
-    {
-      "source": "Please contact us if you are interested in becoming a JConf Dominicana sponsor or supporter.",
-      "target_es": "Póngase en contacto con nosotros si está interesado en convertirse en patrocinador o soporte de JConf Dominicana.",
-    },
+
     {
       "source": "Useful Links",
       "target_es": "Enlaces de Interés",
@@ -96,23 +90,6 @@ var linguJSON = {
       "target_es": "Sobre Eudris Cabrera"
     },
     {
-      "source" : "Speaker Details",
-      "target_es":  "Detalles del Conferencista"
-    },
-    {
-      "source" : "Conference material",
-      "target_es":  "Material para la conferencia"
-    },
-    {
-      "source" : "Access to the keynote sessions",
-      "target_es":  "Acceso a las conferencias magistrales"
-    },
-    {
-      "source" : "Close",
-      "target_es":  "Cierre"
-    },
-
-    {
       "source" : "<strong>Language:</strong>Spanish",
       "target_es":"<strong>Idioma:</strong>Español"
     },
@@ -130,17 +107,46 @@ var linguJSON = {
       "target_es":"<strong>Etiquetas:</strong>"
     },
     {
-      "source" : "<strong>Audience Level:</strong>Intermediate",
-      "target_es":"<strong>Nivel:</strong>Intermedio"
+      "source": "Personal",
+      "target_es": "Personal",
     },
     {
-      "source" : "<strong>Audience Level:</strong>All",
-      "target_es":"<strong>Nivel:</strong>Todos"
+      "source": "Technical Skills",
+      "target_es": "Habilidades Técnicas",
     },
-    {
-      "source" : "<strong>Audience Level:</strong>Beginner",
-      "target_es":"<strong>Nivel:</strong>Principiante"
-    }
 
+    {
+      "source": "Community",
+      "target_es": "Comunidad",
+    },
+
+    {
+      "source": "Interests",
+      "target_es": "Intereses",
+    },
+    {
+      "source": "Professional Experience",
+      "target_es": "Experiencia profesional",
+    },
+    {
+      "source": "Conferences & Presentations",
+      "target_es": "Conferencias y presentaciones",
+    },
+    {
+      "source": "Open source",
+      "target_es": "Código Abierto",
+    },
+    {
+      "source": "Education",
+      "target_es": "Educación",
+    },
+    {
+      "source": "Other Courses",
+      "target_es": "Otros Cursos",
+    },
+    {
+      "source": "Languages Skills",
+      "target_es": "Idiomas",
+    },
   ]
 };

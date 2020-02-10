@@ -10,7 +10,7 @@
 			<ul>
 				<li class="current"><a href="/index.html">Home</a></li>
 				<li><a href="/about.html">About me</a></li>
-				<li><a href="">Work / Experience</a></li>
+				<li><a href="/resume.html">Work / Experience</a></li>
 				<li><a href="/index.html">Publications</a></li>
 				<li><a href="/contact.html">Contact</a></li>
 				<li><a href="/blog" class="button primary">Blog</a></li>
