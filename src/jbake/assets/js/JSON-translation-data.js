@@ -3,12 +3,12 @@ var linguJSON = {
     {
       "lang_name": "English",
       "lang_code": "en",
-      "url_pattern": "/"
+      "url_pattern": "?"
     },
     {
       "lang_name": "Español",
       "lang_code": "es",
-      "url_pattern": "/"
+      "url_pattern": "?"
     }
   ],
   "custom_lang_switcher_html": "<div id=\"langswitcher\" class=\"notranslate\"><a id=\"currlanglink\" class=\"button primary\" href=\"\">[[linguCurrLang]]</a> <a href=\"[[linguTargetLangHref1]]\" class=\"targetlang  button primary\">[[linguTargetLang1]]</a></div>",
@@ -111,8 +111,8 @@ var linguJSON = {
       "target_es": "Personal",
     },
     {
-      "source": "Technical Skills",
-      "target_es": "Habilidades Técnicas",
+      "source": "<strong>Technical Skills</strong>",
+      "target_es": "<strong>Habilidades Técnicas</strong>",
     },
 
     {
@@ -125,8 +125,8 @@ var linguJSON = {
       "target_es": "Intereses",
     },
     {
-      "source": "Professional Experience",
-      "target_es": "Experiencia profesional",
+      "source": "<strong>Professional Experience</strong>",
+      "target_es": "<strong>Experiencia profesional</strong>",
     },
     {
       "source": "Conferences & Presentations",
@@ -137,16 +137,40 @@ var linguJSON = {
       "target_es": "Código Abierto",
     },
     {
-      "source": "Education",
-      "target_es": "Educación",
+      "source": "<strong>Education</strong>",
+      "target_es": "<strong>Educación</strong>",
     },
     {
-      "source": "Other Courses",
-      "target_es": "Otros Cursos",
+      "source": "<strong>Other Courses</strong>",
+      "target_es": "<strong>Otros Cursos</strong>",
     },
     {
-      "source": "Languages Skills",
-      "target_es": "Idiomas",
+      "source": "<strong>Languages Skills</strong>",
+      "target_es": "<strong>Idiomas</strong>",
     },
+    {
+      "source": "Java Developer at Cementos Cibao",
+      "target_es": "Analista Programador Java en Cementos Cibao",
+    },
+    {
+      "source": "Web Programmer at Ferretería Ochoa",
+      "target_es": "Programador Web en Ferretería Ochoa",
+    },
+    {
+      "source": "Programmer Analyst at Edenorte Dominicana",
+      "target_es": "Analista Programador en Edenorte Dominicana",
+    },
+    {
+      "source": "Consultant Programmer Information System at Dominican Republic Ministry of Finance",
+      "target_es": "Consultor Programador de Sistema de Información en Ministerio de Hacienda, República Dominicana",
+    },
+    {
+      "source": "Consultant / Software Developer at Dominican Republic Ministry of Finance",
+      "target_es": "Consultor / Desarrollador Informático en Ministerio de Hacienda, República Dominicana",
+    },
+    {
+      "source": "Software Developer at Dominican Republic Ministry of Finance",
+      "target_es": "Desarrollador Informático en Ministerio de Hacienda, República Dominicana",
+    }
   ]
 };
