@@ -161,12 +161,12 @@ var linguJSON = {
       "target_es": "Analista Programador en Edenorte Dominicana",
     },
     {
-      "source": "Consultant Programmer Information System at Dominican Republic Ministry of Finance",
-      "target_es": "Consultor Programador de Sistema de Información en Ministerio de Hacienda, República Dominicana",
+      "source": "Consultant Programmer Information System at Dominican Republic Financial Management Program / IDB - Ministry of Finance",
+      "target_es": "Consultor Programador de Sistema de Información en Programa de Administracion Financiera Integrada (PAFI) / BID  - Ministerio de Hacienda, República Dominicana",
     },
     {
-      "source": "Consultant / Software Developer at Dominican Republic Ministry of Finance",
-      "target_es": "Consultor / Desarrollador Informático en Ministerio de Hacienda, República Dominicana",
+      "source": "Consultant / Software Developer at Dominican Republic Financial Management Program / IDB - Ministry of Finance",
+      "target_es": "Consultor / Desarrollador Informático en Programa de Administracion Financiera Integrada (PAFI) / BID - Ministerio de Hacienda, República Dominicana",
     },
     {
       "source": "Software Developer at Dominican Republic Ministry of Finance",
