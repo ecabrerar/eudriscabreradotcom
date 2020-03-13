@@ -1,0 +1,9 @@
+= Expresiones Lambdas en Java
+Eudris Cabrera
+2015-11-07
+:jbake-type: post
+:jbake-status: draft
+:jbake-tags: Java,Java SE 8, JDK, JVM, Expresiones Lambdas
+:jbake-author: Eudris Cabrera
+:description: Expresiones Lambdas en Java
+:idprefix:
