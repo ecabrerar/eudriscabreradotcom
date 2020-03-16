@@ -171,6 +171,23 @@ var linguJSON = {
     {
       "source": "Software Developer at Dominican Republic Ministry of Finance",
       "target_es": "Desarrollador Informático en Ministerio de Hacienda, República Dominicana",
+    },
+    {
+      "source":"Guides",
+      "target_es": "Guías"
+    },
+    {
+      "source":"Education, New technologies, Open Source",
+      "target_es": "Educación, Nuevas tecnologías, Código Abierto"
+    },
+    {
+      "source":"Music, Latin Dance",
+      "target_es": "Música, Baile Latino"
+    },
+    {
+      "source":"<strong>Sport :</strong> Baseball, Softball, Strength Training",
+      "target_es": "<strong>Deporte :</strong> Béisbol, Softbol, Entrenamiento de Resistencia"
     }
+
   ]
 };
