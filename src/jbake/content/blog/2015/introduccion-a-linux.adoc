@@ -35,7 +35,7 @@ En virtud de su concesión de licencias de código abierto, Linux está disponib
 
 El código fuente de Linux está bajo los derechos de autor por muchos autores individuales, y bajo la licencia GPLv2. Debido a que Linux tiene un número tan grande de contribuyentes a través de múltiples décadas de desarrollo, entrar en contacto con cada autor individual y conseguir un acuerdo a una nueva licencia es prácticamente imposible, por lo es casi seguro que Linux permanecerá bajo la licencia GPLv2 a perpetuidad.
 
-Linux se encuentra bajo la supervisión de Linux Foundation(http://www.linuxfoundation.org), un consorcio tecnológico sin fines de lucro establecido para adoptar el crecimiento de linux.
+Linux se encuentra bajo la supervisión de Linux Foundation[http://www.linuxfoundation.org], un consorcio tecnológico sin fines de lucro establecido para adoptar el crecimiento de linux.
 
 == ¿Quién usa Linux?
 Usted probablemente ya está usando Linux, ya sea que usted lo sepa o no. Entre uno y dos tercios de las páginas web en Internet son generados por servidores que corren sobre Linux.
@@ -51,13 +51,13 @@ A un conjunto de programas, herramientas y servicios que normalmente se agrupan 
 
 Una distribución de software basada en el kernel Linux, provee un instalador, el núcleo del sistema y un paquete de aplicaciones adicionales para satisfacer las necesidades de un grupo específico de usuarios.
 
-Algunas personas, especialmente los miembros de la Fundación para el Software Libre(Free Software Foundation)(http://www.fsf.org/), se refieren a esta colección como GNU / Linux, porque muchas de las herramientas incluidas son componentes de GNU(https://gnu.org). Sin embargo, no todas las instalaciones de Linux utilizan componentes de GNU como parte de su sistema operativo. Android (https://www.android.com/), por ejemplo, utiliza un kernel Linux, pero utiliza pocas herramientas  de GNU.
+Algunas personas, especialmente los miembros de la Fundación para el Software Libre(Free Software Foundation)(http://www.fsf.org/), se refieren a esta colección como GNU / Linux, porque muchas de las herramientas incluidas son componentes de GNU[https://gnu.org]. Sin embargo, no todas las instalaciones de Linux utilizan componentes de GNU como parte de su sistema operativo. Android [https://www.android.com/], por ejemplo, utiliza un kernel Linux, pero utiliza pocas herramientas  de GNU.
 
 
 == Principales  Distribuciones
 Existen tres grandes familias de distribuciones:
 
-=== 1. Basadas en Debian (http://www.debian.org)
+=== 1. Basadas en Debian http://www.debian.org[]
 Usada en servidores y escritorios.
    Ubuntu, derivada de debian, muy popular en escritorios.
 
