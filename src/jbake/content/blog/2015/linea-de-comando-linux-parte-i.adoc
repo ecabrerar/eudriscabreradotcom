@@ -1,9 +1,0 @@
-= Línea de comando Linux (Parte I)
-Eudris Cabrera
-2015-11-03
-:jbake-type: post
-:jbake-status: draft
-:jbake-tags: Open Source, Linux, GNU/Linux
-:jbake-author: Eudris Cabrera
-:description: Línea de comando Linux (Parte I)
-:idprefix:

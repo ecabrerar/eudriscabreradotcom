@@ -26,7 +26,7 @@ Linux considera cada archivo,directorio, dispositivo, y vínculo como un archivo
 
 Para garantizar la compatibilidad y portabilidad, los sistemas Linux cumplen con el estándar FHS (Filesystem Hierarchy Standard, Estándar de jerarquía del sistema de archivos(http://es.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)).
 
-FHS(http://es.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) se define como un estándar que detalla los nombres, ubicaciones, contenidos y permisos de los archivos y directorios.
+http://es.wikipedia.org/wiki/Filesystem_Hierarchy_Standard[FHS] se define como un estándar que detalla los nombres, ubicaciones, contenidos y permisos de los archivos y directorios.
 
 
 Inode (inodo, nodo-i o nodo índice)

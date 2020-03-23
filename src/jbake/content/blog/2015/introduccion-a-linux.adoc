@@ -23,24 +23,25 @@ Linus Torvalds en 1991.
 
 El 26 de agosto de 1991, Linus Torvalds publicó en el grupo de noticias comp.os.minix el siguiente mensaje, conocido desde entonces como el Manifiesto de Linux.
 
-"Estoy haciendo un sistema operativo (gratuito, sólo un hobby, no será nada grande ni profesional como GNU) para clones AT 386(486). Llevo en ello desde abril y está empezando a estar listo. Me gustaría saber su opinión sobre las cosas que les gustan o disgustan en minix, ya que mi SO tiene algún parecido con él.[...] Actualmente he portado bash(1.08) y gcc(1.40), y parece que las cosas funcionan. Esto implica que tendré algo práctico dentro de unos meses..."
+"Estoy haciendo un sistema operativo (gratuito, sólo un hobby, no será nada grande ni profesional como GNU) para clones AT 386(486). Llevo en ello desde abril y está empezando a estar listo.
+ Me gustaría saber su opinión sobre las cosas que les gustan o disgustan en minix, ya que mi SO tiene algún parecido con él.[...] Actualmente he portado bash(1.08) y gcc(1.40), y parece que las cosas funcionan. Esto implica que tendré algo práctico dentro de unos meses..."
 
 Linux consiguió rápidamente desarrolladores y usuarios que adoptaron códigos de otros proyectos de software libre para usarlo con el nuevo sistema operativo.
 
-El kernel Linux ha recibido contribuciones de miles de programadores de todo el mundo. Leer artículo Who Writes Linux 2015 (http://www.linuxfoundation.org/news-media/infographics/who-writes-linux-2015)
+El kernel Linux ha recibido contribuciones de miles de programadores de todo el mundo. Leer artículo http://www.linuxfoundation.org/news-media/infographics/who-writes-linux-2015[Who Writes Linux 2015]
 
 
 == ¿Quién es el "dueño" de Linux?
-En virtud de su concesión de licencias de código abierto, Linux está disponible gratuitamente para cualquiera. Sin embargo, la marca en el nombre "Linux" es marcadregistrada de su creador, Linus Torvalds.
+En virtud de su concesión de licencias de código abierto, Linux está disponible gratuitamente para cualquiera. Sin embargo, la marca en el nombre "Linux" es marca registrada de su creador, Linus Torvalds.
 
 El código fuente de Linux está bajo los derechos de autor por muchos autores individuales, y bajo la licencia GPLv2. Debido a que Linux tiene un número tan grande de contribuyentes a través de múltiples décadas de desarrollo, entrar en contacto con cada autor individual y conseguir un acuerdo a una nueva licencia es prácticamente imposible, por lo es casi seguro que Linux permanecerá bajo la licencia GPLv2 a perpetuidad.
 
-Linux se encuentra bajo la supervisión de Linux Foundation[http://www.linuxfoundation.org], un consorcio tecnológico sin fines de lucro establecido para adoptar el crecimiento de linux.
+Linux se encuentra bajo la supervisión de http://www.linuxfoundation.org[Linux Foundation], un consorcio tecnológico sin fines de lucro establecido para adoptar el crecimiento de linux.
 
 == ¿Quién usa Linux?
 Usted probablemente ya está usando Linux, ya sea que usted lo sepa o no. Entre uno y dos tercios de las páginas web en Internet son generados por servidores que corren sobre Linux.
 
-Las empresas y los individuos eligen Linux para sus servidores, ya que es seguro, y usted puede recibir un excelente apoyo de una gran comunidad de usuarios, además de empresas como Canonical, SUSE y Red Hat, que ofrecen soporte comercial.
+Las empresas y los individuos eligen Linux para sus servidores, ya que es seguro, y usted puede recibir un excelente apoyo de una gran comunidad de usuarios, además de empresas como https://canonical.com/[Canonical], http://www.opensuse.org/en/[SUSE] y https://www.redhat.com/en[Red Hat], que ofrecen soporte comercial.
 
 Muchos de los dispositivos que usted posee, probablemente, como los teléfonos Android, dispositivos de almacenamiento digitales, grabadoras de vídeo personales, cámaras, wearables, y mucho más, también usan Linux. Incluso su vehiculo podría estar corriendo Linux.
 
@@ -51,23 +52,27 @@ A un conjunto de programas, herramientas y servicios que normalmente se agrupan 
 
 Una distribución de software basada en el kernel Linux, provee un instalador, el núcleo del sistema y un paquete de aplicaciones adicionales para satisfacer las necesidades de un grupo específico de usuarios.
 
-Algunas personas, especialmente los miembros de la Fundación para el Software Libre(Free Software Foundation)(http://www.fsf.org/), se refieren a esta colección como GNU / Linux, porque muchas de las herramientas incluidas son componentes de GNU[https://gnu.org]. Sin embargo, no todas las instalaciones de Linux utilizan componentes de GNU como parte de su sistema operativo. Android [https://www.android.com/], por ejemplo, utiliza un kernel Linux, pero utiliza pocas herramientas  de GNU.
+Algunas personas, especialmente los miembros de la Fundación para el Software Libre http://www.fsf.org/[Free Software Foundation], se refieren a esta colección como GNU/Linux, porque muchas de las herramientas incluidas son componentes de https://gnu.org[GNU].
+Sin embargo, no todas las instalaciones de Linux utilizan componentes de GNU como parte de su sistema operativo. https://www.android.com/[Android], por ejemplo, utiliza un kernel Linux, pero utiliza pocas herramientas  de GNU.
 
 
 == Principales  Distribuciones
 Existen tres grandes familias de distribuciones:
 
-=== 1. Basadas en Debian http://www.debian.org[]
-Usada en servidores y escritorios.
-   Ubuntu, derivada de debian, muy popular en escritorios.
+=== 1. Basadas en Debian
+* Usada en servidores y escritorios.
+* Ubuntu, derivada de debian, muy popular en escritorios.
+http://www.debian.org[]
 
-=== 2. Basadas en Fedora http://fedoraproject.org[]
-Es la fuente de distribuciones como CentOS y Oracle Linux.
-Se utiliza como base para RHEL (Red Hat Enterprise Linux)
+=== 2. Basadas en Fedora
+* Es la fuente de distribuciones como CentOS y Oracle Linux.
+* Se utiliza como base para RHEL (Red Hat Enterprise Linux)
+http://fedoraproject.org[]
 
-=== 3.Open Suse http://www.opensuse.org/en/[]
-Muy similar a fedora, frecuentes actualizaciones, funcionalidades de última generación.
-Es la fuente de la distribución Suse  Linux Enterprise Server
+=== 3.Open Suse
+* Muy similar a fedora, frecuentes actualizaciones, funcionalidades de última generación.
+* Es la fuente de la distribución Suse  Linux Enterprise Server
+http://www.opensuse.org/en/[]
 
 Más Información: http://distrowatch.com[]
 
