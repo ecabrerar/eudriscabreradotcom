@@ -51,10 +51,6 @@
 			        </ul>
 			    </section>
     </article>
-
-
-
-
 		<div th:replace="footer.thyme::footer"></div>
 	</body>
 	</html>
