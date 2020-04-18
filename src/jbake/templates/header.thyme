@@ -9,28 +9,34 @@
 	    <meta name="keywords" content=""/>
 	    <meta name="generator" content="JBake"/>
 
-
 			<!--Facebook Card-->
-			<meta property="og:type" content="article" />
-			<meta property="og:title"  content="Eudris Cabrera's Personal site" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}" />
-			<meta property="og:description" content="Eudris Cabrera's Personal site" th:content="${content.description} ?: ${config.site_description}"/>
+			<meta property="og:site_name" content="Eudris Cabrera Personal Site">
+			<meta property="og:type" content="website" />
+			<meta property="og:title"  content="Eudris Cabrera's Personal Site" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}" />
+			<meta property="og:description" content="Thoughts, stories and ideas." th:content="${content.description} ?: ${config.site_description}"/>
 			<meta property="og:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.png"
 			th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.png'))"
 			th:content="|${config.site_host}/${cover}|" />
+	    <meta property="og:url" content="https://eudriscabrera.com">
+<!--	    <meta property="article:publisher" content="https://www.facebook.com/Minio.io/">-->
 
 			<!--Twitter card -->
 			<th:block th:if="${config.twitter_username}">
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta name="twitter:title" content="Eudris Cabrera's Personal site" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}"/>
 				<meta name="twitter:creator" content="@eudriscabrera" th:content="'@'+${config.twitter_username}"/>
-				<meta name="twitter:description" content="Eudris Cabrera's Personal site" th:content="${content.description} ?: ${config.site_description}"/>
+				<meta name="twitter:description" content="Thoughts, stories and ideas." th:content="${content.description} ?: ${config.site_description}"/>
 				<meta name="twitter:image" content="https://jconfdominicana.org/img/jconfdomincana-twitter-card.png"
 				th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.png'))"
 				th:content="|${config.site_host}/${cover}|"/>
+				<meta name="twitter:url" content="https://eudriscabrera.com">
+				<meta name="twitter:site" content="@eudriscabrera">
+				<meta property="og:image:width" content="1200">
+				<meta property="og:image:height" content="600">
+
 			</th:block>
 
-
-	    <!-- Le styles -->
+		    <!-- Le styles -->
 	    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/bootstrap.min.css'" rel="stylesheet"/>
 
 	    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/prettify.css'" rel="stylesheet"/>
