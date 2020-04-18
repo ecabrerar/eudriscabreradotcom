@@ -7,15 +7,18 @@ Eudris Cabrera
 :jbake-author: Eudris Cabrera
 :description: Introducción a Linux
 :idprefix:
+:jbake-summary: En este artículo ofrecemos una breve introducción a Linux, + \
+haciendo enfásis en los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux.
 
+[.lead] 
+En este artículo ofrecemos una breve introducción a Linux,
+haciendo enfásis en los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux.
 
-En este artículo ofrecemos una breve introducción a Linux. Haciendo enfasis en los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux.
 
 == ¿Qué es Linux?
-Para muchos esta parece ser una pregunta con una respuesta muy obvia, pero la verdad es que hay una gran cantidad de personas que no se atreven a reponder. Muchos de ellos nunca han oído hablar de Linux o no están seguros de su respuesta.
-
+Para muchos esta parece ser una pregunta con una respuesta muy obvia, pero la verdad es que hay una gran cantidad de personas que no se atreven a reponder.
+Muchos de ellos nunca han oído hablar de Linux o no están seguros de su respuesta.
 Linux es un kernel libre de sistema operativo basado en Unix. Es uno de los principales ejemplos de software libre y de código abierto.
-
 El kernel Linux fue concebido por el entonces estudiante de ciencias de la computación finlandés
 Linus Torvalds en 1991.
 

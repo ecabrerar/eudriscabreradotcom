@@ -7,14 +7,11 @@ Eudris Cabrera
 :jbake-author: Eudris Cabrera
 :description: Entendiendo el sistema de archivo de Linux
 :idprefix:
-
-En nuestro artículo anterior,(/blog/2015/introduccion-a-linux.html) [Introducción a Linux], presentamos los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux. En ésta oportunidad trataremos como está organizado el sistema de archivo de Linux.
-
+:jbake-summary: En nuestro artículo anterior,(/blog/2015/introduccion-a-linux.html) [Introducción a Linux], presentamos los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux. \
+En ésta oportunidad trataremos como está organizado el sistema de archivo de Linux.
 
 Qué es un Sistema de Archivos? http://es.wikipedia.org/wiki/Sistema_de_archivos[]
-
 El sistema de archivos (en inglés:filesystem) es el componente del sistema operativo encargado de administrar y facilitar el uso de las memorias periféricas, ya sean secundarias o terciarias. Sus principales funciones son la asignación de espacio a los archivos, la administración del espacio libre y del acceso a los datos resguardados. Estructuran la información guardada en una unidad de almacenamiento (normalmente un disco duro de una computadora), que luego será representada ya sea textual o gráficamente utilizando un gestor de archivos.
-
 
 Organización del Sistema de Archivos en Linux
 
@@ -28,7 +25,6 @@ Para garantizar la compatibilidad y portabilidad, los sistemas Linux cumplen con
 
 http://es.wikipedia.org/wiki/Filesystem_Hierarchy_Standard[FHS] se define como un estándar que detalla los nombres, ubicaciones, contenidos y permisos de los archivos y directorios.
 
-
 Inode (inodo, nodo-i o nodo índice)
 Es una estructura de datos usada para almacenar la información acerca de cada archivo, incluyendo:
 
@@ -41,7 +37,6 @@ Fecha y tiempo que el archivo fue accedido por última vez
 Fecha y tiempo de la última modificación
 Fecha y tiempo de la última modificación del inode
 Número de vínculos (links) al archivo
-
 
 El nombre del archivo es almacenado en el directorio y asociado a su propio inode .
 Cada archivo tiene un inode asociado a él, aunque cada archivo puede tener más de un nombre a través del uso de vínculos, cada archivo tiene sólo un inode.

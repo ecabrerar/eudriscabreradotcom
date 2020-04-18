@@ -1,14 +1,21 @@
-title=Línea de comando Linux (Parte I) date=2015-11-03 type=post tags=Open Source,Linux,GNU/Linux status=draft author=Eudris Cabrera description=Línea de comando Linux (Parte I)~~~~~~
-
+title=Línea de comando Linux (Parte I)
+date=2015-11-03
+type=post
+tags=Open Source,Linux,GNU/Linux
+status=draft
+author=Eudris Cabrera
+description=Línea de comando Linux (Parte I)
+summary=En artículos anteriores, <a title="Introducción a Linux" href="http://radhamessilverio.com/radhamessilverio/2015/05/10/introduccion-a-linux/" target="_blank">Introducción a Linux</a>, <a href="http://radhamessilverio.com/radhamessilverio/2015/05/15/entendiendo-el-sistema-de-archivo-de-linux/" target="_blank">Entendiendo el sistema de archivo de Linux </a> y <a href="http://radhamessilverio.com/radhamessilverio/2015/06/14/gestion-de-paquetes-en-linux/" target="_blank">Gestión de paquetes en Linux</a>,<a href="http://radhamessilverio.com/radhamessilverio/2015/07/01/particiones-en…ento-del-disco/" target="_blank">Particiones en Linux: Uso y mantenimiento del disco</a>, presentamos los términos más comunes alrededor de <a href="http://www.linux.com/">Linux</a>, las tres grandes familias de distribuciones disponibles en la comunidad Linux, como está organizado el sistema de archivo de Linux, herramientas para la gestión de paquetes en Linux y los tipos de particiones, destacando algunas herramientas básicas para el mantenimiento del disco y otros medios de almacenamiento.
+~~~~~~
 Por <a title="Eudris Cabrera" href="http://www.linkedin.com/in/eudriscabrera" target="_blank">Eudris Cabrera</a><strong>3 de Noviembre de 2015</strong>
 
-En artículos anteriores, <a title="Introducción a Linux" href="http://radhamessilverio.com/radhamessilverio/2015/05/10/introduccion-a-linux/" target="_blank">Introducción a Linux</a>, <a href="http://radhamessilverio.com/radhamessilverio/2015/05/15/entendiendo-el-sistema-de-archivo-de-linux/" target="_blank">Entendiendo el sistema de archivo de Linux </a> y <a href="http://radhamessilverio.com/radhamessilverio/2015/06/14/gestion-de-paquetes-en-linux/" target="_blank">Gestión de paquetes en Linux</a>,<a href="http://radhamessilverio.com/radhamessilverio/2015/07/01/particiones-en…ento-del-disco/" target="_blank">Particiones en Linux: Uso y mantenimiento del disco</a>, presentamos los términos más comunes alrededor de <a href="http://www.linux.com/">Linux</a>, las tres grandes familias de distribuciones disponibles en la comunidad Linux, como está organizado el sistema de archivo de Linux, herramientas para la gestión de paquetes en Linux y los tipos de particiones, destacando algunas herramientas básicas para el mantenimiento del disco y otros medios de almacenamiento.
 
 En ésta ocasión vamos a realizar una introdución a la "Línea de comando Linux", donde vamos a conocer las características más importantes de la línea de comando y a descubrir el verdadero potencial de Linux utilizando la línea de comando.
 
 Línea de comandos
 
 Interfaz de Línea de Comandos (en inglés, Command Line Interface (CLI)), es un método que permite a las personas dar instrucciones a algún programa informático por medio de una línea de texto simple.
+
 
 Las interfaces de Línea de Comandos pueden emplearse interactivamente, escribiendo instrucciones en alguna especie de entrada de texto, o pueden utilizarse de una forma mucho más automatizada (archivo batch), leyendo comandos desde un archivo de scripts. Por lo regular, son usadas por administradores de sistemas como herramienta primaria de trabajo especialmente en sistemas operativos basados en Unix.
 

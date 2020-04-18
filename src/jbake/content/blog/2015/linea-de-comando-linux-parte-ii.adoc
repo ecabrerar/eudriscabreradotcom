@@ -6,18 +6,15 @@ Eudris Cabrera
 :jbake-tags: Open Source, Linux, GNU/Linux
 :jbake-author: Eudris Cabrera
 :description: Línea de comando Linux (Parte II)
-:idprefix:
+:jbake-summary:
 Este es nuestro segundo artículo sobre "Línea de comando Linux" (ver Parte I). En esta oportunidad vamos a descubrir el verdadero potencial de Linux utilizando la línea de comando.
-
 http://radhamessilverio.com/radhamessilverio/2015/11/03/linea-de-comando-linux-parte-i/
-
-
 http://radhamessilverio.com/radhamessilverio/2015/11/03/linea-de-comando-linux-parte-i/
 
 Conociendo las variables del sistema
 
 A través de la Línea de comando podemos tener acceso a un grupo de variables de entorno que nos revela información importante sobre el sistema.
-
+:idprefix:
 Las diferentes variables del entorno pueden verse con el comando env.
 
 También puedes consultarla usando el comando "echo".

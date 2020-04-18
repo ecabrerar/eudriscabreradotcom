@@ -29,13 +29,11 @@
 			<section class="wrapper style4 container">
 
 				<div class="row gtr-150">
-					<div class="col-8 col-12-narrower">
-
+					<div class="col-8 col-12">
 						<!-- Content -->
 						<div class="content">
-							<p th:utext='${content.body}'>body</p>
+							<p th:remove="tag" th:utext='${content.body}'>body</p>
 						</div>
-
 					</div>
 				</div>
 			</section>
@@ -47,6 +45,8 @@
 	    </footer>
 
 		</article>
+
+		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet"/>
 
 		<div th:replace="footer.thyme::footer"></div>
 	</body>

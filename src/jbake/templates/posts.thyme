@@ -37,11 +37,11 @@
 											</ul>
 
 											<p th:utext='${post.summary != null? post.summary :  post.body}'>body</p>
-			                <section class="special">
+			                <section class="post_more">
 			                    <ul class="buttons">
 			                        <li><a th:if="${ post.summary != null}"
 																th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
-																href="#" th:href="${rootpath}+${post.uri}" class="button">Read more</a>
+																href="#" th:href="${rootpath}+${post.uri}" class="post_more">Read more</a>
 															</li>
 			                    </ul>
 												</section>
@@ -51,6 +51,8 @@
 			        </ul>
 			    </section>
     </article>
+
+		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet"/>
 		<div th:replace="footer.thyme::footer"></div>
 	</body>
 	</html>
