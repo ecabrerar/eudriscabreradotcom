@@ -6,6 +6,8 @@
 
 (function($) {
 
+  activeMenu();
+
 	var	$window = $(window),
 		$body = $('body'),
 		$header = $('#header'),
@@ -92,5 +94,20 @@
 			});
 
 		}
+
+ function activeMenu() {
+  var path = window.location.pathname;
+  path = path.replace(/\/$/, "");
+  path = decodeURIComponent(path);
+
+  $("#nav > ul.nav-menu a").each(function () {
+      var href = $(this).attr('href');
+
+      if (path.substring(0, href.length) === href) {
+          $(this).closest('li').addClass('current');
+      }
+
+  });
+}
 
 })(jQuery);

@@ -7,8 +7,8 @@
 	<header id="header" th:fragment="menu" th:remove="tag">
 		<h1 id="logo"><a href="/index.html">{eudriscabrera<span>.com</span>}</a></h1>
 		<nav id="nav">
-			<ul>
-				<li class="current"><a href="/index.html">Home</a></li>
+			<ul class="nav-menu">
+				<li><a href="/index.html">Home</a></li>
 				<li><a href="/about.html">About me</a></li>
 				<li><a href="/resume.html">Work / Experience</a></li>
 				<li><a href="/publications.html">Publications</a></li>
