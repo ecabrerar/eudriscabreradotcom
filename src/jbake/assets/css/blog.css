@@ -1323,3 +1323,10 @@ span.icon > [class^="icon-"] {
   -webkit-border-radius : 0;
   border-radius         : 0;
 }
+
+#preamble > .sectionbody > .paragraph:first-of-type p,
+.paragraph.lead > p,
+p.lead {
+  font-size   : 1.21875em;
+  line-height : 1.6;
+}

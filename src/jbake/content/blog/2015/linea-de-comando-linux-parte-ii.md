@@ -1,49 +1,53 @@
-= Línea de comando Linux (Parte II)
-Eudris Cabrera
-2015-11-07
-:jbake-type: post
-:jbake-status: draft
-:jbake-tags: Open Source, Linux, GNU/Linux
-:jbake-author: Eudris Cabrera
-:description: Línea de comando Linux (Parte II)
-:jbake-summary:
-Este es nuestro segundo artículo sobre "Línea de comando Linux" (ver Parte I). En esta oportunidad vamos a descubrir el verdadero potencial de Linux utilizando la línea de comando.
-http://radhamessilverio.com/radhamessilverio/2015/11/03/linea-de-comando-linux-parte-i/
-http://radhamessilverio.com/radhamessilverio/2015/11/03/linea-de-comando-linux-parte-i/
+title=Línea de comando Linux (Parte II)
+date=2015-11-07
+type=post
+status=published
+tags=Open Source, Linux, GNU/Linux
+author=Eudris Cabrera
+description= Línea de comando Linux (Parte II)
+summary=Este es nuestro segundo artículo sobre "Línea de comando Linux" (ver Parte I). En esta oportunidad vamos a descubrir el verdadero potencial de Linux utilizando la línea de comando.
+~~~~~~
 
-Conociendo las variables del sistema
 
+### Conociendo las variables del sistema
 A través de la Línea de comando podemos tener acceso a un grupo de variables de entorno que nos revela información importante sobre el sistema.
-:idprefix:
-Las diferentes variables del entorno pueden verse con el comando env.
 
+Las diferentes variables del entorno pueden verse con el comando __env__.
+```sh
+env
+```
 También puedes consultarla usando el comando "echo".
 
 Ejemplo :
+```sh
 echo $NOMBRE_VARIABLE_SISTEMA
-
+```
 Variables del sistema disponibles:
-
-HOME     Directorio raíz del usuario
-LOGNAME  Id del usuario en el login
-PATH      Caminos
-SHELL    Shell del usuario
-PS1      Prompt del shell, el usuario puede cambiarlo
-MAIL     Directorio del buzón de correo
-TERM     Tipo de terminal que el usuario utiliza
-PWD       Directorio actual del usuario
+---
+|Variable | Descripción|
+| ------ | ------ |
+|HOME | Directorio raíz del usuario |
+|LOGNAME|  Id del usuario en el login |
+|PATH   |     Ruta |
+|SHELL |   Shell del usuario |
+|PS1   |     Prompt del shell, el usuario puede cambiarlo |
+|MAIL  |   Directorio del buzón de correo |
+|TERM  |   Tipo de terminal que el usuario utiliza |
+|PWD   |    Directorio actual del usuario |
 
 Variables de entorno y variables shell
+---
 
-El comando unset sirve para desactivar una variable y quitarla de la lista de
+El comando __unset__ sirve para desactivar una variable y quitarla de la lista de
 variables shell.
 
-El comando set es útil para controlar muchos aspectos del modo de trabajo de
+El comando __set__ es útil para controlar muchos aspectos del modo de trabajo de
 bash (o de otros shells).
 
-Puede activar las diferentes opciones de set con un - y desactivarlas con un +.
+Puede activar las diferentes opciones de set con un __-__ y desactivarlas con un __+__.
 
 export
+___
 Se utiliza para transferir el valor de una variable para que pueda ser accesible
 a todos los subshells (subprocesos).
 Sintaxis:

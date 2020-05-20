@@ -3,7 +3,7 @@ date=2013-09-26
 type=post
 tags=blog, asciidoc
 status=published
-featuredimage=img/blog/sample-image.jpg
+featuredimage=images/about/mh.jpg
 featuredalt=JBake
 ~~~~~~
 = Third Post
