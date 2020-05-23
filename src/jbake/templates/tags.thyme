@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head th:replace="header.thyme::head"/>
-<body>
+<body onload="prettyPrint()">
 	<div id="page-wrapper">
 
 		<header th:insert="menu.thyme::menu" id="header"/>
@@ -34,7 +34,7 @@
 					<p></p>
 					<h3 th:text="*{#dates.format(current_post.date,'MMMM yyyy')}">July 2014</h3>
 				</th:block>
-				
+
 				<h4>
 					<span class="font-weight-bold" th:text="*{#dates.format(current_post.date,'dd')}"/> -
 					<a th:href="*{content.rootpath + current_post.uri}" th:text="*{current_post.title}" href="">Post Title</a>

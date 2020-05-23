@@ -187,6 +187,19 @@ var linguJSON = {
     {
       "source":"<strong>Sport :</strong> Baseball, Softball, Strength Training",
       "target_es": "<strong>Deporte :</strong> Béisbol, Softbol, Entrenamiento de Resistencia"
+    },
+    {
+      "source":"Read more",
+      "target_es":"Leer más"
+    },
+
+    {
+      "source":"Previous post",
+      "target_es":"Anterior"
+    },
+    {
+      "source":"Next post",
+      "target_es":"Siguiente"
     }
 
   ]

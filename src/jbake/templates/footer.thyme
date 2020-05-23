@@ -27,7 +27,6 @@
 		    <!-- Placed at the end of the document so the pages load faster -->
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.min.js'"></script>
 	    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/bootstrap.min.js'"></script>
-	    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/prettify.js'"></script>
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.dropotron.min.js'"></script>
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.scrolly.min.js'"></script>
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.scrollex.min.js'"></script>
@@ -35,7 +34,7 @@
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/breakpoints.min.js'"></script>
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/util.js'"></script>
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
-
+	    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/prettify.js'"></script>
 			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
 		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
 			<script th:replace="commons.thyme::googleAnalytics"></script>
