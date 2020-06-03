@@ -410,9 +410,12 @@ p a > code:hover {
   padding-bottom : 1.25em;
 }
 
-.sect1 + .sect1 {
+/*.sect1 + .sect1 {
   border-top : 3px double #ebebeb;
 }
+*/
+
+.sect1 + .sect1 { border-top: 0 solid #dddddd; }
 
 #content h1 > a.anchor,
 #toctitle > a.anchor,

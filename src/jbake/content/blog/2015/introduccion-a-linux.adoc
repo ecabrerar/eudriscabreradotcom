@@ -9,8 +9,10 @@ Eudris Cabrera
 :idprefix:
 :jbake-summary: En este artículo ofrecemos una breve introducción a Linux, + \
 haciendo enfásis en los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux.
+:sectnums:
+:sectnumlevels: 3
 
-[.lead] 
+[.lead]
 En este artículo ofrecemos una breve introducción a Linux,
 haciendo enfásis en los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux.
 
@@ -22,7 +24,7 @@ Linux es un kernel libre de sistema operativo basado en Unix. Es uno de los prin
 El kernel Linux fue concebido por el entonces estudiante de ciencias de la computación finlandés
 Linus Torvalds en 1991.
 
-== Manifiesto Linux
+=== Manifiesto Linux
 
 El 26 de agosto de 1991, Linus Torvalds publicó en el grupo de noticias comp.os.minix el siguiente mensaje, conocido desde entonces como el Manifiesto de Linux.
 
@@ -34,14 +36,14 @@ Linux consiguió rápidamente desarrolladores y usuarios que adoptaron códigos 
 El kernel Linux ha recibido contribuciones de miles de programadores de todo el mundo. Leer artículo http://www.linuxfoundation.org/news-media/infographics/who-writes-linux-2015[Who Writes Linux 2015]
 
 
-== ¿Quién es el "dueño" de Linux?
+=== ¿Quién es el "dueño" de Linux?
 En virtud de su concesión de licencias de código abierto, Linux está disponible gratuitamente para cualquiera. Sin embargo, la marca en el nombre "Linux" es marca registrada de su creador, Linus Torvalds.
 
 El código fuente de Linux está bajo los derechos de autor por muchos autores individuales, y bajo la licencia GPLv2. Debido a que Linux tiene un número tan grande de contribuyentes a través de múltiples décadas de desarrollo, entrar en contacto con cada autor individual y conseguir un acuerdo a una nueva licencia es prácticamente imposible, por lo es casi seguro que Linux permanecerá bajo la licencia GPLv2 a perpetuidad.
 
 Linux se encuentra bajo la supervisión de http://www.linuxfoundation.org[Linux Foundation], un consorcio tecnológico sin fines de lucro establecido para adoptar el crecimiento de linux.
 
-== ¿Quién usa Linux?
+=== ¿Quién usa Linux?
 Usted probablemente ya está usando Linux, ya sea que usted lo sepa o no. Entre uno y dos tercios de las páginas web en Internet son generados por servidores que corren sobre Linux.
 
 Las empresas y los individuos eligen Linux para sus servidores, ya que es seguro, y usted puede recibir un excelente apoyo de una gran comunidad de usuarios, además de empresas como https://canonical.com/[Canonical], http://www.opensuse.org/en/[SUSE] y https://www.redhat.com/en[Red Hat], que ofrecen soporte comercial.
@@ -59,20 +61,20 @@ Algunas personas, especialmente los miembros de la Fundación para el Software L
 Sin embargo, no todas las instalaciones de Linux utilizan componentes de GNU como parte de su sistema operativo. https://www.android.com/[Android], por ejemplo, utiliza un kernel Linux, pero utiliza pocas herramientas  de GNU.
 
 
-== Principales  Distribuciones
+=== Principales  Distribuciones
 Existen tres grandes familias de distribuciones:
 
-=== 1. Basadas en Debian
+==== Basadas en Debian
 * Usada en servidores y escritorios.
 * Ubuntu, derivada de debian, muy popular en escritorios.
 http://www.debian.org[]
 
-=== 2. Basadas en Fedora
+==== Basadas en Fedora
 * Es la fuente de distribuciones como CentOS y Oracle Linux.
 * Se utiliza como base para RHEL (Red Hat Enterprise Linux)
 http://fedoraproject.org[]
 
-=== 3.Open Suse
+==== Open Suse
 * Muy similar a fedora, frecuentes actualizaciones, funcionalidades de última generación.
 * Es la fuente de la distribución Suse  Linux Enterprise Server
 http://www.opensuse.org/en/[]
