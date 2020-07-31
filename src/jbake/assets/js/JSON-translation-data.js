@@ -11,7 +11,7 @@ var linguJSON = {
       "url_pattern": "?"
     }
   ],
-  "custom_lang_switcher_html": "<div id=\"langswitcher\" class=\"notranslate\"><a id=\"currlanglink\" class=\"button primary\" href=\"\">[[linguCurrLang]]</a> <a href=\"[[linguTargetLangHref1]]\" class=\"targetlang  button primary\">[[linguTargetLang1]]</a></div>",
+  "custom_lang_switcher_html": "<div id=\"langswitcher\" class=\"notranslate\"><a id=\"currlanglink\" class=\"btn-link-lang\" href=\"\">[[linguCurrLang]]</a> <a href=\"[[linguTargetLangHref1]]\" class=\"targetlang btn-link-lang\">[[linguTargetLang1]]</a></div>",
   "custom_lang_switcher_container_id": "langlinks",
   "translated_segments": [
     {

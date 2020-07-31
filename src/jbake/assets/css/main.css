@@ -9,7 +9,7 @@
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p,
-a, abbr, acronym, address, big, 
+a, abbr, acronym, address, big,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -3765,3 +3765,28 @@ input, select, textarea {
 .col-width {
     width: inherit;
 }
+
+.btn-link-lang {
+	  display                 : inline-block;
+	  margin                  : 10px;
+	  padding                 : 12px 32px;
+	  border-radius           : 50px;
+	  font-family             : "Raleway",
+	                            sans-serif;
+	  font-size               : 14px;
+	  font-weight             : 500;
+	  line-height             : 1;
+	  letter-spacing          : 1px;
+		-webkit-animation-delay : 0.8s;
+	 animation-delay         : 0.8s;
+	 transition              : 0.5s;
+		background: none;
+		border: solid 1px #83d3c9;
+		color: #83d3c9;
+	}
+
+	.btn-link-lang:hover {
+		background: rgba(188, 202, 206, 0.15);
+		border     : 2px solid #83d3c9;
+	  color      : #fff;
+	}

@@ -7,7 +7,7 @@ jbake {
 }
 
 bakePreview {
-    port = '8080'
+    port = '8820'
 }
 
 task copyCname(type: Copy) {
