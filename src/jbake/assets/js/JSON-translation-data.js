@@ -128,10 +128,7 @@ var linguJSON = {
       "source": "<strong>Professional Experience</strong>",
       "target_es": "<strong>Experiencia profesional</strong>",
     },
-    {
-      "source": "Conferences & Presentations",
-      "target_es": "Conferencias y presentaciones",
-    },
+
     {
       "source": "Open source",
       "target_es": "Código Abierto",
@@ -203,7 +200,7 @@ var linguJSON = {
     },
     {
       "source":"More Resources",
-      "target_es":"Información Adicional"
+      "target_es":"Recursos Adicionales"
     },
     {
       "source":"Presentation Slides",
@@ -398,7 +395,24 @@ var linguJSON = {
     {
       "source":"<strong>Feb 2007 → Jul 2007</strong>",
       "target_es":"<strong>Febrero de 2007 → Julio de 2007</strong>"
-    }
+    },
+    {
+      "source":"Thoughts, stories and ideas",
+      "target_es":"Pensamiento,historias e ideas"
+    },
+
+    {
+      "source":"Get In Touch",
+      "target_es":"Contacto"
+    },
+
+    {
+      "source":"Use the form below to get in touch with us.",
+      "target_es":"Utilice el siguiente formulario para ponerse en contacto con nosotros."
+    },
+
+
+
 
   ]
 };

@@ -18,7 +18,6 @@
 			th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'img/jconfdomincana-twitter-card.png'))"
 			th:content="|${config.site_host}/${cover}|" />
 	    <meta property="og:url" content="https://eudriscabrera.com">
-<!--	    <meta property="article:publisher" content="https://www.facebook.com/Minio.io/">-->
 
 			<!--Twitter card -->
 			<th:block th:if="${config.twitter_username}">
