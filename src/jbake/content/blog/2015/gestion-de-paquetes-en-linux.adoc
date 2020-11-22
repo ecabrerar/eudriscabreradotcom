@@ -3,7 +3,6 @@ Eudris Cabrera
 2015-06-14
 :jbake-type: post
 :jbake-status: draft
-:jbake-tags: Open Source, Linux, GNU/Linux
 :jbake-author: Eudris Cabrera
 :description: Gestión de paquetes en Linux
 :idprefix:
