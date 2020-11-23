@@ -2,7 +2,7 @@ title=Second Post
 date=2013-08-25
 type=post
 tags=Benchmarks
-status=published
+status=draft
 author=Manik Magar
 description=This is a description of second post.                  
 ~~~~~~

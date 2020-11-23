@@ -1,9 +1,8 @@
+title=Particiones en Linux: Uso y mantenimiento del disco
+date=2015-07-01
+type=post
+status=draft
+~~~~~~
 = Particiones en Linux: Uso y mantenimiento del disco
 Eudris Cabrera
 2015-07-01
-:jbake-type: post
-:jbake-status: draft
-:jbake-tags:
-:jbake-author: Eudris Cabrera
-:description: Particiones en Linux: Uso y mantenimiento del disco
-:idprefix:
