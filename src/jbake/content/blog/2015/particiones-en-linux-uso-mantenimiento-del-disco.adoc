@@ -2,6 +2,7 @@ title=Particiones en Linux: Uso y mantenimiento del disco
 date=2015-07-01
 type=post
 status=draft
+tags=blog, asciidoc
 ~~~~~~
 = Particiones en Linux: Uso y mantenimiento del disco
 Eudris Cabrera

@@ -1,7 +1,7 @@
 title=Línea de comando Linux (Parte I)
 date=2015-11-03
 type=post
-tags=Open Source,Linux,GNU/Linux
+tags=Open Source,Linux,GNU Linux
 status=published
 author=Eudris Cabrera
 description=Línea de comando Linux (Parte I)
