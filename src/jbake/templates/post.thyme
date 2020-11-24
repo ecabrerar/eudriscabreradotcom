@@ -36,13 +36,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
-
-			<footer>
-	        <a th:if="${content.previousContent}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${content.previousContent.uri}" href="#" class="post-prev"><span>&larr;</span> <strong>Previous post</strong></a>
-
-	        <a th:if="${content.nextContent}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${content.nextContent.uri}" href="#" class="post-next"><strong>Next post</strong> <span>&rarr;</span></a>
-	    </footer>
+			</section>		
 
 		</article>
 
