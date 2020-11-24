@@ -40,7 +40,7 @@
 								</h4>
 
 								<th:block th:if="*{total_posts &gt; 1}" th:each="i : *{#numbers.sequence( 1, total_posts - 1)}">
-								<th:block th:with="previous_post = *{posts[i - 1]}, current_post = *{posts[i]}">
+								<th:block th:with="previous_post = *{published_posts[i - 1]}, current_post = *{published_posts[i]}">
 								<th:block th:if="*{#dates.format(previous_post.date,'MMMM yyyy')} != *{#dates.format(current_post.date,'MMMM yyyy')}">
 								<p></p>
 								<h3 th:text="*{#dates.format(current_post.date,'MMMM yyyy')}">July 2014</h3>

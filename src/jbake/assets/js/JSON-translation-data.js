@@ -191,12 +191,12 @@ var linguJSON = {
     },
 
     {
-      "source":"Previous post",
-      "target_es":"Anterior"
+      "source":"<strong>Previous post</strong>",
+      "target_es":"<strong>Anterior</strong>"
     },
     {
-      "source":"Next post",
-      "target_es":"Siguiente"
+      "source":"<strong>Next post</strong>",
+      "target_es":"<strong>Siguiente</strong>"
     },
     {
       "source":"More Resources",
