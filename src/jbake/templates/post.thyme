@@ -39,8 +39,9 @@
 
 		</article>
 
-		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet"/>
+		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet">
 
 		<div th:replace="footer.thyme::footer"></div>
+	</div>
 	</body>
 	</html>
