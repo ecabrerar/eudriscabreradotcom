@@ -1,5 +1,5 @@
-<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-transitional-thymeleaf-4.dtd">
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 	<head th:fragment="head">
 	    <meta charset="utf-8">
 			<title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
