@@ -15,13 +15,13 @@
 				<header class="special container">
 					<span class="icon solid fa-chart-bar"></span>
 					<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
-					<br />
+					<br>
 					I decided to give it a really creative name.</h2>
 					<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
-					<br />
+					<br>
 					it's minimally designed, fully responsive, built on HTML5/CSS3,
 					and, like all my stuff,
-					<br />
+					<br>
 					released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
 
 				</header>
@@ -180,5 +180,6 @@
 
      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>
 	   <div th:replace="footer.thyme::footer"></div>
+	    </div>
     </body>
 </html>

@@ -7,7 +7,8 @@
 
 		<header th:insert="menu.thyme::menu" id="header"/>
 
-		<p th:utext='${content.body}'>body</p>
+		<p th:utext='${content.body}' th:remove="tag">body</p>
 		<div th:replace="footer.thyme::footer"></div>
+	</div>
 	</body>
 	</html>
