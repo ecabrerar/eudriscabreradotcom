@@ -410,9 +410,15 @@ var linguJSON = {
       "source":"Use the form below to get in touch with us.",
       "target_es":"Utilice el siguiente formulario para ponerse en contacto con nosotros."
     },
+    {
+      "source":"August 2020",
+      "target_es":"Agosto de 2020"
+    },
 
-
-
+    {
+      "source":"October 2020",
+      "target_es":"Octubre de 2020"
+    }
 
   ]
 };
