@@ -19,29 +19,31 @@
 				<!-- Content -->
 				<div class="content">
 					<th:block th:with="total_posts = *{#lists.size(tag_posts)}">
-					<th:block th:if="*{total_posts != 0}" th:with="first_post = *{posts[0]}">
-					<h3 class="h3" th:text="*{#dates.format(first_post.date,'MMMM yyyy')}">June 2014</h3>
 
+					<th:block th:if="*{total_posts &gt; 0}" th:each="i : *{#numbers.sequence( 0, total_posts-1)}">
+
+					<th:block th:if="*{i == 0}" th:with="first_post = *{tag_posts[i]}">
+					<h3 class="h3" th:text="*{#dates.format(first_post.date,'MMMM yyyy')}">June 2014</h3>
 					<h4>
 						<span class="font-weight-bold" th:text="*{#dates.format(first_post.date,'dd')}"/> -
 						<a th:href="*{content.rootpath + first_post.uri}" th:text="*{first_post.title}" href="">Post Title</a>
 					</h4>
-
-					<th:block th:if="*{total_posts &gt; 1}" th:each="i : *{#numbers.sequence( 1, total_posts - 1)}">
-					<th:block th:with="previous_post = *{tag_posts[i - 1]}, current_post = *{tag_posts[i]}">
-					<th:block th:if="*{#dates.format(previous_post.date,'MMMM yyyy')} != *{#dates.format(current_post.date,'MMMM yyyy')}">
-									<h3 th:text="*{#dates.format(current_post.date,'MMMM yyyy')}" class="h3" >July 2014</h3>
 				</th:block>
 
-				<h4>
-					<span class="font-weight-bold" th:text="*{#dates.format(current_post.date,'dd')}"/> -
-					<a th:href="*{content.rootpath + current_post.uri}" th:text="*{current_post.title}" href="">Post Title</a>
-				</h4>
+				<th:block th:if="*{i &gt; 0}" th:with="previous_post = *{tag_posts[i - 1]}, current_post = *{tag_posts[i]}">
+				<th:block th:if="*{#dates.format(previous_post.date,'MMMM yyyy')} != *{#dates.format(current_post.date,'MMMM yyyy')}">
+				<h3 th:text="*{#dates.format(current_post.date,'MMMM yyyy')}" class="h3" >July 2014</h3>
 			</th:block>
+
+			<h4>
+				<span class="font-weight-bold" th:text="*{#dates.format(current_post.date,'dd')}"/> -
+				<a th:href="*{content.rootpath + current_post.uri}" th:text="*{current_post.title}" href="">Post Title</a>
+			</h4>
+
 		</th:block>
 	</th:block>
 </th:block>
-         </div>
+</div>
 </section>
 </article>
 </div>
