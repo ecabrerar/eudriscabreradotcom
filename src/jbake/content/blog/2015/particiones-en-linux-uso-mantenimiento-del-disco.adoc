@@ -1,9 +1,108 @@
-title=Particiones en Linux: Uso y mantenimiento del disco
-date=2015-07-01
-type=post
-status=draft
-tags=blog, asciidoc
-~~~~~~
 = Particiones en Linux: Uso y mantenimiento del disco
 Eudris Cabrera
-2015-07-01
+2015-06-30
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: Particiones, Linux, EXT2, NTFS, SWAP
+:jbake-author: Eudris Cabrera
+:description: Particiones en Linux: Uso y mantenimiento del disco
+:idprefix:
+:jbake-summary: En artículos anteriores, Introducción a Linux, Entendiendo el sistema de archivo de Linux y Gestión de paquetes en Linux, presentamos los términos más comunes alrededor de Linux, las tres grandes familias de distribuciones disponibles en la comunidad Linux, como está organizado el sistema de archivo de Linux y herramientas para la gestión de paquetes en Linux.A continuación vamos a tratar el tema “Particiones en Linux: Uso y mantenimiento del disco”, donde presentaremos los tipos de particiones, cuantas son necesarias para hacer una instalación en Linux, así como también, algunas herramientas básicas para el mantenimiento del disco y otros medios de almacenamiento.
+
+== Qué es una partición ?.
+Una *partición* de un disco duro es una *división lógica* en una unidad de almacenamiento (por ejemplo un disco duro o unidad flash), en la cual se alojan y organizan los archivos mediante un sistema de archivos.
+
+=== Cuantos tipos existen ?.
+Existen dos tipos de particiones para almacenar data, *primaria* y *extendida*.
+
+Una partición primaria es formateada y entonces se puede utilizar para almacenar archivos. Además, un computador sólo puede ser arrancado desde una partición primaria.
+
+image::/images/blog/2015/disco_duro_esquema-66a4b-300x119.png[]
+
+Solo puede haber *4 particiones primarias*, ó *3 particiones primarias* y una *extendida*
+
+Una partición *extendida* es otro tipo de partición que actúa como una partición primaria; sirve para contener múltiples unidades lógicas en su interior.
+
+Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico.
+
+Solo puede existir una partición de este tipo por disco, y solo sirve para contener particiones lógicas.
+
+Por lo tanto, es el único tipo de partición que no soporta un sistema de archivos directamente.
+
+Una *partición lógica*, ocupa una porción de la partición extendida o la totalidad de la misma, la cual se ha formateado con un tipo específico de sistema de archivos (FAT32, NTFS, ext2,…)  y se le ha asignado una unidad, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos.
+
+Puede haber un máximo de 23 particiones lógicas en una partición extendida.
+
+Linux impone un máximo de 15, incluyendo las 4 primarias, en discos SCSI y en discos IDE 8963.
+
+=== ¿Cuantas y de que Tamaño?
+GNU / Linux se ejecuta muy bien con dos particiones: la principal, montada en el directorio raíz (/)  y swap, que se usa para la memoria virtual temporal. Es el mínimo suficiente en estos sistemas operativos.
+
+Es importante destacar que las particiones de intercambio (swap) pueden instalarse sin problemas dentro de una partición lógica.
+
+A las particiones de intercambio, al igual que a la memoria RAM, no se les asigna un directorio; este tipo de particiones se usa para guardar ciertas réplicas de la memoria RAM, para que de esta forma la RAM tenga más espacio para las tareas en primer plano, guardando las tareas en segundo plano dentro de la partición de intercambio.
+
+=== Utilidades para el uso y mantenimiento del disco
+
+*fdisk*
+Es un software que esta disponible para varios sistemas operativos, el cual permite dividir en forma lógica un disco duro, siendo denominado este nuevo espacio como partición.
+
+*fsck*
+El utilitario más importante para mantener su sistema de archivos es el comando fsck . Como el comando mkfs, fsck es un front-end para revisar discos, ya que este llama el comando especifico para cada sistema de archivo. Se usa para verificar la estructura del sistema de archivos y reparar cualquier inconsistencia.
+
+Los problemas más frecuentes ocurren como resultado de apagados incorrectos por razones de energía o programas defectuosos que llevan al sistema a colgarse .
+
+*Sintaxis:*
+[source,bash]
+----
+$ fsck -t tipo-de -sistema-de-archivos dispositivo
+$ fsck -t e xt2 /dev/hda1
+----
+
+Nota: El comando fsck es usado para verificar la integridad de su sistema de archivos. Desmonte su sistema de archivos antes de ejecutarlo en su sistema.
+
+*du*
+El comando du reporta el monto de espacio que ocupa un archivo o un directorio y todos los archivos y subdirectorios que el contiene.
+
+*Sintaxis:*
+
+[source,bash]
+----
+$ du [opciones] [nombre -archivo]
+----
+
+*df*
+Nos permite obtener información sobre el tamaño de dispositivos como son las particiones.
+
+*Sintaxis:*
+
+[source,bash]
+----
+$ df [opciones] [nombre -archivo]
+----
+
+El comando df retorna los valores de la siguiente información:
+
+* Tamaño del dispositivo
+* Número de bloques Libres en el Dispositivo
+* Número de bloques ocupados en el dispositivo
+* Porcentaje del total de bloques Libre
+* Nombre del Dispositivo
+
+
+==== Referencias:
+Libros:
+
+GNU/Básico : Antonio Perpiñan
+http://codigolibre.org/[]
+
+After the software wars : Keith Curtis
+http://keithcu.com[]
+
+¿Desea obtener más información?
+Leer mis presentaciones en Slideshare
+
+* https://www.slideshare.net/eudris/introduccion-a-gnu-linux[Introduccion a GNU / Linux ]
+* https://www.slideshare.net/eudris/estructura-del-sistema-de-archivos-gnu-linux[Estructura del sistema de archivos GNU/Linux]
+* https://www.slideshare.net/eudris/administracin-bsica-de-gnu-linux[Fundamentos de GNU/Linux]
+* https://www.slideshare.net/eudris/administracin-bsica-de-gnu-linux[Administración Básica de GNU/Linux]

@@ -24,6 +24,10 @@ Para garantizar la compatibilidad y portabilidad, los sistemas Linux cumplen con
 
 FHS se define como un estándar que detalla los nombres, ubicaciones, contenidos y permisos de los archivos y directorios.
 
+![](/images/blog/2015/Linux-Directory-Structure-300x243.jpeg)
+Estructura de directorio de Linux
+
+
 Inode (inodo, nodo-i o nodo índice)
 ---
 Es una estructura de datos usada para almacenar la información acerca de cada archivo, incluyendo:
@@ -39,7 +43,11 @@ Es una estructura de datos usada para almacenar la información acerca de cada a
 * Número de vínculos (links) al archivo
 
 El nombre del archivo es almacenado en el directorio y asociado a su propio __inode__.
+
 Cada archivo tiene un inode asociado a él, aunque cada archivo puede tener más de un nombre a través del uso de vínculos, cada archivo tiene sólo un inode.
+
+![](/images/blog/2015/Pantaila-argazkia-300x216.png)
+
 
 Use el comando ls -i para determinar el número de inodes de cualquier archivo.
 ```sh
@@ -124,7 +132,8 @@ Estos archivos, ubicados en el directorio __/dev__ permiten acceder a los distin
 Las unidades de almacenamiento y otros dispositivos, al ser tratados como archivos soportan tareas de direccionamiento y redireccionamiento.
 
 #### ¿Desea obtener más información?
-Leer mis presentaciones en https://www.slideshare.net/eudris[Slideshare]
+Leer mis presentaciones en :
+[![](https://public.slidesharecdn.com/images/logo/linkedin-ss/SS_Logo_Desktop_Black.png?ef34b4628a)](http://www.slideshare.net/eudris)
 
 * [Introduccion a GNU / Linux](https://www.slideshare.net/eudris/introduccion-a-gnu-linux)
 * [Estructura del sistema de archivos GNU/Linux](https://www.slideshare.net/eudris/estructura-del-sistema-de-archivos-gnu-linux)

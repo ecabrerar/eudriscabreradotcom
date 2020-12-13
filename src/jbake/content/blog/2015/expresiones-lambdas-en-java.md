@@ -1,5 +1,5 @@
 title=Expresiones Lambdas en Java
-date=2015-11-06
+date=2015-12-13
 type=post
 tags=Java,Java SE 8, JDK, JVM, Expresiones Lambdas
 status=published

@@ -24,6 +24,9 @@ Linux es un kernel libre de sistema operativo basado en Unix. Es uno de los prin
 El kernel Linux fue concebido por el entonces estudiante de ciencias de la computación finlandés
 Linus Torvalds en 1991.
 
+image::/images/blog/2015/391px-Linus_Torvalds-150x150.jpeg[]
+Linus Torvalds, Creador de Linux
+
 === Manifiesto Linux
 
 El 26 de agosto de 1991, Linus Torvalds publicó en el grupo de noticias comp.os.minix el siguiente mensaje, conocido desde entonces como el Manifiesto de Linux.
@@ -43,6 +46,8 @@ El código fuente de Linux está bajo los derechos de autor por muchos autores i
 
 Linux se encuentra bajo la supervisión de http://www.linuxfoundation.org[Linux Foundation], un consorcio tecnológico sin fines de lucro establecido para adoptar el crecimiento de linux.
 
+image::/images/blog/2015/Linux-foundation-300x115.png[]
+
 === ¿Quién usa Linux?
 Usted probablemente ya está usando Linux, ya sea que usted lo sepa o no. Entre uno y dos tercios de las páginas web en Internet son generados por servidores que corren sobre Linux.
 
@@ -57,6 +62,9 @@ A un conjunto de programas, herramientas y servicios que normalmente se agrupan 
 
 Una distribución de software basada en el kernel Linux, provee un instalador, el núcleo del sistema y un paquete de aplicaciones adicionales para satisfacer las necesidades de un grupo específico de usuarios.
 
+image::/images/blog/2015/AndroidProfileV6-150x150.jpg[]
+Android, sistema operativo para móviles (OS) basado en el kernel de Linux
+
 Algunas personas, especialmente los miembros de la Fundación para el Software Libre http://www.fsf.org/[Free Software Foundation], se refieren a esta colección como GNU/Linux, porque muchas de las herramientas incluidas son componentes de https://gnu.org[GNU].
 Sin embargo, no todas las instalaciones de Linux utilizan componentes de GNU como parte de su sistema operativo. https://www.android.com/[Android], por ejemplo, utiliza un kernel Linux, pero utiliza pocas herramientas  de GNU.
 
@@ -67,16 +75,22 @@ Existen tres grandes familias de distribuciones:
 ==== Basadas en Debian
 * Usada en servidores y escritorios.
 * Ubuntu, derivada de debian, muy popular en escritorios.
+
+image::/images/blog/2015/debian-300x145.jpeg[]
 http://www.debian.org[]
 
 ==== Basadas en Fedora
 * Es la fuente de distribuciones como CentOS y Oracle Linux.
 * Se utiliza como base para RHEL (Red Hat Enterprise Linux)
+
+image::/images/blog/2015/fedoraLogo-300x91.jpg[]
 http://fedoraproject.org[]
 
 ==== Open Suse
 * Muy similar a fedora, frecuentes actualizaciones, funcionalidades de última generación.
 * Es la fuente de la distribución Suse  Linux Enterprise Server
+
+image::/images/blog/2015/opensuse-logo-300x193.png[]
 http://www.opensuse.org/en/[]
 
 Más Información: http://distrowatch.com[]
