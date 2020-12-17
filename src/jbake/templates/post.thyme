@@ -37,7 +37,7 @@
 				</div>
 			</section>
 
-		</article>	
+		</article>
 
 		<div th:replace="footer.thyme::footer"></div>
 	</div>
