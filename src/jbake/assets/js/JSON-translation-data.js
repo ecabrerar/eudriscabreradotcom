@@ -418,6 +418,11 @@ var linguJSON = {
     {
       "source":"October 2020",
       "target_es":"Octubre de 2020"
+    },
+
+    {
+      "source":"Latest Post",
+      "target_es":"Últimas Publicaciones"
     }
 
   ]
