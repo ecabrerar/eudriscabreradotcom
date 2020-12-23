@@ -8,10 +8,10 @@
 
     <article id="main">
       <header class="special container">
-        <span class="icon fa-mobile"></span>
+        <span class="icon solid far fa-newspaper"></span>
 
 				<div class="topics">
-				    <nav class="topics_inner" >
+				    <nav class="topics_inner">
 				        <span class="topics_label">Topics:</span>
 				        <a th:each="tag : ${tags}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
 									th:href="${rootpath}+${tag.uri}" href="/tag/performance" th:utext='${tag.name}'></a>

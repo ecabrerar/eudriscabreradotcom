@@ -20,6 +20,12 @@ A continuación vamos a explorar las bondades de Rest Assured, una herramienta p
 ### REST Assured
 Es una librería Java que proporciona un lenguaje específico del dominio (Domain-specific Language / DSL) para escribir pruebas potentes y sostenibles para los servicios REST.
 
+Visitar:
+
+[https://github.com/rest-assured/rest-assured/wiki/Usage](https://github.com/rest-assured/rest-assured/wiki/Usage)
+[http://rest-assured.io](http://rest-assured.io/)
+
+
 
 ### Configuración
 
