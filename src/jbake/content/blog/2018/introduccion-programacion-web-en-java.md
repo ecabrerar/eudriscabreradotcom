@@ -47,7 +47,7 @@ Los frameworks web populares en Java son : Spring Framework (varias vertientes) 
 
 Estos frameworks web por lo general se ejecutan en un contenedor web.
 
-**Popularidad de los frameworks web en Java **
+### Popularidad de los frameworks web en Java 
 
 ![](/images/blog/2018/jvm-java-web-frameworks-spring-boot-mvc-jsf-gwt-vaadin-play.png)
 
