@@ -14,6 +14,12 @@ Es un sistema de control de versiones gratuito y de código abierto, diseñado p
 
 **Diseñador:**  Linus Torvalds
  Programado en C Bourne Shell, Perl1
+
+ <figure style="float:right;">
+  <img src="/images/blog/2017/linus-torvalds.jpeg" style="width:200px;height:256px;">
+  <figcaption>Linus Torvalds</figcaption>
+ </figure>
+
 **Licencia :**  GNU GPL v2
 **Versión inicial:** 07 de abril 2005
 
@@ -22,8 +28,6 @@ Junio Hamano, Linus Torvalds y otros más.
 
 **Url:** [http://git-scm.com](http://git-scm.com)
 
-![](/images/blog/2017/linus-torvalds.jpeg)
-*Linus Torvalds*
 
 **Introducción a git**
 
@@ -32,7 +36,7 @@ Inicialmente diseñado y desarrollado por Linus Torvalds para el desarrollo del 
 
 ### SVN vs GIT
 
-![](/images/blog/2017/svn-vs-git.png)
+<img src="/images/blog/2017/svn-vs-git.png" style="width:616px;height:339px;">
 
 Git ofrece un tipo de control de versiones  diferente,  un sistema de control de versiones distribuido. No hay una sola base de código centralizada para tirar el código, sino que diferentes ramas sostienen las diferentes partes del código.
 
@@ -49,7 +53,7 @@ GitHub ha ayudado a establecer Git como un gran sistema de control de versiones,
 
 Sin embargo, Git no es tan fácil de aprender como CVS o SVN, así que es mucho más difícil de usar para un principiante.
 
-![](/images/blog/2017/github-logo.png)
+<img src="/images/blog/2017/github-logo.png" style="width:301px;height:182px;">
 
 
 Para más información visitar [https://github.com](https://github.com)
@@ -60,14 +64,9 @@ Entre las más populares se encuentran [Atlassian Bitbucket](https://bitbucket.o
 
 
 
+<img src="/images/blog/2017/bitbucket-logo.png" style="width:120px;height:133px;">
 
-![](/images/blog/2017/bitbucket-logo.png)
-
-
-
-![](/images/blog/2017/gitlab-logo.png)
-
-
+<img src="/images/blog/2017/gitlab-logo.png" style="width:206px;height:109px;">
 
 ### Operaciones Básicas
 
