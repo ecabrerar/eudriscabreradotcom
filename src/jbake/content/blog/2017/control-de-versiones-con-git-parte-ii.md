@@ -1,5 +1,5 @@
 title=Control de Versiones con Git
-date=2016-06-02
+date=2017-06-04
 type=post
 tags=Git,Control de Versiones
 status=draft
