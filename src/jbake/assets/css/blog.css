@@ -159,11 +159,16 @@ blockquote p {
 
 /*  h1 {
     font-size : 2.75em;
-  }
+  }*/
 
   h2 {
     font-size : 2.3125em;
-  }*/
+
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      text-transform: none;
+  }
 
   #toctitle,
   .sidebarblock > .content > .title,
