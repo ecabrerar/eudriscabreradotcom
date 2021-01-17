@@ -1,7 +1,7 @@
 title=Introducción a Spring Boot
 date=2018-12-15
 type=post
-tags=Spring Boot,Java, Aplicación Web
+tags=Spring Boot,Java, Aplicación Web,Desarrollo de Software
 status=published
 author=Eudris Cabrera
 description=Introducción a Spring Boot.    

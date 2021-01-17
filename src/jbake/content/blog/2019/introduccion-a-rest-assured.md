@@ -1,7 +1,7 @@
 title=Introducción a Rest Assured
 date=2019-07-11
 type=post
-tags=REST,Java, Pruebas de Integración, Rest Assured
+tags=REST,Java, Pruebas de Integración, Rest Assured,Desarrollo de Software
 status=published
 author=Eudris Cabrera
 description=Introducción a Rest Assured.    

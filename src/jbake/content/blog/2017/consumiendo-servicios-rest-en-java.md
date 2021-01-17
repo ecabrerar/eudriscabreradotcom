@@ -1,7 +1,7 @@
 title=Consumiendo Servicios REST en Java
 date=2016-08-19
 type=post
-tags=REST,Servicios Web, HTTP
+tags=REST,Servicios Web, HTTP,Desarrollo de Software
 status=draft
 author=Eudris Cabrera
 description=Consumiendo Servicios REST en Java.    

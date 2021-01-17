@@ -1,7 +1,7 @@
 title=Servicios REST en Java
 date=2016-08-18
 type=post
-tags=REST,Servicios Web, HTTP
+tags=REST,Servicios Web, HTTP,Desarrollo de Software
 status=draft
 author=Eudris Cabrera
 description=Servicios REST en Java.    
