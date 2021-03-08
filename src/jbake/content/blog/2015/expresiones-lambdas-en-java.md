@@ -58,4 +58,4 @@ Se pueden pasar funciones como parámetros a otras funciones y pueden ser retorn
 * Código más fácil de testear.
 
 #### ¿Desea obtener más información?
-Leer mis presentaciones en [JAVA 8 - MÁS ALLÁ DE LAS EXPRESIONES LAMBDA](http://localhost:8080/talks/java-8-mas-alla-de-las-expresiones-lambda.html)
+Leer mis presentaciones en [JAVA 8 - MÁS ALLÁ DE LAS EXPRESIONES LAMBDA](/talks/java-8-mas-alla-de-las-expresiones-lambda.html)

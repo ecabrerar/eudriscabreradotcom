@@ -147,4 +147,4 @@ __Seguir las instrucciones definidas en el archivo README para la ejecución del
 * Se puede integrar con Spring Mock MVC
 
 #### ¿Desea obtener más información?
-Leer mis presentaciones en [Pruebas de integración para servicios REST usando Rest Assured](http://localhost:8080/talks/rest-assured-jconf.html)
+Leer mis presentaciones en [Pruebas de integración para servicios REST usando Rest Assured](/talks/rest-assured-jconf.html)

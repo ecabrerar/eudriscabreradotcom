@@ -88,7 +88,7 @@ http://keithcu.com[]
 ¿Desea obtener más información?
 Leer mis presentaciones en Slideshare
 
-* https://www.slideshare.net/eudris/introduccion-a-gnu-linux[Introduccion a GNU / Linux ]
+* https://www.slideshare.net/eudris/introduccion-a-gnu-linux[Introduccion a GNU / Linux]
 * https://www.slideshare.net/eudris/estructura-del-sistema-de-archivos-gnu-linux[Estructura del sistema de archivos GNU/Linux]
 * https://www.slideshare.net/eudris/administracin-bsica-de-gnu-linux[Fundamentos de GNU/Linux]
 * https://www.slideshare.net/eudris/administracin-bsica-de-gnu-linux[Administración Básica de GNU/Linux]
