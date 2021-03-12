@@ -16,7 +16,15 @@ status=published
 
   <!-- Content -->
   <div class="content">
-    <form  name="contact" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
+    <div id="form-success" class="alert alert-info hidden" role="alert">
+      <h4>Thanks! Your form submission has been received.</h4>
+    </div>
+
+
+    <div id="form-error" class="alert alert-danger hidden" role="alert">
+      <h4>Something went wrong! Your form submission could not be delivery.</h4>
+    </div>
+    <form id="contact" name="contact" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
       <p class="hidden">
          <label>Don’t fill this out if you're human: <input name="bot-field"></label>
       </p>
@@ -37,7 +45,7 @@ status=published
         <div class="col-12">
           <ul class="buttons">
             <li>
-              <button class="special" type="submit">Send Message </button> 
+              <button class="special" type="submit">Send Message </button>
               </li>
           </ul>
         </div>

@@ -9,5 +9,34 @@
 		<p th:utext='${content.body}' th:remove="tag">body</p>
 		<div th:replace="footer.thyme::footer"></div>
 	</div>
+
+	<script type="text/javascript">
+
+		document.querySelector("form").addEventListener("submit", handleSubmit);
+
+			const handleSubmit = (e) => {
+			 e.preventDefault()
+			 let myForm = document.getElementById('contact');
+			 let formData = new FormData(myForm)
+			 fetch('/', {
+				 method: 'POST',
+				 headers: { "Content-Type": "application/x-www-form-urlencoded" },
+				 body: new URLSearchParams(formData).toString()
+			 }).then(() => {
+						processMessage('form-success');
+			      console.log('Form successfully submitted');
+
+			 }).catch((error) => {
+
+				 		 processMessage('form-error');
+					   console.log(error);
+			 });
+			}
+
+			function processMessage(container){
+				var element = document.getElementById(container);
+        element.classList.remove("hidden");
+			}
+	</script>
 	</body>
 	</html>
