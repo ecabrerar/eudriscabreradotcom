@@ -1,0 +1,60 @@
+title=Contact
+date=2021-03-12
+type=page
+status=published
+~~~~~~
+<!-- Main -->
+<article id="main">
+<header class="special container">
+  <span class="icon solid fa-envelope"></span>
+  <h2>Get In Touch</h2>
+  <p>Use the form below to get in touch with us.</p>
+</header>
+
+<!-- One -->
+<section class="wrapper style4 special container medium">
+
+  <!-- Content -->
+  <div class="content">
+    <div id="form-success" class="alert alert-info hidden" role="alert">
+      <h4>Thanks! Your form submission has been received.</h4>
+    </div>
+
+
+    <div id="form-error" class="alert alert-danger hidden" role="alert">
+      <h4>Something went wrong! Your form submission could not be delivery.</h4>
+    </div>
+    <form id="feedback" name="feedback" method="POST" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-netlify="true">
+      <p class="hidden">
+         <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+      </p>
+      <div class="row gtr-50">
+        <div class="col-6 col-12-mobile">
+          <input type="text" name="name" placeholder="Name">
+        </div>
+        <div class="col-6 col-12-mobile">
+          <input type="text" name="email" placeholder="Email">
+        </div>
+        <div class="col-12">
+          <input type="text" name="session" id="sessions-search-input" placeholder="Which session did you attend?">
+        </div>
+        <div class="col-12">
+          <input type="text" name="subject" placeholder="At which event did you attend the session?">
+        </div>
+        <div class="col-12">
+          <textarea name="message" placeholder="Feedback" rows="7"></textarea>
+        </div>
+        <div class="col-12" data-netlify-recaptcha="true"></div>
+        <div class="col-12">
+          <ul class="buttons">
+            <li>
+              <button class="special" type="submit">Send</button>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</section>
+</article>
