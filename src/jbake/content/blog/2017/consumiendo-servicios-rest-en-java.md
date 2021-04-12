@@ -78,27 +78,43 @@ Usaremos Jersey en nuestro ejemplo.
 ```java
 
 Client client = ClientBuilder.newClient();
-String baseUri = "http://localhost:8080/TallerJava/servicios"
+String baseUri = "http://localhost:8080/jaxrs-basic-demo/rest";
 
-//Consultar todos los estudiantes    
-Response result1 = client.target(baseUri)
-                     .path("estudiantes")
-                 .request(MediaType.APPLICATION_JSON)
-                 .get(Response.class);
+//Consultar todos los paises    
+Response resultAll = client.target(baseUri)
+				          		.path("/paises/todos")
+				          		.request(MediaType.APPLICATION_JSON)
+				          		.get(Response.class);
 
-
-  //Enviar estudiante
-   String jsonEstudiante = Json.createObjectBuilder()
-                     .add("matricula", "1")
-                     .add("nombre", "Juan Perez")
-                     .build().toString();
+  //Imprimir resultado
+  System.out.println(resultAll.readEntity(String.class));
 
 
-Response result3 = client.target(baseUri)
-               .path("estudiantes")
-               .request(MediaType.APPLICATION_JSON_TYPE)
-               .post(Entity.entity(jsonEstudiante, MediaType.APPLICATION_JSON),Response.class);
+  //Consultar un Pais por una Id
+  Response resultForId = client.target(baseUri)
+                      .path("/paises/{id}")
+                      .resolveTemplate("id", 1)
+                      .request(MediaType.APPLICATION_JSON)
+                      .get(Response.class);
+
+
+  //Imprimir resultado
+  System.out.println(resultForId.readEntity(String.class));
+
 ```
+Salida
+```
+#Todos
+
+{"pais":[{"id":"1","nombre":"República Dominicana"},{"id":"2","nombre":"Venezuela"},{"id":"3","nombre":"Nicaragua"},{"id":"4","nombre":"Uruguay"},{"id":"5","nombre":"Haiti"}]}
+
+#Por Id
+{"id":"1","nombre":"República Dominicana"}
+
+```
+
+El ejemplo completo se encuentra aquí https://github.com/ecabrerar/javaee7-firstcup/tree/master/jaxrs/jaxrs-basic-demo
+
 ### Referencias:
 * [http://java.dzone.com/articles/whats-new-jax-rs-20](http://java.dzone.com/articles/whats-new-jax-rs-20)
 * [http://www.infoq.com/news/2013/06/Whats-New-in-JAX-RS-2.0](http://www.infoq.com/news/2013/06/Whats-New-in-JAX-RS-2.0)
