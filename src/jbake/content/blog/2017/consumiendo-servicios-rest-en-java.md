@@ -1,5 +1,5 @@
 title=Consumiendo Servicios REST en Java
-date=2016-08-19
+date=2017-07-15
 type=post
 tags=REST, Servicios Web, HTTP,Desarrollo de Software
 status=published
