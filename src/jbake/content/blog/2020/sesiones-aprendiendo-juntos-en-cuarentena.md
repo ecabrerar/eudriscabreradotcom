@@ -1,8 +1,8 @@
-title=Seguridad para aplicaciones Web Java con JSON Web Tokens (JWT)
+title=Mejorando habilidades Java en tiempos de cuarentena 2020
 date=2020-04-30
 type=post
-tags=Java, Jconf Dominicana, Conferencias, Latam
+tags=Java, JUG, Conferencias, Latam
 status=draft
 author=Eudris Cabrera
-description=Seguridad para aplicaciones Web Java con JSON Web Tokens (JWT)
+description=Mejorando habilidades Java en tiempos de cuarentena 2020
 summary=

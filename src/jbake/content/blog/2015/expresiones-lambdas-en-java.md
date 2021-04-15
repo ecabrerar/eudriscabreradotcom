@@ -1,14 +1,14 @@
 title=Expresiones Lambdas en Java
 date=2015-12-13
 type=post
-tags=Java,Java SE 8, JDK, JVM, Expresiones Lambdas
+tags=Java, Java SE 8, JDK, JVM, Expresiones Lambdas
 status=published
 author=Eudris Cabrera
 description=Expresiones Lambdas en Java.    
 summary=Java SE 8, liberado en marzo del 2014, es la plataforma que incluye la actualización más grande para el modelo de programación Java desde el lanzamiento de la plataforma en 1996. Incluye nuevas funcionalidades e incorpora las características de los lenguaje funcionales, tales como de lambdas o closures. ¿Todavía no te atreves a probar Java 8?
 ~~~~~~
 
-### ¿Qué es una expresión lambda ?
+## ¿Qué es una expresión lambda ?
 Una expresión lambda representa una función anónima.
 ```
 λx → x+x
@@ -40,7 +40,7 @@ Es muy útil para evitar tener que escribir métodos que sólo utilizamos una ve
 Simplifica cómo pasar comportamiento como un parámetro (podemos pasar expresiones lambda
 a métodos como argumentos).
 
-### ¿Qué es programación funcional ?
+## ¿Qué es programación funcional ?
 
 Un paradigma de programación donde las funciones son entidades de primera clase.
 
@@ -57,5 +57,5 @@ Se pueden pasar funciones como parámetros a otras funciones y pueden ser retorn
 * Reducción de la cantidad de líneas de código.
 * Código más fácil de testear.
 
-#### ¿Desea obtener más información?
+### ¿Desea obtener más información?
 Leer mis presentaciones en [JAVA 8 - MÁS ALLÁ DE LAS EXPRESIONES LAMBDA](/talks/java-8-mas-alla-de-las-expresiones-lambda.html)
