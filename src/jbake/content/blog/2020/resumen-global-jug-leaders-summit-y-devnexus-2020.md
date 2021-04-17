@@ -2,15 +2,21 @@ title=Resumen Global JUG Leaders Summit & DevNexus 2020
 date=2020-02-25
 type=post
 tags=Java, Devnexus, Conferencias, JUG
-status=draft
+status=published
 author=Eudris Cabrera
 description=Resumen Global JUG Leaders Summit & DevNexus 2020
-summary=Del 19 al 21 de febrero del 2020 se llevó a cabo el Global JUG Leaders Summit y Devnexus 2020 en Atlanta, Georgia. Dicho evento fue realizado en el Georgia World Congress Center (GWCC) de Atlanta, Georgia, un lugar gigante y con una gran cantidad de salones y excelente ubicación.A continuación, presentaremos los aspectos más destacados de esta conferencia.
+summary=Del 19 al 21 de febrero del 2020 se llevó a cabo el Global JUG Leaders Summit y Devnexus 2020 en Atlanta, Georgia. Dicho evento fue realizado en el Georgia World Congress Center (GWCC) de Atlanta, Georgia, un lugar gigante y con una gran cantidad de salones y excelente ubicación. A continuación, presentaremos los aspectos más destacados de esta conferencia.
 ~~~~~~
+
 Del 19 al 21 de febrero del 2020 se llevó a cabo el **Global JUG Leaders Summit** y **Devnexus 2020** en Atlanta, Georgia.
 
-|![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.001.png)|![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.002.png)|
-| :- | :- |
+<table>
+  <tr>
+    <td> <img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.001.png" style="width: 90%;"></td>
+    <td><img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.002.png" style="width: 92%;"></td>
+   </tr>
+</table>
+
 
 Dicho evento fue realizado en el **Georgia World Congress Center (GWCC)** de Atlanta, Georgia, un lugar gigante y con una gran cantidad de salones y excelente ubicación.
 
@@ -36,22 +42,26 @@ Atlanta JUG organizador de Devnexus quiso reunir la mayor cantidad de líderes d
 
 **Java Users Groups que participaron en el Global JUG Leaders Summit 2020**
 
-|![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.004.jpeg)|![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.005.jpeg)|
-| :- | :- |
-
+<table>
+  <tr>
+    <td>
+     <img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.004.jpeg"><img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.005.jpeg">
+    </td>
+   </tr>
+</table>
 
 La comunidad de usuarios y desarrolladores Java de República Dominicana se conoce como Java Dominicano (Dominicana JUG) y es el organizador de JConf Dominicana <https://jconfdominicana.org>
 
 Carlos Camacho y Eudris Cabrera representaron a la [comunidad de usuarios y desarrolladores Java de República Dominicana](https://twitter.com/javadominicano).
 
-![](6449e1a8-e526-4d7b-946f-7419518b04bd.006.jpeg)
+<img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.006.jpeg" style="width:86%;height:auto;">
 
 **Formato**
 
 El formato del JUG Leaders Summit es tipo desconferencia (Unconference).  Los asistentes deciden cuáles temas desean debatir.
 
-|![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.007.jpeg)|![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.008.jpeg)|
-| :- | :- |
+<table> <tr><td><img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.007.jpeg" style="width: 90%;"></td><td><img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.008.jpeg" style="width: 90%;"></td></tr>
+</table>
 
 Cada tema seleccionado tenía un tiempo de aproximadamente 30 minutos para ser debatido
 
@@ -66,12 +76,10 @@ Cada tema seleccionado tenía un tiempo de aproximadamente 30 minutos para ser d
 [**Devnexus**](https://devnexus.com)
 
 Es la mayor conferencia de Java organizada por la comunidad en los Estados Unidos. Se han realizado 14 ediciones, a partir del 2004.
-
 Devnexus es organizada por Atlanta JUG <https://ajug.org/>
 
 **Devnexus 2020, 19-21 de Febrero 2020, Atlanta, USA**
-
-![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.009.jpeg)
+<img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.009.jpeg" style="width:98%;height:auto;">
 
 Fue una experiencia única haber participado en [Devnexus](https://devnexus.com/)[ 2020](https://devnexus.com/), una conferencia orientada a la comunidad, ideal para interactuar con desarrolladores, compañías de tecnología, emprendedores, etc.
 

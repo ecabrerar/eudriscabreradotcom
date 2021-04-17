@@ -5,4 +5,5 @@ tags=Java, JUG, Conferencias, Latam
 status=draft
 author=Eudris Cabrera
 description=Mejorando habilidades Java en tiempos de cuarentena 2020
-summary=
+summary=Mejorando habilidades Java en tiempos de cuarentena 2020
+~~~~~~

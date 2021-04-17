@@ -5,4 +5,5 @@ tags=jwt, JSON Web Token, Seguridad
 status=draft
 author=Eudris Cabrera
 description=¿Qué es un JSON Web Token?
-summary=
+summary=¿Qué es un JSON Web Token?
+~~~~~~

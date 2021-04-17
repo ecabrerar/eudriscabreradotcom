@@ -5,4 +5,5 @@ tags=Java, Conferencias, JUG
 status=draft
 author=Eudris Cabrera
 description=Resumen 2020
-summary=
+summary=Resumen 2020
+~~~~~~
