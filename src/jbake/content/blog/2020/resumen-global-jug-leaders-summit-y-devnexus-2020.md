@@ -38,7 +38,7 @@ Atlanta JUG organizador de Devnexus quiso reunir la mayor cantidad de líderes d
 
 43 JUGs de diferentes países, representado por cerca de 80 líderes,  estuvieron presentes en este primer encuentro.
 
-![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.003.png)
+<img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.003.jpg" style="width:98%;height:auto;">
 
 **Java Users Groups que participaron en el Global JUG Leaders Summit 2020**
 
@@ -54,7 +54,7 @@ La comunidad de usuarios y desarrolladores Java de República Dominicana se cono
 
 Carlos Camacho y Eudris Cabrera representaron a la [comunidad de usuarios y desarrolladores Java de República Dominicana](https://twitter.com/javadominicano).
 
-<img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.006.jpeg" style="width:86%;height:auto;">
+<img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.006.jpeg" style="width:98%;height:auto;">
 
 **Formato**
 
@@ -85,7 +85,7 @@ Fue una experiencia única haber participado en [Devnexus](https://devnexus.com/
 
 La edición 2020 tenía un ingrediente especial, la celebración de los 25 años de Java.
 
-![](/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.003.png)
+![](/images/blog/2020/devnexus-2020-coro-dominicano.jpg)
 
 A continuación algunos datos relevantes sobre la conferencia:
 
