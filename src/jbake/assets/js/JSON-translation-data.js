@@ -499,6 +499,41 @@ var linguJSON = {
     {
       'source': 'JakartaOne in Spanish',
       'target_es': 'JakartaOne Hispano'
+    },
+    {
+      'source': '<strong>Courses and Resources</strong>',
+      'target_es': '<strong>Cursos y Recursos</strong>'
+    },
+    {
+      'source': 'A short list of courses where I was the instructor',
+      'target_es': 'Una breve lista de cursos en los que fui instructor'
+    },
+    {
+      'source': 'I contribute in different ways (code, documentation, blog and conference). See my contribution activities at my github account',
+      'target_es': 'Contribuyo de diferentes formas (código, documentación, blog y conferencia). Ver mis actividades de contribución en mi cuenta de github'
+    },
+    {
+      'source': 'Read my posts at',
+      'target_es': 'Lee mis publicaciones en'
+    },
+    {
+      'source': '. Also, you can follow me at',
+      'target_es': '. Además, puedes seguirme en'
+    },
+    {
+      'source': '<strong>Open Source</strong>',
+      'target_es': '<strong>Código Abierto</strong>'
+    },
+    {
+      'source': '<strong>Contribute to projects</strong>',
+      'target_es': '<strong>Contribuir a proyectos</strong>'
     }
+
+
+
+
+
+
+
   ]
 }
