@@ -442,29 +442,63 @@ var linguJSON = {
       'target_es': 'Un apasionado del aprendizaje que cree en la cultura de compartir conocimientos, aprender unos de otros, de innovar y de trabajar juntos de manera eficaz para hacer la diferencia.'
     },
     {
-        'source': 'A fan of baseball / softball, music and Latin dances (and rhythms) (Salsa, Bachata and Merengue). He is a member of several softball teams, where childhood friends and colleagues meet.',
-        'target_es': 'Aficionado del béisbol/sóftbol, la música y los bailes (y ritmos) latinos (Salsa, Bachata y Merengue). Es miembro de varios equipos de softball, donde se reunen colegas y amigos de infancia.'
+      'source': 'A fan of baseball / softball, music and Latin dances (and rhythms) (Salsa, Bachata and Merengue). He is a member of several softball teams, where childhood friends and colleagues meet.',
+      'target_es': 'Aficionado del béisbol/sóftbol, la música y los bailes (y ritmos) latinos (Salsa, Bachata y Merengue). Es miembro de varios equipos de softball, donde se reunen colegas y amigos de infancia.'
     },
 
     {
-    'source': 'A fan of baseball / softball, music and Latin dances (and rhythms) (Salsa, Bachata and Merengue). He is a member of several softball teams, where childhood friends and colleagues meet.',
-    'target_es': 'Aficionado del béisbol/sóftbol, la música y los bailes (y ritmos) latinos (Salsa, Bachata y Merengue). Es miembro de varios equipos de softball, donde se reunen colegas y amigos de infancia.'
-  },  
+      'source': 'A fan of baseball / softball, music and Latin dances (and rhythms) (Salsa, Bachata and Merengue). He is a member of several softball teams, where childhood friends and colleagues meet.',
+      'target_es': 'Aficionado del béisbol/sóftbol, la música y los bailes (y ritmos) latinos (Salsa, Bachata y Merengue). Es miembro de varios equipos de softball, donde se reunen colegas y amigos de infancia.'
+    },
 
-      {
-    'source': '2014 Linux Training Scholarship Recipient as Developer Do-Gooder. <a href="https://www.jcp.org/en/participation/overview#associate" target="_blank" >Java Community Process Associate Member</a> and Cofounder of <a href="https://twitter.com/javadominicano" target="_blank">Dominican Republic JUG (aka Java Dominicano)</a>',
-    'target_es': 'Ganador de la beca Linux Training Scholarship 2014 en la categoría Developer Do-Gooder. Miembro asociado del <a href="https://www.jcp.org/en/participation/overview#associate" target="_blank">JCP (Java Community Process)</a>. Co-fundador / Organizador del grupo de usuarios Java <a href="https://twitter.com/javadominicano" target="_blank"> (Java User Group ) de la República Dominicana (aka Java Dominicano)</a>.'
-  },
+    {
+      'source': '2014 Linux Training Scholarship Recipient as Developer Do-Gooder. Associate Member of',
+      'target_es': 'Ganador de la beca Linux Training Scholarship 2014 en la categoría Developer Do-Gooder. Miembro asociado del'
+    },
 
-      {
-    'source': 'Occasional speaker and collaborator in technological events for developers such as <a href="https://barcamp.org.do" target="_blank">Barcamp RD</a>, an event that has been held continuously since 2013.Member of the organizing staff of <a href="https://jconfdominicana.org" target="_blank">JConf Dominicana</a>. Member of the Program Committee of the first version of <a href="https://jakartaone.org/2020/hispano" target="_blank">JakartaOne in Spanish</a>',
-    'target_es': 'Charlista ocasional y colaborador en eventos tecnológicos para desarrolladores como <a href="https://barcamp.org.do" target="_blank">Barcamp RD</a>, evento que se realiza de forma seguida desde el año 2013. Miembro del staff organizador de <a href="https://jconfdominicana.org" target="_blank">JConf Dominicana</a>. Miembro del Comité del programa de la primera versión de <a href="https://jakartaone.org/2020/hispano" target="_blank">JakartaOne Hispano</a>'
-  },
+    {
+      'source': 'Java Community Process',
+      'target_es': 'JCP (Java Community Process)'
+    },
+    {
+      'source': 'and Cofounder of',
+      'target_es': 'y Co-fundador / Organizador del'
+    },
 
-      {
-    'source': 'In his leisure time, he writes articles and helps review technical documentation in the Java Ecosystem and the open source world.',
-    'target_es': 'En el tiempo libre, escribe artículos y ayuda en la revisión de documentación técnica en el mundo Java y el código abierto.'
-  },
+    {
+      'source': 'Occasional speaker and collaborator in technological events for developers such as',
+      'target_es': 'Charlista ocasional y colaborador en eventos tecnológicos para desarrolladores como'
+    },
 
+    {
+      'source': ', an event that has been held continuously since 2013.Member of the organizing staff of',
+      'target_es': ', evento que se realiza de forma seguida desde el año 2013. Miembro del staff organizador de'
+    },
+    {
+      'source': '. Member of the Program Committee of the first version of',
+      'target_es': '. Miembro del Comité del programa de la primera versión de'
+    },
+
+    {
+      'source': 'In his leisure time, he writes articles, organize meetups and helps review technical documentation in the Java Ecosystem and the open source world.',
+      'target_es': 'En el tiempo libre, escribe artículos, realiza charlas y ayuda en la revisión de documentación técnica en el mundo Java y el código abierto.'
+    },
+
+    {
+      'source': 'Dominican Republic JUG (aka Java Dominicano)',
+      'target_es': 'grupo de usuarios Java (Java User Group ) de la República Dominicana (aka Java Dominicano)'
+    },
+    {
+      'source': 'Barcamp RD',
+      'target_es': 'Barcamp RD'
+    },
+    {
+      'source': 'JConf Dominicana',
+      'target_es': 'JConf Dominicana'
+    },
+    {
+      'source': 'JakartaOne in Spanish',
+      'target_es': 'JakartaOne Hispano'
+    }
   ]
 }
