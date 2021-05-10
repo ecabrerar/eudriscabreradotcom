@@ -44,6 +44,7 @@
 			 };
 
 
+/*
 	     document.querySelector("form").addEventListener("submit", handleSubmit);
 
 			 var ServiciosResult = [
@@ -63,6 +64,8 @@
 					var element = document.getElementById(container);
 	        element.classList.remove("hidden");
 				}
+
+				*/
 
 	   });
 		</script>

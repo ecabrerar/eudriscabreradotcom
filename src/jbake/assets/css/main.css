@@ -3554,15 +3554,18 @@ input, select, textarea {
 	.timeline .timeline-heading h4 {
 	  margin-top : 0;
 	  color      : inherit;
+		text-align: left;
 	}
 
 	.timeline .timeline-heading h4.subheading {
 	  text-transform : none;
+		text-align: left;
 	}
 
 	.timeline .timeline-body > p,
 	.timeline .timeline-body > ul {
 	  margin-bottom : 0;
+		text-align: left;
 	}
 
 	@media
@@ -3660,9 +3663,7 @@ input, select, textarea {
 	}
 
 	//
-
 	// Border-radius
-
 	//
 
 	.rounded-sm {
@@ -3811,4 +3812,17 @@ input, select, textarea {
 
 .post_tags>a:hover {
   background-color : #e8e8e8;
+}
+
+.left::before {
+	 content: " ";
+	 height: 0;
+	 position: absolute;
+	 top: 22px;
+	 width: 0;
+	 z-index: 1;
+	 right: 30px;
+	 border: medium solid white;
+	 border-width: 10px 0 10px 10px;
+	 border-color: transparent transparent transparent white;
 }
