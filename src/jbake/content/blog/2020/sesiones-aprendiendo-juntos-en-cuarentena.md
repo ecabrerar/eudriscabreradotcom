@@ -39,7 +39,7 @@ La segunda sesión se realizó el miércoles 24 de junio de 2020 y participaron 
 
 El 23 de Julio de 2020 hubo repetición de la sesión 2 donde participaron las comunidades de Argentina, Colombia, República Dominicana y México.
 
-<img src="/images/blog/2020/3ccf6c38-9a83-4d83-8d5d-f9446c4c8b42.003.png" style="width: 60%;">
+<img src="/images/blog/2020/3ccf6c38-9a83-4d83-8d5d-f9446c4c8b42.003.jpg" style="width: 60%;">
 
 La tercera sesión de esta serie se realizó el miércoles 2 de septiembre de 2020 con la participación de las comunidades Java de República Dominicana, Ecuador, Buenos Aires, Bolivia, Mérida (México), Guadalajara, Bogotá y Medellín. Los temas tratados fueron Enumeraciones, Returning y Sobre-escribiendo métodos.
 

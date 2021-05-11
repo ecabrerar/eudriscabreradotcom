@@ -12,8 +12,8 @@ Del 19 al 21 de febrero del 2020 se llevó a cabo el **Global JUG Leaders Summit
 
 <table>
   <tr>
-    <td> <img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.001.png" style="width: 90%;"></td>
-    <td><img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.002.png" style="width: 92%;"></td>
+    <td> <img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.001.jpg" style="width: 90%;"></td>
+    <td><img src="/images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.002.jpg" style="width: 92%;"></td>
    </tr>
 </table>
 

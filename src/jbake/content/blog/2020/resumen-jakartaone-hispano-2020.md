@@ -27,10 +27,10 @@ Este evento fue posible gracias a:
 
 A continuación el mapa con la ubicación de los asistentes:
 
-<img src="/images/blog/2020/jakartaone-hispano-2020-attendees.png" alt="Ubicación de asistentes al evento" style="width:86%;height:auto;">
+<img src="/images/blog/2020/jakartaone-hispano-2020-attendees.jpg" alt="Ubicación de asistentes al evento" style="width:86%;height:auto;">
 
 Algunas de las comunidades amigas que apoyaron el evento
-<img src="/images/blog/2020/jakartaone-hispano-2020-jugs.png" alt="Comunidades Amigas" style="width:86%;height:auto;">
+<img src="/images/blog/2020/jakartaone-hispano-2020-jugs.jpg" alt="Comunidades Amigas" style="width:86%;height:auto;">
 
 ## Conferencistas
 <img src="/images/blog/2020/jakartaone-hispano-2020-speakers.jpg" alt="Conferencistas" style="width:86%;height:auto;">
