@@ -426,8 +426,8 @@ var linguJSON = {
     },
 
     {
-      'source': 'All posts',
-      'target_es': 'Todas las publicaciones'
+      'source': '<i class="fas fa-arrow-left"></i>All posts',
+      'target_es': '<i class="fas fa-arrow-left"></i>Todas las publicaciones'
     },
     {
       'source': '<strong>About me</strong>',
