@@ -527,13 +527,32 @@ var linguJSON = {
     {
       'source': '<strong>Contribute to projects</strong>',
       'target_es': '<strong>Contribuir a proyectos</strong>'
-    }
+    },
+    {
+      'source': 'Develop several modules and participate in the process of implementation of the Warehouse Management System, a project based on Visual FoxPro and was migrated by our team to a platform based on Java SE / Swing technologies, Postgres SQL database, Jasper Report and GNU / Linux Operating System.',
+      'target_es': 'Desarrollar varios módulos y participar en el proceso de implantación del Sistema de Gestión de Almacen, un proyecto basado en Visual FoxPro y fue migrado por nuestro equipo a una plataforma basada en tecnologías  Java SE / Swing, base de datos Postgres SQL, Jasper Report y  Sistema Operativo GNU / Linux.'
+    },
 
+    {
+      'source': 'Develop an application based on Java SE / Swing and Hibernate to manage the points of sale.',
+      'target_es': 'Desarrollar una aplicación basada en Java SE / Swing y Hibernate para gestionar los puntos de ventas.'
+    },
+    {
+      'source': 'Prepare the definition and update of the source code of the internal corporate portals (intranets) and public of the company. Support the testing and implementation processes of the projects in which I was part.',
+      'target_es': 'Elaborar la definición y actualización del código fuente de los portales corporativos internos (intranets) y públicos de la empresa. Apoyar los procesos de prueba e implantación de los proyectos en los cuales fui parte.'
+    },
+    {
+      'source': 'Design and development of the Asterisk Panel application, an administration panel (dashboard) for Asterisk PBX, where you can manage extensions, VoIP trunks, Voice Mail, event reports, without the need for complex configurations.',
+      'target_es': 'Diseño y desarrollo de la aplicación Asterisk Panel, un panel (dashboard) de administración para PBX Asterisk, donde puede gestionar extensiones, troncales de VoIP, Voice Mail, reportes de eventos, sin la necesidad de realizar configuraciones complejas.'
+    },
 
-
-
-
-
-
+    {
+      'source': 'The technical migration of an outdated web application developed in PHP 4 and mysql to a platform based on PHP 5, Apache web server and PostgresSQL, used to manage network equipment and servers.',
+      'target_es': 'Migración técnica de una una aplicación web obsoleta desarrollada en PHP 4 y mysql a una plataforma basada en PHP 5, servidor web Apache y PostgresSQL, utilizada para la gestión de los equipos de redes y servidores.'
+    },
+    {
+     'source': 'Develop several modules (PDO / PHP5 and Oracle 10g) for the corporate intranet, where employees can visualize the payments of the last 100 days, see details of the payment, including the different discounts.',
+     'target_es': 'Desarrollar varios modulos (PDO/PHP5 y Oracle 10g)  para la intranet corporativa, donde los empleados pueden consultar los pagos de los últimos 100 días, ver detalle del pago, incluyendo los diferentes descuentos.'
+   },
   ]
 }
