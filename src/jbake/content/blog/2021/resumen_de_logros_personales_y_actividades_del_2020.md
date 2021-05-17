@@ -63,5 +63,5 @@ Leer mi publicación [Resumen JakartaOne Hispano 2020](/blog/2020/resumen-jakart
 A partir del mes de Junio estuve participando de forma regular en la iniciativa denominada **Mejorando habilidades Java en tiempos de cuarentena.** Ver publicación [Mejorando habilidades Java en tiempos de cuarentena 2020](/blog/2020/sesiones-aprendiendo-juntos-en-cuarentena.html).
 
 En varias oportunidades participé en actividades realizadas en conjunto con las comunidades de habla hispana (Latino América y España). Aprendí mucho sobre Herramientas de monitorización de la JVM y sobre cómo evolucionar nuestras api.
-![](/images/blog/2021/cf65397e-cede-4175-b6ae-4d13fe0330d4.008.jpg)
+![](/images/blog/2021/cf65397e-cede-4175-b6ae-4d13fe0330d4.008.jpeg)
 En conclusión, un año de muchas adversidades, pero también de logros y nuevas habilidades aprendidas.
