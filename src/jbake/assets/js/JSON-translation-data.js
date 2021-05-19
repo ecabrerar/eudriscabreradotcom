@@ -554,5 +554,14 @@ var linguJSON = {
      'source': 'Develop several modules (PDO / PHP5 and Oracle 10g) for the corporate intranet, where employees can visualize the payments of the last 100 days, see details of the payment, including the different discounts.',
      'target_es': 'Desarrollar varios modulos (PDO/PHP5 y Oracle 10g)  para la intranet corporativa, donde los empleados pueden consultar los pagos de los últimos 100 días, ver detalle del pago, incluyendo los diferentes descuentos.'
    },
+   {
+     'source': 'November 2020',
+     'target_es': 'Noviembre de 2020'
+   },
+   {
+     'source': '<strong>OWASP Secure Coding Practices</strong>',
+     'target_es': '<strong>Desarrollo de Software Seguro Basado en OWASP</strong>'
+   },
+
   ]
 }
