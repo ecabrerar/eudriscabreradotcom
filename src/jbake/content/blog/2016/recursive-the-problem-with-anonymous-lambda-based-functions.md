@@ -58,8 +58,7 @@ __The local variable factorial may not have been initialized__
 Lambdas are most often used to define anonymous functions. A recursive function must call itself. An
 anonymous lambda can’t call itself since it has no name, so it can’t be recursive.
 The problem above is that we are referencing a variable while initializing it. So it is not yet initialized.
-After spending a lot time trying to resolve the above error, I found the solution [here](https://
-pysaumont.github.io/2014/09/01/Recursive-lambdas-in-Java-8.html).
+After spending a lot time trying to resolve the above error, I found the solution [here](https://pysaumont.github.io/2014/09/01/Recursive-lambdas-in-Java-8.html).
 
 ```java
 import java.util.Scanner;
