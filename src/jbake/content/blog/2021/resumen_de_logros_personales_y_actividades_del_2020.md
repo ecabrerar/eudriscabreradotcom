@@ -18,7 +18,7 @@ A continuación mis logros personales más relevantes del 2020:
 
 A continuación un resumen de las actividades en las que tuve participación.
 
-####Febrero 2020
+#### Febrero 2020
 En febrero se celebró la primera versión del Global JUG Leaders Summit y DevNexus 2020.
 Este año DevNexus tenía algo especial, la celebración de los 25 años de Java.
 Muchas celebraciones, 10 secciones de forma simultáneas, gran cantidad de charlas interesantes, lamentablemente, no puede asistir a todas.
