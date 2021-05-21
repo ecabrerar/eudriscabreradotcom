@@ -562,6 +562,24 @@ var linguJSON = {
      'source': '<strong>OWASP Secure Coding Practices</strong>',
      'target_es': '<strong>Desarrollo de Software Seguro Basado en OWASP</strong>'
    },
+   {
+     'source': 'Hi, I\'m Eudris.',
+     'target_es': 'Hola, Soy Eudris.'
+   },
+   {
+     'source': 'Technologist Enthusiast and Open Source, baseball / softball lover and Latin dances (and rhythms).',
+     'target_es': 'Entusiasta de la tecnología y del código abierto, amante del béisbol / softbol y de los bailes (y ritmos) latinos.'
+   },
+
+   {
+     'source': 'I\'m frequently posting about Java, Linux, open source, computer science and other topics related to sports, music and our lifestyle.',
+     'target_es': 'Con frecuencia publico sobre Java, Linux, código abierto, ciencia de la computación y otros temas relacionados con los deportes, la música y nuestro estilo de vida.'
+   },
+
+   {
+     'source': 'Read my posts',
+     'target_es': 'Leer mis publicaciones'
+   },
 
   ]
 }

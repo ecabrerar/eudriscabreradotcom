@@ -13,15 +13,9 @@
 
 				<header class="special container">
 					<span class="icon solid fas fa-id-badge"></span>
-					<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
-					<br>
-					I decided to give it a really creative name.</h2>
-					<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
-					<br>
-					it's minimally designed, fully responsive, built on HTML5/CSS3,
-					and, like all my stuff,
-					<br>
-					released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
+
+					<h3>Hi, I'm Eudris.
+						<br>Technologist Enthusiast and Open Source, baseball / softball lover and Latin dances (and rhythms).</h3>
 
 				</header>
 
@@ -49,13 +43,11 @@
 			<section id="cta">
 
 				<header>
-					<h2>Ready to do <strong>something</strong>?</h2>
-					<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
+					<p>I'm frequently posting about Java, Linux, open source, computer science and other topics related to sports, music and our lifestyle.</p>
 				</header>
 				<footer>
 					<ul class="buttons">
-						<li><a href="#" class="button primary">Take My Money</a></li>
-						<li><a href="#" class="button">LOL Wut</a></li>
+						<li><a href="#" class="button primary">Read my posts</a></li>
 					</ul>
 				</footer>
 
