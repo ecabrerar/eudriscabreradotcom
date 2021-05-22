@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
 
-    var availableLanguages = ['es','es-ar','es-bo','es-cl','es-co','es-cr','es-do','es-ec','es-sv','es-gt','es-hn','es-mx','es-ni','es-pa','es-py','es-pe','es-pr','es-es','es-uy','es-ve'];
+  //  var availableLanguages = ['es','es-ar','es-bo','es-cl','es-co','es-cr','es-do','es-ec','es-sv','es-gt','es-hn','es-mx','es-ni','es-pa','es-py','es-pe','es-pr','es-es','es-uy','es-ve'];
     var ln = getFirstBrowserLanguage() || 'en'; //If no locale is detected, fallback to 'en'
 
   //  window.navigator.language||navigator.browserLanguage||navigator.userLanguage;
@@ -64,15 +64,21 @@ window.addEventListener('load', function() {
         console.log( 'SetCookie: '+ name +' set to "'+ value +'"', 'Expires?', expire_time );
     };
 
-    if(myApp.ReadCookie('lang_redirect')) {
+    if(myApp.ReadCookie('lang_redirect') && myApp.ReadCookie('lang_redirect')===ln) {
         return;
+    } else {
+      myApp.EraseCookie('lang_redirect');
     }
 
-    myApp.SetCookie('lang_redirect', ln);
+    myApp.SetCookie('lang_redirect', ln,300000); // expires milliseconds
 
-    if(availableLanguages.includes(ln)){
+    if(ln.startsWith("es")){
         window.location.href = 'index.html?lang=es';
-    }
+    }else if(ln.startsWith("en")){
+      window.location.href = 'index.html';
+    }else{
+     window.location.href = 'index.html'; 
+  }
 
 });
 
