@@ -1,9 +1,9 @@
 window.addEventListener('load', function() {
 
   //  var availableLanguages = ['es','es-ar','es-bo','es-cl','es-co','es-cr','es-do','es-ec','es-sv','es-gt','es-hn','es-mx','es-ni','es-pa','es-py','es-pe','es-pr','es-es','es-uy','es-ve'];
-    var ln = getFirstBrowserLanguage() || 'en'; //If no locale is detected, fallback to 'en'
+//    var ln = getFirstBrowserLanguage() || 'en'; //If no locale is detected, fallback to 'en'
 
-  //  window.navigator.language||navigator.browserLanguage||navigator.userLanguage;
+   var ln = window.navigator.language||navigator.browserLanguage||navigator.userLanguage;
 
     console.log("The language is: " + ln);
 
@@ -77,7 +77,7 @@ window.addEventListener('load', function() {
     }else if(ln.startsWith("en")){
       window.location.href = 'index.html';
     }else{
-     window.location.href = 'index.html'; 
+     window.location.href = 'index.html';
   }
 
 });
