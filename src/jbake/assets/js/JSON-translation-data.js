@@ -581,5 +581,27 @@ var linguJSON = {
      'target_es': 'Leer mis publicaciones'
    },
 
+   {
+     'source': 'Development of several components for the Electronic Payment Management System (Sistema Gestión de Pagos Electrónicos-SGPE), which provides the connection interfaces (Web Services based on JAX-WS) with external systems of entities that function as invoice collection agents, such as banks, pharmacies, internet banking, etc.',
+     'target_es': 'Desarrollo de varios componentes para el Sistema Gestión de Pagos Electrónicos (SGPE), quien provee las interfaces de conexión (Web Services basado en JAX-WS) con sistemas externos de entidades que funcionan como agentes de cobros de facturas, tales como bancos, farmacias, internet banking, etc.'
+   },
+
+   {
+     'source': 'Technologies: Java SE 7, Java EE 6, EJB 3, JAX-WS, SOAP, XML',
+     'target_es': 'Tecnologías:  Java SE 7,  Java EE 6, EJB 3, JAX-WS, SOAP, XML'
+   },
+
+   {
+     'source': 'Application Server: GlassFish Server Open Source Edition v3',
+     'target_es': 'Servidor de Aplicación: GlassFish Server Open Source Edition v3'
+   },
+   {
+     'source': 'Design and development of various components of a point of sale based on Java SE / Swing, JAX-WS and Jasper Report. The POS Bonoluz application was developed in order to collect customer bills under the energy subsidy program of the Dominican State called Bonoluz.',
+     'target_es': 'Diseño y desarrollo de varios componentes de un punto de venta basado en Java SE / Swing, JAX-WS y Jasper Report.  La aplicación POS Bonoluz fue desarrollado con la finalidad del cobro de las facturas de los clientes bajo el programa de subsidio energético del Estado Dominicano denominado Bonoluz.'
+   },
+   {
+     'source': 'Drafting of the technical documentation for the Electronic Payment Management System (Sistema Gestión de Pagos Electrónicos - SGPE) and user manual for the Bonoluz POS.',
+     'target_es': 'Redacción de la documentación técnica del Sistema Gestión de Pagos Electrónicos (SGPE) y manual de uso para el POS Bonoluz.'
+   },
   ]
 }
