@@ -14,15 +14,16 @@
 					</ul>
 
 					<ul class="copyright">
-						<li>&copy;2015 -
-							<script type="text/javascript">
-									var today = new Date();
-									document.write(today.getFullYear());
-							</script>
+						<li>&copy;2015 - <span id="year"></span>			
 
 							 Eudris Cabrera, CC BY-NC-SA 4.0</li>
 						<li>Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="https://html5up.net/twenty">HTML5 UP Twenty</a></li>
 					</ul>
+
+					<script type="text/javascript">
+							var today = new Date();
+							document.getElementById('year').innerHTML=today.getFullYear();
+					</script>
 
 				</footer>
 
