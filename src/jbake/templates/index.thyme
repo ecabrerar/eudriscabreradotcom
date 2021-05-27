@@ -29,7 +29,7 @@
 				</header>
 				<footer>
 					<ul class="buttons">
-						<li><a href="#" class="button primary">Read my posts</a></li>
+						<li><a href="/blog" class="button primary">Read my posts</a></li>
 					</ul>
 				</footer>
 
