@@ -1,8 +1,5 @@
 window.addEventListener('load', function() {
 
-  //  var availableLanguages = ['es','es-ar','es-bo','es-cl','es-co','es-cr','es-do','es-ec','es-sv','es-gt','es-hn','es-mx','es-ni','es-pa','es-py','es-pe','es-pr','es-es','es-uy','es-ve'];
-//    var ln = getFirstBrowserLanguage() || 'en'; //If no locale is detected, fallback to 'en'
-
    var ln = window.navigator.language||navigator.browserLanguage||navigator.userLanguage;
 
     console.log("The language is: " + ln);
@@ -64,13 +61,14 @@ window.addEventListener('load', function() {
         console.log( 'SetCookie: '+ name +' set to "'+ value +'"', 'Expires?', expire_time );
     };
 
-    if(myApp.ReadCookie('lang_redirect') && myApp.ReadCookie('lang_redirect')===ln) {
-        return;
-    } else {
+    if(!myApp.ReadCookie('lang_redirect')) {
+      myApp.SetCookie('lang_redirect', ln,300000); // expires milliseconds
+    } else if (myApp.ReadCookie('lang_redirect') && myApp.ReadCookie('lang_redirect') !==ln) {
       myApp.EraseCookie('lang_redirect');
+      myApp.SetCookie('lang_redirect', ln,300000); // expires milliseconds
+    } else if (myApp.ReadCookie('lang_redirect') && myApp.ReadCookie('lang_redirect')===ln) {
+       return;
     }
-
-    myApp.SetCookie('lang_redirect', ln,300000); // expires milliseconds
 
     if(ln.startsWith("es")){
         window.location.href = 'index.html?lang=es';
@@ -81,31 +79,3 @@ window.addEventListener('load', function() {
   }
 
 });
-
-
-var getFirstBrowserLanguage = function () {
-    var nav = window.navigator,
-    browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
-    i,
-    language;
-
-    // support for HTML 5.1 "navigator.languages"
-    if (Array.isArray(nav.languages)) {
-      for (i = 0; i < nav.languages.length; i++) {
-        language = nav.languages[i];
-        if (language && language.length) {
-          return language;
-        }
-      }
-    }
-
-    // support for other well known properties in browsers
-    for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
-      language = nav[browserLanguagePropertyKeys[i]];
-      if (language && language.length) {
-        return language;
-      }
-    }
-
-    return null;
-  };
