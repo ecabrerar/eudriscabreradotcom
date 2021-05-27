@@ -19,24 +19,6 @@
 
 				</header>
 
-				<!-- Two -->
-					<section class="wrapper style1 container special">
-						<header class="major">
-								<h2>Latest Post</h2>
-							</header>
-						<div class="row">
-							<div class="col-4 col-12-narrower" th:each="post, iterStat : ${published_posts}" th:if="${iterStat.index < 3}">
-								<section>
-									<span class="icon solid featured fa fa-link"></span>
-									<header>
-									<a th:href='${post.uri}' href='href'><h3 th:text='${post.title}'>This is Something</h3></a>
-									</header>
-									<p th:utext='${#dates.format(post.date,"dd MMMM yyyy")}'>date</p>
-								</section>
-							</div>
-						</div>
-					</section>
-
 			</article>
 
 		<!-- CTA -->
