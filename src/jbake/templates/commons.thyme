@@ -3,8 +3,6 @@
 		<body>
 	  <!-- Global site tag (gtag.js) - Google Analytics -->
 	  <script th:fragment="googleAnalytics" th:inline="javascript" th:if="${config.google_trackingID}">
-
-
 			var googleTrackingID = /*[[${config.google_trackingID}]]*/;
 
 		  document.addEventListener("DOMContentLoaded", function(event) {
@@ -22,6 +20,5 @@
 
 	      gtag('config', googleTrackingID);
 	  </script>
-
 	  </body>
 	  </html>
