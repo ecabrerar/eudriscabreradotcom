@@ -603,5 +603,29 @@ var linguJSON = {
      'source': 'Drafting of the technical documentation for the Electronic Payment Management System (Sistema Gestión de Pagos Electrónicos - SGPE) and user manual for the Bonoluz POS.',
      'target_es': 'Redacción de la documentación técnica del Sistema Gestión de Pagos Electrónicos (SGPE) y manual de uso para el POS Bonoluz.'
    },
+   {
+     'source': 'Name',
+      'target_es':'Nombre'
+   },
+   {
+     'source': 'Email',
+      'target_es':'Correo Electrónico'
+   },
+   {
+     'source': 'Which session did you attend?',
+      'target_es':'¿A qué sesión asististe?'
+   },
+   {
+     'source': 'At which event did you attend the session?',
+      'target_es':'At which event did you attend the session?'
+   },
+   {
+     'source': 'Feedback',
+      'target_es':'Mensaje'
+   },
+   {
+     'source': 'Send',
+      'target_es':'Enviar'
+   }
   ]
 }
