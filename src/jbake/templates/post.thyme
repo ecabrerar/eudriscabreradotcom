@@ -35,6 +35,8 @@
 							<li> | </li>
 							<li> 	<span><em th:text='${#dates.format(content.date,"dd MMMM yyyy")}'>date</em></span> </li>
 						</ul>
+						<div class="s9-widget-wrapper"></div>
+
 				</header>
 			</div>
 
@@ -45,7 +47,7 @@
 							<section>
 					   		<p th:remove="tag" th:utext='${content.body}'>body</p>
 							</section>
-						</div>
+							</div>
 					</div>
 				</div>
 				<div class="post_tags">
@@ -59,5 +61,7 @@
 		<div th:replace="footer.thyme::footer"></div>
 	</div>
 		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet">
+		<script id="s9-sdk" async defer content="474e726ed7c3481aa909061aaba635b9" src="//cdn.social9.com/js/socialshare.min.js"></script>
+
 	</body>
 	</html>
