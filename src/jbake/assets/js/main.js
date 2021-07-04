@@ -95,6 +95,24 @@
 
 		}
 
+    $(".collapsible .collapsible-header").click(function() {
+
+         var x = $(this).closest('div').next('.collapsible-body')[0];
+
+        var height = $(x).css( "height" );
+
+
+        if(height=="0px"){
+           $(x).css({"height":"auto"});
+           $(this).addClass('toggle-down');
+        }else {
+          $(x).css({"height":"0px"});
+          $(this).removeClass('toggle-down');
+        }
+
+
+    });
+
  function activeMenu() {
   var path = window.location.pathname;
   path = path.replace(/\/$/, "");
@@ -109,5 +127,4 @@
 
   });
 }
-
 })(jQuery);

@@ -3826,3 +3826,64 @@ input, select, textarea {
 	 border-width: 10px 0 10px 10px;
 	 border-color: transparent transparent transparent white;
 }
+
+.collapsible {
+  list-style:none;
+}
+
+.collapsible-header {
+  display: block;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-align: left;
+	text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+	width:auto;
+	min-width:min-content;
+	max-width:max-content;
+	overflow: hidden;
+}
+
+.collapsible-header:hover {
+	text-decoration: none;
+	border-bottom: dotted 1px;
+	width:auto;
+	min-width:min-content;
+  max-width:max-content;
+	overflow: hidden;
+}
+
+.collapsible-header::after {
+  content: ' ';
+  display: inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+  transition: transform .2s ease-out;
+	margin-left:5px;
+}
+
+
+.collapsible-body {
+  height:0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle-down::after {
+  content: ' ';
+  display: inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: rotate(90deg) translateX(-3px);
+  transition: transform .2s ease-out;
+	margin-left:5px;
+
+}
