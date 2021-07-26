@@ -625,7 +625,11 @@ var linguJSON = {
    },
    {
      'source': 'Send',
-      'target_es':'Enviar'
+     'target_es':'Enviar'
+   },
+   {
+     'source': 'Topics:',
+     'target_es':'Tópicos:'
    }
   ]
 }
