@@ -158,12 +158,12 @@ var linguJSON = {
       'target_es': 'Analista Programador en Edenorte Dominicana'
     },
     {
-      'source': 'Consultant Programmer Information System at Dominican Republic Financial Management Program / IDB - Ministry of Finance',
-      'target_es': 'Consultor Programador de Sistema de Información en Programa de Administracion Financiera Integrada (PAFI) / BID  - Ministerio de Hacienda, República Dominicana'
+      'source': 'Consultant Programmer Information System at Integrated Financial Administration Program [PAFI] - Ministry of Finance',
+      'target_es': 'Consultor Programador de Sistema de Información en Programa de Administracion Financiera Integrada [PAFI] - Ministerio de Hacienda, República Dominicana'
     },
     {
-      'source': 'Consultant / Software Developer at Dominican Republic Financial Management Program / IDB - Ministry of Finance',
-      'target_es': 'Consultor / Desarrollador Informático en Programa de Administracion Financiera Integrada (PAFI) / BID - Ministerio de Hacienda, República Dominicana'
+      'source': 'Consultant Software Developer at Integrated Financial Administration Program [PAFI] - Ministry of Finance',
+      'target_es': 'Consultor Desarrollador Informático en Programa de Administracion Financiera Integrada [PAFI]- Ministerio de Hacienda, República Dominicana'
     },
     {
       'source': 'Software Developer at Dominican Republic Ministry of Finance',
@@ -626,6 +626,38 @@ var linguJSON = {
    {
      'source': 'Send',
       'target_es':'Enviar'
-   }
+   },
+    {
+       'source': 'Our duties include take part in the development and maintenance projects of the software applications of the Integrated Financial Administration Program (PAFI)',
+        'target_es':'Participar en los proyectos de desarrollo y mantenimiento de las aplicaciones informáticas del Programa de Administración Financiera Integrada (PAFI)'
+     },
+     {
+       'source': 'Develop and maintenance the source code of the Compras y Contrataciones system and others subsystems in the Integrated Financial Management System (SIGEF), using Java SE 6 technologies, Oracle 11g Database and GNU/Linux Operating System.',
+        'target_es':'Definición y/o actualización del código fuente de los requerimientos solicitados para el sistema de Compras y Contrataciones y de los subsistemas que integran el Sistema Integrado de Gestión Financiera (SIGEF), utilizando tecnologías Java SE 6, Base de Datos Oracle 11g y Sistema Operativo GNU/Linux.'
+     },
+     {
+       'source': 'Support the testing and implementation processes of the requirements in which we take part.',
+        'target_es':'Apoyar los procesos de prueba e implantación de los requerimientos en en los que estuve trabajando.'
+     },
+     {
+       'source': 'Take part in the development and maintenance projects of the software applications of the Integrated Financial Administration Program (PAFI).',
+        'target_es':'Participar en los proyectos de desarrollo y mantenimiento de las aplicaciones informáticas del Programa de Administración Financiera Integrada (PAFI).'
+     },
+     {
+       'source': 'Develop and maintenance the source code of the requirements requested for the subsystems that compound the Integrated Financial Management System (SIGEF), using the technologies: Java SE 7, Java EE 6/7 (JAX-WS, SOAP, XML)  and application servers Weblogic and Wildfly (JBoss AS).',
+        'target_es':'Definición y/o actualización del código fuente de los requerimientos solicitados para los subsistemas que integran el Sistema Integrado de Gestión Financiera (SIGEF), utilizando tecnologías Java SE 7, Java EE 6/7 (JAX-WS, SOAP, XML) y servidores de aplicaciones Weblogic / Wildfly (JBoss AS).'
+     },
+     {
+       'source': 'Development of several components for the Centralización de Información Financiera del Estado (CIFE) project, technologies used includes: Java SE 7, Java EE 7 (JAX-WS, EJB 3) and the persistence core based on JPA + Hibernate 4.',
+        'target_es':'Desarrollo de varios componentes para el proyecto Centralización de Información Financiera del Estado (CIFE) utilizando tecnologías Java SE 7, Java EE 7 (JAX-WS, EJB 3) y el núcleo de persistencia basado en JPA + Hibernate 4.'
+     },
+     {
+       'source': 'Create the documentation for web services using Swagger.',
+        'target_es':'Documentar servicios web utilizando la herramienta Swagger.'
+     },
+     {
+       'source': 'Write the Integration Tests for Web Services using  Rest-assured.',
+        'target_es':'Definir pruebas de integración de servicios web utilizando la herramienta Rest-assured'
+     }
   ]
 }
