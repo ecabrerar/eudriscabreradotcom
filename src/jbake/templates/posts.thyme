@@ -13,10 +13,12 @@
 				<div class="topics">
 				    <nav class="topics_inner">
 				        <span class="topics_label">Topics:</span>
+						    <a href="/tags/Conferencias.html">Conferencias</a>
+						    <a href="/tags/Desarrollo-de-Software.html">Desarrollo de Software</a>
 								<a href="/tags/Java.html">Java</a>
+							  <a href="/tags/Linux.html">Linux</a>
 				        <a href="/tags/Open-Source.html">Open Source</a>
-				        <a href="/tags/Linux.html">Linux</a>
-				        <a href="/tags/Desarrollo-de-Software.html">Desarrollo de Software</a>
+
 				    </nav>
 				</div>
 
