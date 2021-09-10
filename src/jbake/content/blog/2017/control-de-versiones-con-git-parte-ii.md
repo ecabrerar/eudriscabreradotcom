@@ -267,7 +267,8 @@ Debido a que son tan similares, es muy fácil mezclar qué comando debe usarse e
 **Deshacer un commit específico**
 
 ```bash
-$ git checkout hotfix-broken-links git reset HEAD~2
+$ git checkout hotfix-broken-links
+$ git reset HEAD~2
 ```
 Los dos últimos commit que estaban al final de `hotfix-broken-links` ahora están colgando o como commits huérfanos.
 
