@@ -632,8 +632,8 @@ var linguJSON = {
      'target_es':'Tópicos:'
    },
    {
-    'source': 'Our duties include take part in the development and maintenance projects of the software applications of the Integrated Financial Administration Program (PAFI)',
-     'target_es':'Participar en los proyectos de desarrollo y mantenimiento de las aplicaciones informáticas del Programa de Administración Financiera Integrada (PAFI)'
+    'source': 'Our duties include take part in the development and maintenance projects of the software applications of the Integrated Financial Administration Program (PAFI).',
+     'target_es':'Participar en los proyectos de desarrollo y mantenimiento de las aplicaciones informáticas del Programa de Administración Financiera Integrada (PAFI).'
   },
 
   {
