@@ -1,0 +1,36 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<body>
+
+	<!-- Header -->
+	<header id="header" th:fragment="menu" th:remove="tag">
+		<h1 id="logo"><a href="/index.html">{eudriscabrera<span>.com</span>}</a></h1>
+		<nav id="nav">
+			<ul class="nav-menu">
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/about.html">About me</a></li>
+				<li><a href="/resume.html">Work / Experience</a></li>
+				<li><a href="/publications.html">Publications</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+				<li><a href="/blog" class="button primary">Blog</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Header -->
+	<header id="header" th:fragment="menu_es" th:remove="tag">
+		<h1 id="logo"><a href="/index.html">{eudriscabrera<span>.com</span>}</a></h1>
+		<nav id="nav">
+			<ul>
+				<li class="current"><a href="/index.html">Portada</a></li>
+				<li><a href="/es/about.html">Experiencia Laboral</a></li>
+				<li><a href="/index.html">Publicaciones</a></li>
+				<li><a href="/es/contact.html">Contacto</a></li>
+				<li><a href="/blog" class="button primary">Blog</a></li>
+			</ul>
+		</nav>
+	</header>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="header.thyme::head"/>
+<body class="no-sidebar" onload="prettyPrint()">
+	<div id="page-wrapper">
+
+		<header th:insert="menu.thyme::menu" id="header"/>
+
+		<p th:utext='${content.body}' th:remove="tag">body</p>
+		<div th:replace="footer.thyme::footer"></div>
+	</div>
+
+ <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.autocomplete.min.js'"></script>
+
+	<script type="text/javascript">
+
+  	document.addEventListener("DOMContentLoaded", function(event) {
+
+
+				const handleSubmit = (e) => {
+				 e.preventDefault()
+				 let myForm = document.getElementById('contact');
+				 let formData = new FormData(myForm);
+
+				 fetch('/', {
+					 method: 'POST',
+					 headers: { "Content-Type": "application/x-www-form-urlencoded" },
+					 body: new URLSearchParams(formData).toString()
+				 }).then(function (response) {
+	         if (!response.ok) {
+	             throw Error(response.statusText);
+	         }
+
+	        return response;
+	     }).then(() => {
+							processMessage('form-success');
+				      console.log('Form successfully submitted');
+
+				 }).catch((error) => {
+
+					 		 processMessage('form-error');
+						   console.log(error);
+				 });
+			 };
+
+
+/*
+	     document.querySelector("form").addEventListener("submit", handleSubmit);
+
+			 var ServiciosResult = [
+		 		{ value: 'Renovación Licencia de Conducir | Dirección General de Transito Terrestre'},
+		 		{ value: 'Renovación Licencia de centro bebidas alcocholicas | Ministerio de Interior y Policia'},
+		 		{ value: 'Renovación Pasaporte | Dirección General de Pasaporte'},
+		 		{ value: 'Renovación licencia de operación para escuelas de buceo persona física - MITUR'},
+		 		{ value: 'Renovación de licencia para operar transporte marítimo persona física - MITUR'},
+		 	];
+
+		 	// setup autocomplete function pulling from currencies[] array
+		 	$('#sessions-search-input').autocomplete({
+		 		lookup: ServiciosResult
+		 	});
+
+				function processMessage(container){
+					var element = document.getElementById(container);
+	        element.classList.remove("hidden");
+				}
+
+				*/
+
+				 var elems = document.querySelectorAll('.collapsible');
+
+				Array.from(elems).forEach(label => {
+						  label.addEventListener('keydown', e => {
+								    // 32 === spacebar
+								    // 13 === enter
+								    if (e.which === 32 || e.which === 13) {
+								      e.preventDefault();
+								      label.click();
+								    };
+								  });
+								});
+
+	   });
+		</script>
+	</body>
+	</html>

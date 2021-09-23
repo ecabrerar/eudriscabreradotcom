@@ -1,0 +1,28 @@
+plugins {
+    id 'org.jbake.site' version '5.4.0'
+}
+
+jbake {
+    clearCache = true
+    version  = '2.6.7'
+}
+
+
+
+bakePreview {
+    port = '8820'
+}
+
+task copyCname(type: Copy) {
+        from 'src/jbake/CNAME'
+        into "$buildDir/jbake/"
+}
+
+bake.finalizedBy(copyCname)
+
+bakePreview.dependsOn tasks.find{ it.name == 'bake' }
+
+task publish(type: GradleBuild) {
+    buildFile = 'publish.gradle'
+    tasks = ['gitPublishPush']
+}

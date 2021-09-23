@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="header.thyme::head"/>
+<body class="right-sidebar" onload="prettyPrint()">
+	<div id="page-wrapper">
+		<header th:insert="menu.thyme::menu" id="header"/>
+
+		<!-- Main -->
+		<article id="main">
+
+			<header class="special container">
+				<span class="icon solid fa-tablet-alt"></span>
+			</header>
+
+			<section class="style1 container special">
+					<div class="row">
+							<div class="col col-12-narrower">
+							  	<a href="/blog"><i class="fas fa-arrow-left"></i>All posts</a>
+							</div>
+	     	</div>
+    	</section>
+
+			<!-- One -->
+			<section class="wrapper style4 container">
+      <div class="row"  style="margin-bottom: 35px;">
+				<header>
+						<h2 th:text='${content.title}'>title</h2>
+						<ul class="list-inline">
+
+							<li><span th:with="author=(${content.author != null} ? ${content.author} + ' on ' : '')" th:text='${author}'>Author:</span></li>
+							<li th:each="tag : ${content.tags}">
+								<a th:with="rootpath=(${config.tag_path != null} ? '/'+ ${config.tag_path}+'/'+${tag}+'.html' : '')"
+									th:href="${rootpath}" href="#" th:utext='${tag}'></a>
+							</li>
+							<li> | </li>
+							<li> 	<span><em th:text='${#dates.format(content.date,"dd MMMM yyyy")}'>date</em></span> </li>
+						</ul>
+						<div class="s9-widget-wrapper"></div>
+
+				</header>
+			</div>
+
+				<div class="row gtr-150">
+					<div class="col-8 col-12">
+						<!-- Content -->
+						<div class="content">
+							<section>
+					   		<p th:remove="tag" th:utext='${content.body}'>body</p>
+							</section>
+							</div>
+					</div>
+				</div>
+				<div class="post_tags">
+						<a th:each="tag : ${tags}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+						th:href="${rootpath}+${tag.uri}" href="/tag/performance" th:utext="${# strings.replace (tag.name, '-', ' ')}"></a>
+				</div>
+			</section>
+
+		</article>
+
+		<div th:replace="footer.thyme::footer"></div>
+	</div>
+		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet">
+		<script id="s9-sdk" async defer content="474e726ed7c3481aa909061aaba635b9" src="//cdn.social9.com/js/socialshare.min.js"></script>
+
+	</body>
+	</html>

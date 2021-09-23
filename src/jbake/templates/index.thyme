@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+	<head th:replace="header.thyme::head"/>
+	<body class="index" onload="prettyPrint()">
+	<div id="page-wrapper">
+
+	<header th:insert="menu.thyme::menu" class="alt" id="header"/>
+
+	 <div th:replace="banner.thyme::banner"></div>
+
+		<!-- Main -->
+			<article id="main">
+
+				<header class="special container">
+					<span class="icon solid fas fa-id-badge"></span>
+
+					<h3>Hi, I'm Eudris.
+						<br>Technologist Enthusiast and Open Source, baseball / softball lover and Latin dances (and rhythms).</h3>
+
+				</header>
+
+			</article>
+
+		<!-- CTA -->
+			<section id="cta">
+
+				<header>
+					<p>I'm frequently posting about Java, Linux, open source, computer science and other topics related to sports, music and our lifestyle.</p>
+				</header>
+				<footer>
+					<ul class="buttons">
+						<li><a href="/blog" class="button primary">Read my posts</a></li>
+					</ul>
+				</footer>
+
+			</section>
+
+     <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/language-util.js'"></script>
+	   <div th:replace="footer.thyme::footer"></div>
+	    </div>
+    </body>
+</html>

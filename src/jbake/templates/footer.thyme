@@ -1,0 +1,51 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+	<body>
+		<div th:fragment="footer" th:remove="tag">
+				<!-- Footer -->
+				<footer id="footer">
+
+					<ul class="icons">
+						<li><a th:if="${config.twitter_username}" href="#" th:href="|https://twitter.com/${config.twitter_username}|" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a th:if="${config.github_username}" href="#" th:href="|http://github.com/${config.github_username}|"  class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+						<li><a th:if="${config.linkedin_username}" href="#" th:href="|http://linkedin.com/in/${config.linkedin_username}|" class="icon brands circle fa-linkedin"><span class="label">Linkedin</span></a></li>
+					  <li><a th:if="${config.site_email}"  href="#" th:href="|mailto:${config.site_email}|"><i class="icon circle fa fa-envelope"></i></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy;2015 - <span id="year"></span>			
+
+							 Eudris Cabrera, CC BY-NC-SA 4.0</li>
+						<li>Baked with <a href="http://jbake.org" target="_blank">JBake <span th:text='${version}'>version</span> </a> and <a href="https://html5up.net/twenty">HTML5 UP Twenty</a></li>
+					</ul>
+
+					<script type="text/javascript">
+							var today = new Date();
+							document.getElementById('year').innerHTML=today.getFullYear();
+					</script>
+
+				</footer>
+
+
+
+		    <!-- Le javascript
+		    ================================================== -->
+		    <!-- Placed at the end of the document so the pages load faster -->
+		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.min.js'"></script>
+	    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/bootstrap.min.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.dropotron.min.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.scrolly.min.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery.scrollex.min.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/browser.min.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/breakpoints.min.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/util.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/main.js'"></script>
+	    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/prettify.js'"></script>
+			<script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/JSON-translation-data.js'"></script>
+		  <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/lingumania.min.js'"></script>
+			<script th:replace="commons.thyme::googleAnalytics"></script>
+
+    	</div>
+  	</body>
+</html>

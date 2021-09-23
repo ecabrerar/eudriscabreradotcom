@@ -1,0 +1,113 @@
+= Introducción a Linux
+Eudris Cabrera
+2015-05-10
+:jbake-type: post
+:jbake-tags: Open Source, Linux, GNU Linux
+:jbake-status: published
+:jbake-author: Eudris Cabrera
+:description: Introducción a Linux
+:idprefix:
+:jbake-summary: En este artículo ofrecemos una breve introducción a Linux, + \
+haciendo enfásis en los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux.
+:sectnums:
+:sectnumlevels: 3
+
+[.lead]
+En este artículo ofrecemos una breve introducción a Linux,
+haciendo enfásis en los términos más comunes alrededor de Linux y las tres grandes familias de distribuciones disponibles en la comunidad de Linux.
+
+
+== ¿Qué es Linux?
+Para muchos esta parece ser una pregunta con una respuesta muy obvia, pero la verdad es que hay una gran cantidad de personas que no se atreven a reponder.
+Muchos de ellos nunca han oído hablar de Linux o no están seguros de su respuesta.
+Linux es un kernel libre de sistema operativo basado en Unix. Es uno de los principales ejemplos de software libre y de código abierto.
+El kernel Linux fue concebido por el entonces estudiante de ciencias de la computación finlandés
+Linus Torvalds en 1991.
+
+image::/images/blog/2015/391px-Linus_Torvalds-150x150.jpeg[]
+Linus Torvalds, Creador de Linux
+
+=== Manifiesto Linux
+
+El 26 de agosto de 1991, Linus Torvalds publicó en el grupo de noticias comp.os.minix el siguiente mensaje, conocido desde entonces como el Manifiesto de Linux.
+
+"Estoy haciendo un sistema operativo (gratuito, sólo un hobby, no será nada grande ni profesional como GNU) para clones AT 386(486). Llevo en ello desde abril y está empezando a estar listo.
+ Me gustaría saber su opinión sobre las cosas que les gustan o disgustan en minix, ya que mi SO tiene algún parecido con él.[...] Actualmente he portado bash(1.08) y gcc(1.40), y parece que las cosas funcionan. Esto implica que tendré algo práctico dentro de unos meses..."
+
+Linux consiguió rápidamente desarrolladores y usuarios que adoptaron códigos de otros proyectos de software libre para usarlo con el nuevo sistema operativo.
+
+El kernel Linux ha recibido contribuciones de miles de programadores de todo el mundo. Leer artículo http://www.linuxfoundation.org/news-media/infographics/who-writes-linux-2015[Who Writes Linux 2015]
+
+
+=== ¿Quién es el "dueño" de Linux?
+En virtud de su concesión de licencias de código abierto, Linux está disponible gratuitamente para cualquiera. Sin embargo, la marca en el nombre "Linux" es marca registrada de su creador, Linus Torvalds.
+
+El código fuente de Linux está bajo los derechos de autor por muchos autores individuales, y bajo la licencia GPLv2. Debido a que Linux tiene un número tan grande de contribuyentes a través de múltiples décadas de desarrollo, entrar en contacto con cada autor individual y conseguir un acuerdo a una nueva licencia es prácticamente imposible, por lo es casi seguro que Linux permanecerá bajo la licencia GPLv2 a perpetuidad.
+
+Linux se encuentra bajo la supervisión de http://www.linuxfoundation.org[Linux Foundation], un consorcio tecnológico sin fines de lucro establecido para adoptar el crecimiento de linux.
+
+image::/images/blog/2015/Linux-foundation-300x115.png[]
+
+=== ¿Quién usa Linux?
+Usted probablemente ya está usando Linux, ya sea que usted lo sepa o no. Entre uno y dos tercios de las páginas web en Internet son generados por servidores que corren sobre Linux.
+
+Las empresas y los individuos eligen Linux para sus servidores, ya que es seguro, y usted puede recibir un excelente apoyo de una gran comunidad de usuarios, además de empresas como https://canonical.com/[Canonical], http://www.opensuse.org/en/[SUSE] y https://www.redhat.com/en[Red Hat], que ofrecen soporte comercial.
+
+Muchos de los dispositivos que usted posee, probablemente, como los teléfonos Android, dispositivos de almacenamiento digitales, grabadoras de vídeo personales, cámaras, wearables, y mucho más, también usan Linux. Incluso su vehiculo podría estar corriendo Linux.
+
+== ¿Qué es una distribución Linux ?
+La palabra Linux se refiere técnicamente sólo al kernel o núcleo del sistema operativo. Es función del Kernel proveer a las otras partes y aplicaciones del sistema operativo de diferentes servicios esenciales como la gestión de la memoria o el almacenamiento en disco.
+
+A un conjunto de programas, herramientas y servicios que normalmente se agrupan con el kernel Linux para proporcionar todos los componentes necesarios de un sistema operativo completamente funcional se le denomina distribución.
+
+Una distribución de software basada en el kernel Linux, provee un instalador, el núcleo del sistema y un paquete de aplicaciones adicionales para satisfacer las necesidades de un grupo específico de usuarios.
+
+image::/images/blog/2015/AndroidProfileV6-150x150.jpg[]
+Android, sistema operativo para móviles (OS) basado en el kernel de Linux
+
+Algunas personas, especialmente los miembros de la Fundación para el Software Libre http://www.fsf.org/[Free Software Foundation], se refieren a esta colección como GNU/Linux, porque muchas de las herramientas incluidas son componentes de https://gnu.org[GNU].
+Sin embargo, no todas las instalaciones de Linux utilizan componentes de GNU como parte de su sistema operativo. https://www.android.com/[Android], por ejemplo, utiliza un kernel Linux, pero utiliza pocas herramientas  de GNU.
+
+
+=== Principales  Distribuciones
+Existen tres grandes familias de distribuciones:
+
+==== Basadas en Debian
+* Usada en servidores y escritorios.
+* Ubuntu, derivada de debian, muy popular en escritorios.
+
+image::/images/blog/2015/debian-300x145.jpeg[]
+http://www.debian.org[]
+
+==== Basadas en Fedora
+* Es la fuente de distribuciones como CentOS y Oracle Linux.
+* Se utiliza como base para RHEL (Red Hat Enterprise Linux)
+
+image::/images/blog/2015/fedoraLogo-300x91.jpg[]
+http://fedoraproject.org[]
+
+==== Open Suse
+* Muy similar a fedora, frecuentes actualizaciones, funcionalidades de última generación.
+* Es la fuente de la distribución Suse  Linux Enterprise Server
+
+image::/images/blog/2015/opensuse-logo-300x193.png[]
+http://www.opensuse.org/en/[]
+
+Más Información: http://distrowatch.com[]
+
+== Enlaces de Interés
+
+* https://opensource.com/life/15/5/introduction-linux-new-resource[]
+* http://www.maestrosdelweb.com/linus/[]
+* https://www.android.com/[]
+* http://www.fsf.org/[]
+* http://www.linuxfoundation.org[]
+* https://gnu.org[]
+* http://www.linuxfoundation.org/news-media/infographics/who-writes-linux-2015[]
+
+
+
+== ¿Desea obtener más información?
+Leer mis presentaciones en https://www.slideshare.net/eudris[Slideshare]
+
+* https://www.slideshare.net/eudris/introduccion-a-gnu-linux[Introduccion a GNU / Linux]

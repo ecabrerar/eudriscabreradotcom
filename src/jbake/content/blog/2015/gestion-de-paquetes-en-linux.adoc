@@ -1,0 +1,94 @@
+= Gestión de paquetes en Linux
+Eudris Cabrera
+2015-06-14
+:jbake-type: post
+:jbake-status: published
+:jbake-tags: RPM, TGZ, Linux, GNU Linux, DEB
+:jbake-author: Eudris Cabrera
+:description: Gestión de paquetes en Linux
+:idprefix:
+:jbake-summary: En artículos anteriores, Introducción a Linux y Entendiendo el sistema de archivo de Linux presentamos los términos más comunes alrededor de Linux,  las tres grandes familias de distribuciones disponibles en la comunidad  Linux y  como está organizado el sistema de archivo de Linux. En está  oportunidad vamos a presentar herramientas para la gestión de paquetes en Linux.
+:sectnumlevels: 3
+
+== ¿Qué es un Paquete ?
+
+image::/images/blog/2015/rpmtodeb-300x167.png[]
+
+
+Básicamente, un paquete es un conjunto de ficheros que forman una aplicación o una unión de varias aplicaciones relacionadas, normalmente formando un único fichero (denominado paquete), con un formato propio y normalmente comprimido, que es el que se distribuye, ya sea vía CD, disquete o mediante acceso a servicios de ftp o web.
+
+=== ¿Porqué son necesarios ?
+En cualquier distribución, los paquetes son el elemento básico para tratar las tareas de instalación de nuevo software, actualización del existente o eliminación del no utilizado.
+
+=== Ventajas
+El uso de paquetes facilita añadir o quitar software al considerarlo una unidad y no tener que trabajar con los ficheros individuales.
+
+=== Categorías
+En el contenido de la distribución (sus CD) los paquetes suelen estar agrupados por categorías como:
+
+* Base: paquetes indispensables para el funcionamiento del sistema (útiles, programas de inicio, bibliotecas
+de sistema);
+* Sistema: útiles de administración, comandos de utilidad;
+* Desarrollo (developement): útiles de programación: editores, compiladores, depuradores,…
+* Gráficos: controladores e interfaces gráficas, escritorios, gestores de ventanas, …
+* Otras categorías.
+
+Normalmente, para la instalación de un paquete será necesario efectuar una serie de pasos:
+
+* Previo (pre-instalación): comprobar que existe el software necesario (y con las versiones correctas) para su funcionamiento (dependencias),ya sean bibliotecas de sistema u otras aplicaciones que sean usadas por el software.
+* Descomprimir el contenido del paquete, copiando los ficheros a sus localizaciones definitivas, ya sean absolutas (tendrán una posición fija) o si se permite reubicarlas a otros directorios.
+* Post-Instalación: retocar los ficheros necesarios, configurar posibles parámetros del software, adecuarlo al sistema, …
+
+Dependiendo de los tipos de paquetes, estos pasos pueden ser automáticos en su mayoría (así es en el caso de RPM y DEB , o pueden necesitar hacerlos todos a mano (caso .tgz) dependiendo de las herramientas que proporciona la distribución.
+
+=== Paquete TGZ
+Los paquetes TGZ son quizás los de utilización más antigua.
+
+image::/images/blog/2015/tgz.png[]
+
+Las primeras distribuciones de GNU/Linux los utilizaban para instalar el software, y aún varias distribuciones los usan (por ejemplo, Slackware) y algunos UNIX comerciales.
+
+Son una combinación de ficheros unidos por el comando tar en un único fichero .tar, que luego ha sido comprimido por la utilidad gzip, suele aparecer con la extensión *.tgz* o bien *.tar.gz*.
+
+Asimismo, hoy en día es común encontrar los *tar.bz2* que utilizan en lugar de gzip otra utilidad llamada *bzip2*, que en algunos casos consigue mayor compresión del archivo
+
+Los paquetes TGZ son una herramienta básica a la hora de instalar software no organizado. Además, son una herramienta útil para realizar procesos de backup y restauración de archivos.
+
+=== Red Hat: paquetes RPM
+
+image::/images/blog/2015/rpm-package.png[]
+
+El sistema de paquetes RPM  creado por Red Hat supone un paso adelante, ya que incluye la gestión de dependencias y tareas de configuración del software.
+Además, el sistema guarda una pequeña base de datos con los paquetes ya instalados, que puede consultarse y se actualiza con las nuevas instalaciones.
+
+
+== Debian: Paquetes DEB
+En el nivel de línea de comandos dispone de dpkg, que es el comando de más bajo nivel, para gestionar directamente los paquetes DEB, típicamente *dpkg -i paquete.deb* para realizar la instalación.
+Pueden realizarse todo tipo de tareas, de información,instalación, borrado o cambios internos a los paquetes de software.
+
+image::/images/blog/2015/deb-package.png[]
+
+
+Otro nivel intermedio lo presentan las herramientas APT (la mayoría son comandos apt-xxx), donde se gestionan los paquetes a través de una lista de paquetes actuales y disponibles a partir de varias fuentes de software, ya sea desde los propios CD de la instalación, sitios ftp o web (HTTP).
+
+Esta gestión se hace de forma transparente, de manera que el sistema es independiente de las fuentes de software.
+La configuración del sistema APT se efectúa desde los archivos disponibles en */etc/apt*, donde */etc/apt/sources.list*
+
+*Los paquetes DEB de Debian es quizás el sistema de instalación más potente existente en GNU/Linux. Una prestación destacable es la independencia del sistema de las fuentes de los paquetes (mediante APT).*
+
+==== Referencias:
+Libros:
+
+GNU/Básico : Antonio Perpiñan
+http://codigolibre.org/[]
+
+After the software wars : Keith Curtis
+http://keithcu.com[]
+
+¿Desea obtener más información?
+Leer mis presentaciones en Slideshare
+
+* https://www.slideshare.net/eudris/introduccion-a-gnu-linux[Introduccion a GNU / Linux]
+* https://www.slideshare.net/eudris/estructura-del-sistema-de-archivos-gnu-linux[Estructura del sistema de archivos GNU/Linux]
+* https://www.slideshare.net/eudris/administracin-bsica-de-gnu-linux[Fundamentos de GNU/Linux]
+* https://www.slideshare.net/eudris/administracin-bsica-de-gnu-linux[Administración Básica de GNU/Linux]
