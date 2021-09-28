@@ -2,7 +2,7 @@ title=Resumen JConf Dominicana 2021
 date=2021-09-28
 type=post
 tags=Java, Jconf Dominicana, Conferencias, Latam
-status=draft
+status=published
 author=Eudris Cabrera
 description=Resumen JConf Dominicana 2021    
 summary=El sábado 31 de Julio del 2021 se celebró JConf Dominicana 2021. Debido a la pandemia de covid-19 se realizó en modalidad virtual.En esta publicación vamos a resumir los aspectos más destacados de JConf Dominicana 2021.
@@ -36,8 +36,8 @@ El keynote del evento estuvo enfocado en presentar las novedades de Java entre l
 
 Enlaces de Interés:
 
-- <https://ondro.inginea.eu/index.php/new-features-in-java-versions-since-java-8/> 
-- <https://javaalmanac.io/> 
+- <https://ondro.inginea.eu/index.php/new-features-in-java-versions-since-java-8/>
+- <https://javaalmanac.io/>
 
 
 **Implementando programación reactiva de forma fácil con Mutiny**
@@ -46,9 +46,9 @@ La programación reactiva es un paradigma enfocado en el trabajo con flujos de d
 
 Mutiny es una nueva librería de programación reactiva. Proporciona un modelo de desarrollo asincrónico simple pero potente que permite crear aplicaciones reactivas sin que el desarrollador tenga que tener conocimiento muy avanzado.
 
-Más detalles en: <https://smallrye.io/smallrye-mutiny/pages/philosophy> 
+Más detalles en: <https://smallrye.io/smallrye-mutiny/pages/philosophy>
 
-[**GraalVM](https://www.graalvm.org)**, la máquina virtual políglota, que pueden beneficiar a su organización hoy.**
+[GraalVM](https://www.graalvm.org)**, la máquina virtual políglota, que pueden beneficiar a su organización hoy.**
 
 GraalVM ofrece ventajas de uso en diferentes escenarios que pueden beneficiar a tu organización y proyectos de software.
 
@@ -58,7 +58,7 @@ Desde acelerar sus aplicaciones hasta usar múltiples lenguajes de programación
 
 [gRPC](https://grpc.io) es un mecanismo de transporte para caso de uso de petición/respuesta y flujo de datos. Puede ejecutarse en casi cualquier entorno con enlaces a muchos lenguajes de programación.
 
-Puede conectar servicios de manera eficiente en y entre centros de datos con soporte para balanceo de carga, rastreo, verificación de estado y autenticación. También es aplicable para la computación distribuida para conectar dispositivos, aplicaciones móviles y navegadores a servicios de backend.
+Puede conectar servicios de manera eficiente en y entre centros de datos con soporte para balanceo de carga, rastreo, verificación de estado y autenticación. También es aplicable para la computación distribuida, para conectar dispositivos, aplicaciones móviles y navegadores a servicios de backend.
 
 Tiene varias ventajas:
 
@@ -86,7 +86,7 @@ Async y Threading son palabras que a menudo asustan a los desarrolladores. En An
 
 Una corrutina es un patrón de diseño de simultaneidad que puedes usar en Android para simplificar el código que se ejecuta de forma asíncrona. Las corrutinas se agregaron a Kotlin en la versión 1.3 y se basan en conceptos establecidos de otros lenguajes.
 
-Más detalles en : ![](https://developer.android.com/kotlin/coroutines?hl=es-419) 
+Más detalles en : [https://developer.android.com/kotlin/coroutines?hl=es-419](https://developer.android.com/kotlin/coroutines?hl=es-419)
 
 **El ciclo de vida de la API deberá ser ágil para seguir siendo relevante.**
 
@@ -103,7 +103,7 @@ Dos enfoques para desarrollar API fueron evaluados: **Design First** ó **Code F
 
 **Se recomienda usar Design First**
 
-- ` `**Cuando la experiencia del desarrollador que implementa el API es importante.**
+-  **Cuando la experiencia del desarrollador que implementa el API es importante.**
 
 Una API bien diseñada puede hacer maravillas para la adopción y el consumo de sus API, y un buen diseño se puede lograr mejor con el enfoque Design First.
 
@@ -138,7 +138,7 @@ Esto es especialmente cierto si la API desarrollada es pequeña con solo unos po
 
 Todas las sesiones están disponibles en canal de  youtube de la comunidad Java Dominicano:
 
-[https://www.youtube.com/playlist?list=PLh4k7EswYO0SAcWATgHjspy0fUVIoNxT9](https://www.youtube.com/playlist?list=PLh4k7EswYO0SAcWATgHjspy0fUVIoNxT9) 
+[https://www.youtube.com/playlist?list=PLh4k7EswYO0SAcWATgHjspy0fUVIoNxT9](https://www.youtube.com/playlist?list=PLh4k7EswYO0SAcWATgHjspy0fUVIoNxT9)
 
 
 Esperamos contar con tu asistencia en próximas versiones de JConf Dominicana.
