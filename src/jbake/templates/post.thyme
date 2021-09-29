@@ -44,7 +44,7 @@
 					<div class="col-8 col-12">
 						<!-- Content -->
 						<div class="content">
-							<section>
+							<section class="post-body">
 					   		<p th:remove="tag" th:utext='${content.body}'>body</p>
 							</section>
 							</div>
