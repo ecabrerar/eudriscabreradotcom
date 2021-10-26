@@ -30,11 +30,11 @@ Este evento fue posible gracias a:
 
 A continuación el mapa con la ubicación de los asistentes:
 
-<img src="/images/blog/2021/jakartaone-hispano-2021-attendees.jpg" alt="Ubicación de asistentes al evento" style="width:86%;height:auto;">
+<img src="/images/blog/2021/jakartaone-hispano-2021-attendees.jpg" alt="Ubicación de asistentes al evento" style="width:100%;height:auto;">
 
 
-<table> <tr><td><img src="/images/blog/2021/analitycs_jakarta_attendees_location.jpg" style="width: 90%;"></td><td><img src="/images/blog/2021/analitycs_jakarta_resumen.jpg" style="width: 90%;"></td></tr>
-</table>
+<img src="/images/blog/2021/analitycs_jakarta_attendees_location.jpg" style="width: 100%;">
+<img src="/images/blog/2021/analitycs_jakarta_resumen.jpg" style="width: 100%;">
 
 
 Algunas de las comunidades amigas que apoyaron el evento
