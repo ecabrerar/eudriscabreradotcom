@@ -670,7 +670,21 @@ var linguJSON = {
   {
     'source': 'Write the Integration Tests for Web Services using  Rest-assured.',
      'target_es':'Definir pruebas de integración de servicios web utilizando la herramienta Rest-assured'
-  }
+  },
+  {
+    'source': 'Demo and Examples',
+     'target_es':'Demostración y Ejemplos'
+  },
+  {
+    'source': '<strong>Conferences and Presentations</strong>',
+     'target_es':'<strong>Conferencias y Presentaciones</strong>'
+  },
+
+  {
+    'source': ': <strong>Conferences and Presentations</strong>',
+     'target_es':': <strong>Conferencias y Presentaciones</strong>'
+  },
+
 
   ]
 }
