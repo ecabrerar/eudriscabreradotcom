@@ -529,13 +529,8 @@ var linguJSON = {
       'target_es': '<strong>Contribuir a proyectos</strong>'
     },
     {
-      'source': 'Develop several modules and participate in the process of implementation of the Warehouse Management System, a project based on Visual FoxPro and was migrated by our team to a platform based on Java SE / Swing technologies, Postgres SQL database, Jasper Report and GNU / Linux Operating System.',
-      'target_es': 'Desarrollar varios módulos y participar en el proceso de implantación del Sistema de Gestión de Almacen, un proyecto basado en Visual FoxPro y fue migrado por nuestro equipo a una plataforma basada en tecnologías  Java SE / Swing, base de datos Postgres SQL, Jasper Report y  Sistema Operativo GNU / Linux.'
-    },
-
-    {
-      'source': 'Develop an application based on Java SE / Swing and Hibernate to manage the points of sale.',
-      'target_es': 'Desarrollar una aplicación basada en Java SE / Swing y Hibernate para gestionar los puntos de ventas.'
+      'source': 'Developed components of the warehouse management, and points of sales systems.',
+      'target_es': 'Desarrollé varios módulos para el sistema de gestión de almacen y puntos de venta.'
     },
     {
       'source': 'Prepare the definition and update of the source code of the internal corporate portals (intranets) and public of the company. Support the testing and implementation processes of the projects in which I was part.',
@@ -551,140 +546,129 @@ var linguJSON = {
       'target_es': 'Migración técnica de una una aplicación web obsoleta desarrollada en PHP 4 y mysql a una plataforma basada en PHP 5, servidor web Apache y PostgresSQL, utilizada para la gestión de los equipos de redes y servidores.'
     },
     {
-     'source': 'Develop several modules (PDO / PHP5 and Oracle 10g) for the corporate intranet, where employees can visualize the payments of the last 100 days, see details of the payment, including the different discounts.',
-     'target_es': 'Desarrollar varios modulos (PDO/PHP5 y Oracle 10g)  para la intranet corporativa, donde los empleados pueden consultar los pagos de los últimos 100 días, ver detalle del pago, incluyendo los diferentes descuentos.'
-   },
-   {
-     'source': 'November 2020',
-     'target_es': 'Noviembre de 2020'
-   },
-   {
-     'source': '<strong>OWASP Secure Coding Practices</strong>',
-     'target_es': '<strong>Desarrollo de Software Seguro Basado en OWASP</strong>'
-   },
-   {
-     'source': 'Hi, I\'m Eudris.',
-     'target_es': 'Hola, Soy Eudris.'
-   },
-   {
-     'source': 'Technologist Enthusiast and Open Source, baseball / softball lover and Latin dances (and rhythms).',
-     'target_es': 'Entusiasta de la tecnología y del código abierto, amante del béisbol / softbol y de los bailes (y ritmos) latinos.'
-   },
+      'source': 'Develop several modules (PDO / PHP5 and Oracle 10g) for the corporate intranet, where employees can visualize the payments of the last 100 days, see details of the payment, including the different discounts.',
+      'target_es': 'Desarrollar varios modulos (PDO/PHP5 y Oracle 10g)  para la intranet corporativa, donde los empleados pueden consultar los pagos de los últimos 100 días, ver detalle del pago, incluyendo los diferentes descuentos.'
+    },
+    {
+      'source': 'November 2020',
+      'target_es': 'Noviembre de 2020'
+    },
+    {
+      'source': '<strong>OWASP Secure Coding Practices</strong>',
+      'target_es': '<strong>Desarrollo de Software Seguro Basado en OWASP</strong>'
+    },
+    {
+      'source': "Hi, I'm Eudris.",
+      'target_es': 'Hola, Soy Eudris.'
+    },
+    {
+      'source': 'Technologist Enthusiast and Open Source, baseball / softball lover and Latin dances (and rhythms).',
+      'target_es': 'Entusiasta de la tecnología y del código abierto, amante del béisbol / softbol y de los bailes (y ritmos) latinos.'
+    },
 
-   {
-     'source': 'I\'m frequently posting about Java, Linux, open source, computer science and other topics related to sports, music and our lifestyle.',
-     'target_es': 'Con frecuencia publico sobre Java, Linux, código abierto, ciencia de la computación y otros temas relacionados con los deportes, la música y nuestro estilo de vida.'
-   },
+    {
+      'source': "I'm frequently posting about Java, Linux, open source, computer science and other topics related to sports, music and our lifestyle.",
+      'target_es': 'Con frecuencia publico sobre Java, Linux, código abierto, ciencia de la computación y otros temas relacionados con los deportes, la música y nuestro estilo de vida.'
+    },
 
-   {
-     'source': 'Read my posts',
-     'target_es': 'Leer mis publicaciones'
-   },
+    {
+      'source': 'Read my posts',
+      'target_es': 'Leer mis publicaciones'
+    },
 
-   {
-     'source': 'Development of several components for the Electronic Payment Management System (Sistema Gestión de Pagos Electrónicos-SGPE), which provides the connection interfaces (Web Services based on JAX-WS) with external systems of entities that function as invoice collection agents, such as banks, pharmacies, internet banking, etc.',
-     'target_es': 'Desarrollo de varios componentes para el Sistema Gestión de Pagos Electrónicos (SGPE), quien provee las interfaces de conexión (Web Services basado en JAX-WS) con sistemas externos de entidades que funcionan como agentes de cobros de facturas, tales como bancos, farmacias, internet banking, etc.'
-   },
+    {
+      'source': 'Developed web services to provide integration with external systems of entities that function as invoice collection agents, such as banks, pharmacies, internet banking, etc.',
+      'target_es': 'Desarrollé servicios web para permitir integración con sistemas externos de entidades que funcionan como agentes de cobro de facturas, como bancos, farmacias, banca por Internet, etc.'
+    },
 
-   {
-     'source': 'Technologies: Java SE 7, Java EE 6, EJB 3, JAX-WS, SOAP, XML',
-     'target_es': 'Tecnologías:  Java SE 7,  Java EE 6, EJB 3, JAX-WS, SOAP, XML'
-   },
+    {
+      'source': 'Planning and documenting technical specifications for features or system design.',
+      'target_es': 'Planificación y documentación de especificaciones técnicas para funcionalidades o diseño de sistemas.'
+    },
 
-   {
-     'source': 'Application Server: GlassFish Server Open Source Edition v3',
-     'target_es': 'Servidor de Aplicación: GlassFish Server Open Source Edition v3'
-   },
-   {
-     'source': 'Design and development of various components of a point of sale based on Java SE / Swing, JAX-WS and Jasper Report. The POS Bonoluz application was developed in order to collect customer bills under the energy subsidy program of the Dominican State called Bonoluz.',
-     'target_es': 'Diseño y desarrollo de varios componentes de un punto de venta basado en Java SE / Swing, JAX-WS y Jasper Report.  La aplicación POS Bonoluz fue desarrollado con la finalidad del cobro de las facturas de los clientes bajo el programa de subsidio energético del Estado Dominicano denominado Bonoluz.'
-   },
-   {
-     'source': 'Drafting of the technical documentation for the Electronic Payment Management System (Sistema Gestión de Pagos Electrónicos - SGPE) and user manual for the Bonoluz POS.',
-     'target_es': 'Redacción de la documentación técnica del Sistema Gestión de Pagos Electrónicos (SGPE) y manual de uso para el POS Bonoluz.'
-   },
-   {
-     'source': 'Name',
-      'target_es':'Nombre'
-   },
-   {
-     'source': 'Email',
-      'target_es':'Correo Electrónico'
-   },
-   {
-     'source': 'Which session did you attend?',
-      'target_es':'¿A qué sesión asististe?'
-   },
-   {
-     'source': 'At which event did you attend the session?',
-      'target_es':'At which event did you attend the session?'
-   },
-   {
-     'source': 'Feedback',
-      'target_es':'Mensaje'
-   },
-   {
-     'source': 'Send',
-     'target_es':'Enviar'
-   },
-   {
-     'source': 'Topics:',
-     'target_es':'Tópicos:'
-   },
-   {
-    'source': 'Our duties include take part in the development and maintenance projects of the software applications of the Integrated Financial Administration Program (PAFI).',
-     'target_es':'Participar en los proyectos de desarrollo y mantenimiento de las aplicaciones informáticas del Programa de Administración Financiera Integrada (PAFI).'
-  },
+    {
+      'source': 'Designed and developed components of a point of sales application.',
+      'target_es': 'Diseño y desarrollo de componentes de una aplicación de punto de venta.'
+    },
+    {
+      'source': 'Name',
+      'target_es': 'Nombre'
+    },
+    {
+      'source': 'Email',
+      'target_es': 'Correo Electrónico'
+    },
+    {
+      'source': 'Which session did you attend?',
+      'target_es': '¿A qué sesión asististe?'
+    },
+    {
+      'source': 'At which event did you attend the session?',
+      'target_es': 'At which event did you attend the session?'
+    },
+    {
+      'source': 'Feedback',
+      'target_es': 'Mensaje'
+    },
+    {
+      'source': 'Send',
+      'target_es': 'Enviar'
+    },
+    {
+      'source': 'Topics:',
+      'target_es': 'Tópicos:'
+    },
+    {
+      'source': 'Our duties include take part in the development and maintenance projects of the software applications of the Integrated Financial Administration Program (PAFI).',
+      'target_es': 'Participar en los proyectos de desarrollo y mantenimiento de las aplicaciones informáticas del Programa de Administración Financiera Integrada (PAFI).'
+    },
 
-  {
-    'source': 'Develop and maintenance the source code of the Compras y Contrataciones system and others subsystems in the Integrated Financial Management System (SIGEF), using Java SE 6 technologies, Oracle 11g Database and GNU/Linux Operating System.',
-     'target_es':'Definición y/o actualización del código fuente de los requerimientos solicitados para el sistema de Compras y Contrataciones y de los subsistemas que integran el Sistema Integrado de Gestión Financiera (SIGEF), utilizando tecnologías Java SE 6, Base de Datos Oracle 11g y Sistema Operativo GNU/Linux.'
-  },
+    {
+      'source': 'Develop and maintenance the source code of the Compras y Contrataciones system and others subsystems in the Integrated Financial Management System (SIGEF), using Java SE 6 technologies, Oracle 11g Database and GNU/Linux Operating System.',
+      'target_es': 'Definición y/o actualización del código fuente de los requerimientos solicitados para el sistema de Compras y Contrataciones y de los subsistemas que integran el Sistema Integrado de Gestión Financiera (SIGEF), utilizando tecnologías Java SE 6, Base de Datos Oracle 11g y Sistema Operativo GNU/Linux.'
+    },
 
-  {
-    'source': 'Support the testing and implementation processes of the requirements in which we take part.',
-     'target_es':'Apoyar los procesos de prueba e implantación de los requerimientos en en los que estuve trabajando.'
-  },
+    {
+      'source': 'Support the testing and implementation processes of the requirements in which we take part.',
+      'target_es': 'Apoyar los procesos de prueba e implantación de los requerimientos en en los que estuve trabajando.'
+    },
 
+    {
+      'source': 'Take part in the development and maintenance projects of the software applications of the Integrated Financial Administration Program (PAFI).',
+      'target_es': 'Participar en los proyectos de desarrollo y mantenimiento de las aplicaciones informáticas del Programa de Administración Financiera Integrada (PAFI).'
+    },
 
-  {
-    'source': 'Take part in the development and maintenance projects of the software applications of the Integrated Financial Administration Program (PAFI).',
-     'target_es':'Participar en los proyectos de desarrollo y mantenimiento de las aplicaciones informáticas del Programa de Administración Financiera Integrada (PAFI).'
-  },
+    {
+      'source': 'Develop and maintenance the source code of the requirements requested for the subsystems that compound the Integrated Financial Management System (SIGEF), using the technologies: Java SE 7, Java EE 6/7 (JAX-WS, SOAP, XML)  and application servers Weblogic and Wildfly (JBoss AS).',
+      'target_es': 'Definición y/o actualización del código fuente de los requerimientos solicitados para los subsistemas que integran el Sistema Integrado de Gestión Financiera (SIGEF), utilizando tecnologías Java SE 7, Java EE 6/7 (JAX-WS, SOAP, XML) y servidores de aplicaciones Weblogic / Wildfly (JBoss AS).'
+    },
 
+    {
+      'source': 'Development of several components for the Centralización de Información Financiera del Estado (CIFE) project, technologies used includes: Java SE 7, Java EE 7 (JAX-WS, EJB 3) and the persistence core based on JPA + Hibernate 4.',
+      'target_es': 'Desarrollo de varios componentes para el proyecto Centralización de Información Financiera del Estado (CIFE) utilizando tecnologías Java SE 7, Java EE 7 (JAX-WS, EJB 3) y el núcleo de persistencia basado en JPA + Hibernate 4.'
+    },
 
-  {
-    'source': 'Develop and maintenance the source code of the requirements requested for the subsystems that compound the Integrated Financial Management System (SIGEF), using the technologies: Java SE 7, Java EE 6/7 (JAX-WS, SOAP, XML)  and application servers Weblogic and Wildfly (JBoss AS).',
-     'target_es':'Definición y/o actualización del código fuente de los requerimientos solicitados para los subsistemas que integran el Sistema Integrado de Gestión Financiera (SIGEF), utilizando tecnologías Java SE 7, Java EE 6/7 (JAX-WS, SOAP, XML) y servidores de aplicaciones Weblogic / Wildfly (JBoss AS).'
-  },
+    {
+      'source': 'Create the documentation for web services using Swagger.',
+      'target_es': 'Documentar servicios web utilizando la herramienta Swagger.'
+    },
+    {
+      'source': 'Write the Integration Tests for Web Services using  Rest-assured.',
+      'target_es': 'Definir pruebas de integración de servicios web utilizando la herramienta Rest-assured'
+    },
+    {
+      'source': 'Demo and Examples',
+      'target_es': 'Demostración y Ejemplos'
+    },
+    {
+      'source': '<strong>Conferences and Presentations</strong>',
+      'target_es': '<strong>Conferencias y Presentaciones</strong>'
+    },
 
-  {
-    'source': 'Development of several components for the Centralización de Información Financiera del Estado (CIFE) project, technologies used includes: Java SE 7, Java EE 7 (JAX-WS, EJB 3) and the persistence core based on JPA + Hibernate 4.',
-     'target_es':'Desarrollo de varios componentes para el proyecto Centralización de Información Financiera del Estado (CIFE) utilizando tecnologías Java SE 7, Java EE 7 (JAX-WS, EJB 3) y el núcleo de persistencia basado en JPA + Hibernate 4.'
-  },
-
-  {
-    'source': 'Create the documentation for web services using Swagger.',
-     'target_es':'Documentar servicios web utilizando la herramienta Swagger.'
-  },
-  {
-    'source': 'Write the Integration Tests for Web Services using  Rest-assured.',
-     'target_es':'Definir pruebas de integración de servicios web utilizando la herramienta Rest-assured'
-  },
-  {
-    'source': 'Demo and Examples',
-     'target_es':'Demostración y Ejemplos'
-  },
-  {
-    'source': '<strong>Conferences and Presentations</strong>',
-     'target_es':'<strong>Conferencias y Presentaciones</strong>'
-  },
-
-  {
-    'source': ': <strong>Conferences and Presentations</strong>',
-     'target_es':': <strong>Conferencias y Presentaciones</strong>'
-  },
-
+    {
+      'source': ': <strong>Conferences and Presentations</strong>',
+      'target_es': ': <strong>Conferencias y Presentaciones</strong>'
+    }
 
   ]
 }
