@@ -5,6 +5,7 @@ tags=Git,Control de Versiones,Desarrollo de Software
 status=published
 author=Eudris Cabrera
 description=Control de Versiones con git Parte I.    
+shareimage=images/blog/2017/git-logo.png  
 summary=En artículos anteriores presentamos varias opciones para el manejo y administración de código fuente utilizando sistemas de control de versiones de código abierto. En esta ocasión vamos a presentar como realizar control de versiones usando Git.
 ~~~~~~
 

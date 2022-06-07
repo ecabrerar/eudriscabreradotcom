@@ -5,6 +5,7 @@ tags=Java, Devnexus, Conferencias, JUG
 status=published
 author=Eudris Cabrera
 description=Resumen Global JUG Leaders Summit & DevNexus 2021
+shareimage=images/blog/2021/023f8b46-9252-4ef4-be95-88d3b8ef6fbe.003.jpeg
 summary=Después del éxito del primer Global JUG Leaders Summit en 2020, Atlanta JUG decidió organizar un JUG Leaders Summit de forma virtual debido a la pandemia del covid-19.Del 16 al 17 de febrero del 2021 se llevó a cabo el Global JUG Leaders Summit y Devnexus 2021.
 ~~~~~~
 Del 16 al 17 de febrero del 2021 se llevó a cabo el **Global JUG Leaders Summit** y **Devnexus 2021**.

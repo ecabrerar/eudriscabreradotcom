@@ -5,6 +5,7 @@ tags=Java, Conferencias, JUG
 status=published
 author=Eudris Cabrera
 description=Resumen de logros personales y actividades del 2020
+shareimage=images/blog/2021/cf65397e-cede-4175-b6ae-4d13fe0330d4.002.jpeg
 summary=El 2020 fue un año atípico, donde la humanidad fue puesta a prueba en todos los sentidos y nos tomará años poder superar las secuelas de la pandemia. Especialmente en un año como el 2020, es saludable y de mucha utilidad recordar todas las cosas que sucedieron y los logros que hemos alcanzado.
 ~~~~~~
 El 2020 fue un año atípico, donde la humanidad fue puesta a prueba en todos los sentidos y nos tomará años poder superar las secuelas de la pandemia. Especialmente en un año como el 2020, es saludable y de mucha utilidad recordar todas las cosas que sucedieron y los logros que hemos alcanzado.

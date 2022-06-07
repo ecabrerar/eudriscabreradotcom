@@ -4,7 +4,8 @@ type=post
 tags=REST,Servicios Web, HTTP,Desarrollo de Software
 status=published
 author=Eudris Cabrera
-description=Servicios REST en Java.    
+description=Servicios REST en Java.  
+shareimage=images/blog/2017/rest-api-diagram.jpg   
 summary=Los servicios web (en inglés, Web service) son utilizados para intercambiar datos entre aplicaciones. Esto conlleva la utilización de un conjunto de estándares y protocolos. En la década de 2000s, surgió una nueva forma de crear servicios web, a esta arquitectura se le denominó REST (Representational State Transfer). Dicha arquitectura utiliza los métodos del protocolo HTTP (GET, POST, PUT, DELETE, etc) para realizar diferentes operaciones entre la aplicación que ofrece el servicio web y el cliente. En este artículo nos vamos a enfocar en cómo desarrollar Servicios REST en Java.
 ~~~~~~
 Los servicios web (en inglés, Web service) son utilizados para intercambiar datos entre aplicaciones. Esto conlleva la utilización de un conjunto de estándares y protocolos. En la década de 2000s, surgió una nueva forma de crear servicios web, a esta arquitectura se le denominó REST (Representational State Transfer). Dicha arquitectura utiliza los métodos del protocolo HTTP (GET, POST, PUT, DELETE, etc) para realizar diferentes operaciones entre la aplicación que ofrece el servicio web y el cliente.

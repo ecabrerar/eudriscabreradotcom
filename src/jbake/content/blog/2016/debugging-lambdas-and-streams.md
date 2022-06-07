@@ -5,6 +5,7 @@ tags=debugging, lambda expressions, stream api,javase8
 status=published
 author=Eudris Cabrera
 description=Debugging Lambdas and Streams [EN]
+shareimage=images/blog/2016/debugging.png
 ~~~~~~
 Streams provide a high level abstraction. This is good for making code clear and easy to understand, but it is bad for debugging. But the __peek()__ method can be used to find what is happening between methods.
 

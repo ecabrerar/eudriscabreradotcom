@@ -5,6 +5,7 @@ tags=Java, JUG, Conferencias, Latam, JDK
 status=published
 author=Eudris Cabrera
 description=Mejorando habilidades Java en tiempos de cuarentena 2021
+shareimage=images/blog/2022/9a39dd30-f6b9-4fd2-aecb-551114a92a2b.002.jpg
 summary=Continuando con las sesiones para mejorar nuestras habilidades Java en tiempos de cuarentena, el 2021 inició con una sesión sobre Tareas Asíncronas en Java, luego de esta primera sesión, iniciamos una serie de presentaciones sobre los principios SOLID y Patrones de Diseño..
 ~~~~~~
 La primera sesión del 2021 se realizó el 27 de enero de 2021 con la participación de las comunidades Java de Nicaragua, Bogotá, Bolivia, Medellín, México, Mérida, Buenos Aires, República Dominicana y Guadalajara.

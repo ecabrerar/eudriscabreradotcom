@@ -4,7 +4,8 @@ type=post
 tags=Spring Boot,Java, Aplicación Web,Desarrollo de Software
 status=published
 author=Eudris Cabrera
-description=Introducción a Spring Boot.    
+description=Introducción a Spring Boot.  
+shareimage=images/blog/2018/what-is-spring-boot.png  
 summary=Spring Boot proporciona una forma más sencilla y rápida de inicializar, configurar, ejecutar aplicaciones simples y aplicaciones web complejas en Java. En este artículo vamos a conocer las principales bondades que nos brinda Spring Boot.
 ~~~~~~
 El desarrollo web evoluciona muy rápido y con frecuencia vemos que una herramienta que era bastante útil y usada, varios años después pierde la relevancia que tenía en años anteriores. El ecosistema Java no ha estado exento de esa realidad.

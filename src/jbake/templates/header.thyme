@@ -3,11 +3,12 @@
 	<head th:fragment="head">
 	    <meta charset="utf-8">
 			<title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
-	    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" >
+	    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 			<meta name="description" content="" th:content="${content.description} ?: ${config.site_description}">
   		<meta name="author" content="" th:content="${content.author} ?: ${config.site_author}">
-	    <meta name="keywords" content="">
+	    <meta name="keywords" content="" th:content="${#strings.unescapeJava(content.tags)}">
 	    <meta name="generator" content="JBake">
+
 
 			<!--Facebook Card-->
 			<meta property="og:site_name" content="Eudris Cabrera Personal Site">
@@ -17,7 +18,7 @@
 			<meta property="og:image" content="https://eudriscabrera.com/images/banner.jpg"
 			th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))"
 			th:content="|${config.site_host}/${cover}|">
-	    <meta property="og:url" content="https://eudriscabrera.com">
+	    <meta property="og:url" content="https://eudriscabrera.com" th:with="uri=${content.uri}" th:content="|${config.site_host}/${uri}">
 
 			<!--Twitter card -->
 			<th:block th:if="${config.twitter_username}">
@@ -28,7 +29,7 @@
 				<meta name="twitter:image" content="https://eudriscabrera.com/images/banner.jpg"
 				th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))"
 				th:content="|${config.site_host}/${cover}|">
-				<meta name="twitter:url" content="https://eudriscabrera.com">
+				<meta name="twitter:url" content="https://eudriscabrera.com" th:with="uri=${content.uri}" th:content="|${config.site_host}/${uri}">
 				<meta name="twitter:site" content="@eudriscabrera">
 				<meta property="og:image:width" content="581">
 				<meta property="og:image:height" content="581">

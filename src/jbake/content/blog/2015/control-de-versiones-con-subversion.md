@@ -4,7 +4,8 @@ type=post
 tags=Subversion,SVN, Control de Versiones
 status=published
 author=Eudris Cabrera
-description=Control de versiones usando Subversion.    
+description=Control de versiones usando Subversion.   
+shareimage=images/blog/2015/esquema_pe-300x132.gif
 summary= En artículos anteriores presentamos varias opciones para el manejo y administración de código fuente utilizando sistemas de control de versiones de código abierto. En esta ocasión vamos a presentar como realizar control de versiones usando Subversion.
 ~~~~~~
 
