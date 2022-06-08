@@ -4,7 +4,8 @@ type=post
 tags=Java, Jconf Dominicana, Conferencias, Latam
 status=published
 author=Eudris Cabrera
-description=Resumen JConf Dominicana 2021    
+description=Resumen JConf Dominicana 2021   
+shareimage=images/blog/2021/72feebe9-b956-4565-b5da-5624eeac7ae0.001.jpeg 
 summary=El sábado 31 de Julio del 2021 se celebró JConf Dominicana 2021. Debido a la pandemia de covid-19 se realizó en modalidad virtual.En esta publicación vamos a resumir los aspectos más destacados de JConf Dominicana 2021.
 ~~~~~~
 

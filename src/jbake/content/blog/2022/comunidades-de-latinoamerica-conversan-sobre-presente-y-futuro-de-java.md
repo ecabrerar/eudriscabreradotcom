@@ -5,6 +5,7 @@ tags=Java, JUG, Conferencias, Latam, JDK
 status=published
 author=Eudris Cabrera
 description=Comunidades de Latinoamérica conversan sobre el presente y futuro de Java
+shareimage=images/blog/2022/FS4FJi_WYAAV6VN.jpeg
 summary=Para celebrar el cumpleaños 27 de Java se realizó una desconferencia sobre el presente y futuro de Java con la participación de las comunidades Java de Nicaragua, Bogotá, Bolivia, Medellín, México, Mérida, Ecuador, Buenos Aires, Guadalajara y República Dominicana.
 ~~~~~~
 El pasado miércoles 18 de mayo de 2022 se realizó una desconferencia sobre el presente y futuro de Java con la participación de las comunidades Java de Nicaragua, Bogotá, Bolivia, Medellín, México, Mérida, Ecuador, Buenos Aires, Guadalajara y República Dominicana.

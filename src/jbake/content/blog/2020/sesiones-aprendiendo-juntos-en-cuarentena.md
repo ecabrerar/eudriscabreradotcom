@@ -5,6 +5,7 @@ tags=Java, JUG, Conferencias, Latam
 status=published
 author=Eudris Cabrera
 description=Mejorando habilidades Java en tiempos de cuarentena 2020
+shareimage=images/blog/2020/3ccf6c38-9a83-4d83-8d5d-f9446c4c8b42.004.jpeg
 summary=Las medidas establecidas a causa de la pandemia del Covid-19 motivó a mover los eventos a modalidad virtual. Las comunidades de desarrolladores de software buscaron diferentes alternativas para poder continuar realizando reuniones, ahora en modalidad virtual. En mayo de 2020, las comunidades de Medellín y República Dominicana se reunieron para evaluar una propuesta de trabajar juntos reuniones virtuales que fueran interactivas y que no necesiten mucha inversión de tiempo para la preparación de la misma. De esa reunión nació una serie de reuniones virtuales denominada "Mejorando habilidades Java en tiempos de cuarentena".
 ~~~~~~
 

@@ -5,6 +5,7 @@ tags=Jakarta EE,Java EE, Microprofile, Conferencias
 status=published
 author=Eudris Cabrera
 description=Resumen JakartaOne Hispano 2020
+shareimage=images/blog/2020/jakartaone-hispano-2020-speakers.jpg
 summary=El 12 de octubre del 2020 se realizó la conferencia virtual JakartaOne en Español (JakartaOne Livestream en Español). Una conferencia sobre Jakarta EE que une a los países de habla hispana.
 ~~~~~~
 

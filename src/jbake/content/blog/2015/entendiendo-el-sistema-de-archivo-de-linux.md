@@ -5,6 +5,7 @@ tags=Open Source, Linux, GNU Linux
 status=published
 author=Eudris Cabrera
 description=Entendiendo el sistema de archivo de Linux
+shareimage=images/blog/2015/Linux-Directory-Structure-300x243.jpeg
 summary= En ésta publicación vamos a explorar como está organizado el sistema de archivo de Linux. Dando a conocer los aspectos más relevantes.
 ~~~~~~
 

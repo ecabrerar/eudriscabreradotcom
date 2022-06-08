@@ -4,7 +4,8 @@ type=post
 tags=Java, Jconf Colombia, Conferencias, Latam, Colombia
 status=published
 author=Eudris Cabrera
-description=Resumen JConf Colombia 2019    
+description=Resumen JConf Colombia 2019  
+shareimage=images/blog/2019/0013ab14-be31-45d8-ac71-2332895a2e96.004.jpg
 summary=Los días 5 y 6 Julio se celebró JConf Colombia 2019 en la ciudad de Medellín, Colombia.Conferencistas de renombre internacional, líderes de grupos de usuarios Java, empresas, estudiantes y profesionales asistieron a este gran evento. Estuve presente en este evento como charlista y como uno de los representantes de la comunidad de usuarios Java de República Dominicana (JavaDominicano). Además de participar en la conferencia, realizamos un recorrido por varios lugares de Medellín y Bogotá.
 ~~~~~~
 

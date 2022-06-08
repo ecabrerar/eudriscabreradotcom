@@ -4,7 +4,8 @@ type=post
 tags=Apache Maven,MVN, Maven
 status=published
 author=Eudris Cabrera
-description=Primeros Pasos con Apache Maven    
+description=Primeros Pasos con Apache Maven  
+shareimage=images/blog/2015/apache_maven-300x104.png  
 summary=Si has trabajado alguna vez en la plataforma Java, o tienes pensado hacerlo, te presentamos la herramienta Apache Maven,  mejor conocido entre los programadores como Maven. En esta publicación pretendemos introducir el manejo de proyecto usando Maven, así como también, conocer los valores inmediatos que Maven puede ofrecer a muchos usuarios y organizaciones, ya que funciona igual para proyectos pequeños y grandes.
 ~~~~~~
 

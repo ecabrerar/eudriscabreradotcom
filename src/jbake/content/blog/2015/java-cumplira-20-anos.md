@@ -6,6 +6,7 @@ status=published
 author=Eudris Cabrera
 description=Java cumplirá 20 años !   
 summary=El próximo 23 de mayo del 2015, Java estará celebrando 20 cumpleaños de su lanzamiento oficial.
+shareimage=images/blog/2015/java-20yr-comm-mark-horz-clr-300x121.jpeg
 ~~~~~~
 El 23 de mayo 1995 fue un día trascendental en la historia de la tecnología. La industria ignoraba  que el lanzamiento de un lenguaje de programación iba a cambiar por completo el panorama de la tecnología en los próximos años.
 

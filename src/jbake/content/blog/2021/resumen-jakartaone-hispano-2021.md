@@ -5,6 +5,7 @@ tags=Jakarta EE,Java EE, Microprofile, Conferencias
 status=published
 author=Eudris Cabrera
 description=Resumen JakartaOne Hispano 2021
+shareimage=images/blog/2021/jakartaone_in_spanish_2021.jpg
 summary=El viernes 1 de octubre 2021, más de 350 entusiastas de Java de habla hispana se reunieron para discutir las tendencias, tecnologías y desafíos actuales relacionados con Jakarta EE. Este evento fue la segunda edición totalmente en español, con el apoyo de miembros de Jakarta EE y la comunidad Java de habla hispana.
 ~~~~~~
 

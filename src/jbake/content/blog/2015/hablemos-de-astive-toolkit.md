@@ -5,6 +5,7 @@ tags=Asterisk,PBX, Astive, ATK, Open Source, Java
 status=published
 author=Eudris Cabrera
 description=Hablemos de Astive Toolkit   
+shareimage=images/blog/2015/atk_400x400-150x150.png
 ~~~~~~
 
 ## ¿Qué es Astive Toolkit?

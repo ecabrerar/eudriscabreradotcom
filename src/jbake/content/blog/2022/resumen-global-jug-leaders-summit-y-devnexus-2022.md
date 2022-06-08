@@ -1,12 +1,11 @@
-title=Resumen Global JUG Leaders Summit & DevNexus 2020
-date=2020-02-25
+title=Resumen Global JUG Leaders Summit & DevNexus 2022
+date=2022-06-06
 type=post
-tags=Java, Devnexus, Conferencias, JUG
-status=published
+tags=Java,Devnexus,Conferencias,JUG
+status=draft
 author=Eudris Cabrera
-description=Resumen Global JUG Leaders Summit & DevNexus 2020
-shareimage=images/blog/2020/6449e1a8-e526-4d7b-946f-7419518b04bd.009.jpeg
-summary=Del 19 al 21 de febrero del 2020 se llevó a cabo el Global JUG Leaders Summit y Devnexus 2020 en Atlanta, Georgia. Dicho evento fue realizado en el Georgia World Congress Center (GWCC) de Atlanta, Georgia, un lugar gigante y con una gran cantidad de salones y excelente ubicación. A continuación, presentaremos los aspectos más destacados de esta conferencia.
+description=Resumen del Global JUG Leaders Summit & DevNexus 2022
+summary=Del 12 al 14 de abril del 2022 se llevó a cabo el Global JUG Leaders Summit y Devnexus 2022 en Atlanta, Georgia. El Global JUG Leaders Summit 2022 fue el tercer encuentro mundial de líderes de grupos de usuarios Java. Devnexus es la mayor conferencia de Java en los Estados Unidos. Devnexus 2022 es la edición número 18 y la primera edición presencial luego de la pandemia del covid-19. A continuación, presentaremos los aspectos más destacados de esta conferencia..
 ~~~~~~
 
 Del 19 al 21 de febrero del 2020 se llevó a cabo el **Global JUG Leaders Summit** y **Devnexus 2020** en Atlanta, Georgia.
