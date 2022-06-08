@@ -17,7 +17,7 @@
 			<meta property="og:image" content="https://eudriscabrera.com/images/banner.jpg"
 			th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))"
 			th:content="|${config.site_host}/${cover}|">
-	    <meta property="og:url" content="https://eudriscabrera.com" th:with="uri=${content.uri}" th:content="|${config.site_host}/${uri}">
+	    <meta property="og:url" content="https://eudriscabrera.com" th:with="uri=${content.uri}?: 'index.html'" th:content="|${config.site_host}/${uri}">
 
 			<!--Twitter card -->
 			<th:block th:if="${config.twitter_username}">
