@@ -98,7 +98,7 @@ Devnexus 2022 fue la edición número 18 y la primera edición presencial luego 
 
 Fue genial estar de vuelta en eventos presenciales como Devnexus.
 
-<img src="/images/blog/2022/93d79b27-bc2e-4f5a-844a-80ee6c638579.007.jpeg" style="width:624px;height:468px;">
+<img src="/images/blog/2022/93d79b27-bc2e-4f5a-844a-80ee6c638579.007.jpeg" style="width:855px;height:641px;">
 La Comunidad Hispana conversó sobre la situación actual de las comunidades y los planes futuros durante la celebración de Devnexus 2022.
 <img src="/images/blog/2022/93d79b27-bc2e-4f5a-844a-80ee6c638579.008.jpg" style="width:98%;height:auto;">
 Ver entrevista [\[SPANISH \] #DevOpsSpeakeasy at #DevNexus 2022: @eudriscabrera and @ccamacho ( @JavaDominicano )](https://www.youtube.com/watch?v=do2fOpSQ1HA)
