@@ -1,7 +1,7 @@
 title=Resumen Global JUG Leaders Summit & DevNexus 2022
 date=2022-06-06
 type=post
-tags=Java, Devnexus, Conferencias, JUG
+tags=Java,Devnexus,Conferencias,JUG
 status=draft
 author=Eudris Cabrera
 description=Resumen del Global JUG Leaders Summit & DevNexus 2022

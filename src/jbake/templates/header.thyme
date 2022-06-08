@@ -6,9 +6,8 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 			<meta name="description" content="" th:content="${content.description} ?: ${config.site_description}">
   		<meta name="author" content="" th:content="${content.author} ?: ${config.site_author}">
-	    <meta name="keywords" content="" th:content="${#strings.unescapeJava(content.tags)}">
-	    <meta name="generator" content="JBake">
-
+	    <meta name="keywords" content="" th:content="${#strings.arrayJoin(content.tags,',')}">
+			<meta name="generator" content="JBake">
 
 			<!--Facebook Card-->
 			<meta property="og:site_name" content="Eudris Cabrera Personal Site">
