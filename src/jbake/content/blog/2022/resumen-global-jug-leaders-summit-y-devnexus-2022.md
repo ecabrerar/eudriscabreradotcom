@@ -4,6 +4,7 @@ type=post
 tags=Java,Devnexus,Conferencias,JUG
 status=published
 author=Eudris Cabrera
+shareimage=images/blog/2022/93d79b27-bc2e-4f5a-844a-80ee6c638579.004.jpg
 description=El Global JUG Leaders Summit 2022 fue el tercer encuentro mundial de líderes de grupos de usuarios Java. Devnexus 2022 fue la edición número 18 y la primera edición presencial luego de la pandemia del covid-19.
 summary=Del 12 al 14 de abril del 2022 se llevó a cabo el Global JUG Leaders Summit y Devnexus 2022 en Atlanta, Georgia. El Global JUG Leaders Summit 2022 fue el tercer encuentro mundial de líderes de grupos de usuarios Java. Devnexus es la mayor conferencia de Java en los Estados Unidos. Devnexus 2022 fue la edición número 18 y la primera edición presencial luego de la pandemia del covid-19. A continuación, presentaremos los aspectos más destacados de esta conferencia.
 ~~~~~~
