@@ -1339,4 +1339,4 @@ p.lead {
   line-height : 1.6;
 }
 
-.post-body p img { width: 100%; height: auto }
+.post-body p img { max-width: 100%; height: auto }
