@@ -6,7 +6,7 @@ status=published
 author=Eudris Cabrera
 description=Hablemos del protocolo HTTP y Arquitectura Web   
 shareimage=images/blog/2022/16a5dbe5-c9dc-4cc2-b89c-d112b06c9902.001.png
-summary=El protocolo HTTP ha estado vigente por más de 30 años y es la base de cualquier intercambio de datos en la Web. Su estructura cliente-servidor, junto con la capacidad para usar cabeceras (headers), permite a este protocolo evolucionar con las nuevas y futuras aplicaciones en Internet. En esta publicación queremos explicar los aspectos básicos de este protocolo con el objetivo de que sirva de referencia para entender algunas tecnologías o arquitectura más recientes que se derivan del uso de HTTP.
+summary=El protocolo HTTP ha estado vigente por más de 30 años y es la base de cualquier intercambio de datos en la Web. Su estructura cliente-servidor, junto con la capacidad para usar cabeceras (headers), permite a este protocolo evolucionar con las nuevas y futuras aplicaciones en Internet. En esta publicación queremos explicar los aspectos básicos de este protocolo con el objetivo de que sirva de referencia para entender algunas tecnologías y/o arquitecturas más recientes que se derivan del uso de HTTP.
 ~~~~~~
 ### HTTP: Hypertext Transfer Protocol
 
@@ -35,7 +35,7 @@ Los mensajes que envía el cliente, se llaman peticiones **(Requests)** , y los 
 
 ### Evolución del protocolo HTTP
 
-- Diseñado a principios de la década de 1990, HTTP es un protocolo ampliable, que ha ido evolucionando con el tiempo.
+- Diseñado a principios de la década de 1990, HTTP es un protocolo extensible, que ha ido evolucionando con el tiempo.
 - Se transmite sobre el protocolo TCP, o el protocolo encriptado **TLS** (en-US), aunque teóricamente podría usarse cualquier otro protocolo fiable.
 
 ![](/images/blog/2022/16a5dbe5-c9dc-4cc2-b89c-d112b06c9902.004.png)
@@ -146,8 +146,8 @@ Estos pueden ser transparentes, o no (modificando las peticiones que pasan por e
 ![](/images/blog/2022/16a5dbe5-c9dc-4cc2-b89c-d112b06c9902.010.png)
 
 ### Conclusión
-Con la publicación de la versión del protocolo HTTP/2 y recientemente HTTP/3, éste no ha dejado de evolucionar.
-Esta evolución del HTTP demuestra su capacidad de ampliación y simplicidad, permitiendo así de forma deliverada su uso para muchas aplicaciones y favoreciendo el uso de este protocolo.
+Con la publicación de la versión del protocolo HTTP/2 y recientemente HTTP/3, HTTP no ha dejado de evolucionar.
+Esta evolución demuestra su capacidad de ampliación y simplicidad, permitiendo así de forma deliverada su uso para muchas aplicaciones y favoreciendo el uso de este protocolo.
 
 ### Referencias
 
