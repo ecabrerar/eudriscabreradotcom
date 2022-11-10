@@ -3902,6 +3902,9 @@ input, select, textarea {
 
 .container .content .post-body p {
    color: #4b4b4b;
+   font-family: Inter,sans-serif;
+   font-size: 17px;
+   line-height: 1.6;
 }
 
 .container .content .post-body h2,
@@ -3910,4 +3913,17 @@ input, select, textarea {
 .container .content .post-body h5,
 .container .content .post-body h6 {
  	color: #000;
+}
+
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.35;
 }
