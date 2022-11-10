@@ -3887,3 +3887,27 @@ input, select, textarea {
 	margin-left:5px;
 
 }
+
+.wrapper .style1 h2 {
+  color: #000;
+}
+
+.wrapper .style1 p {
+ color: #4b4b4b;
+}
+
+.container header h2 {
+ color: #000;
+}
+
+.container .content .post-body p {
+   color: #4b4b4b;
+}
+
+.container .content .post-body h2,
+.container .content .post-body h3,
+.container .content .post-body h4,
+.container .content .post-body h5,
+.container .content .post-body h6 {
+ 	color: #000;
+}
