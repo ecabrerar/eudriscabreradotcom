@@ -1,7 +1,7 @@
 ﻿title=Apache Maven 101: Explicando la magia detrás de un archivo pom.xml
 date=2022-11-19
 type=post
-tags=Apache Maven,MVN, Maven,Java
+tags=Apache Maven,Maven,Java
 status=published
 author=Eudris Cabrera
 description=Apache Maven 101: Explicando la magia detrás de un archivo pom.xml
@@ -27,7 +27,7 @@ Apache Maven es
 - Provee una arquitectura basada en plugins
   - cualquiera puede escribir plugins para su interfaz con herramientas  como compiladores, herramientas de pruebas unitarias, etcétera, para cualquier otro lenguaje.
 
-### ¿Por qué usar Maven ?
+### ¿Por qué usar Maven?
 
 - Facilita el proceso de compilado y empaquetado
 - Proporciona un sistema de compilado uniforme
@@ -46,7 +46,7 @@ Apache Maven es
 - Maven incluye un potente mecanismo de gestión de las dependencias de un proyecto sobre librerías propias o de terceros.
 - Maven permite una sencilla gestión simultánea de varios proyectos.
 - Maven dispone de un enorme repositorio de librerías Open Source en constante actualización, de forma que los desarrolladores pueden acceder a las versiones más actualizadas de las mismas.
-- Maven es extensible: dispone de multitud de plugins y de la posibilidad de creación de otros que necesitemos.
+- Maven es extensible: dispone de multitud de `plugins` y de la posibilidad de creación de otros que necesitemos.
 - Extensible con la capacidad para escribir fácilmente plugins de Java o lenguajes de scripting
 - Nos proporciona un acceso inmediato a nuevas funcionalidades requiriendo un esfuerzo muy pequeño de configuración.
 
@@ -61,13 +61,12 @@ Se pueden utilizar otros formatos para describir el modelo de objetos del proyec
 ![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.001.jpg)
 
 ### Modelo de objeto del proyecto
+<figure style="float:right;">
+ <figcaption style="text-align: center;">The Project Object Model</figcaption>
+  <img src="/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.002.jpg" alt="The Project Object Model" style="width:420px;height:354px;word-wrap: break-word;">     
+</figure>
 
 #### ¿Qué es el archivo POM?
-
-<figure style="float:right">
-  <figcaption>The Project Object Model</figcaption>
-  <img src="/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.002.jpg" alt="Trulli"  style="width:420px;height:354px;">  
-</figure>
 - Archivo XML que contiene información relevante del proyecto.
 - El POM Maven dice qué tipo de proyecto se está trabajando y cómo modificar el comportamiento por defecto para generar la salida.
 
@@ -90,7 +89,9 @@ Se pueden utilizar otros formatos para describir el modelo de objetos del proyec
     - Una versión específica de un proyecto
 
 ### El Super POM
-![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.003.jpg)
+<figure style="float:right;">
+  <img src="/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.003.jpg" alt="El Super POM" style="width:420px;height:359px;word-wrap: break-word;">     
+</figure>
 
 - Siempre es el padre de todos los proyectos Maven.
 - Define algunas variables de configuración estándar que son heredadas por todos los proyectos.
@@ -116,9 +117,8 @@ Para `maven-archetype-quickstart`
     - Package
 
 Resultado final
-
-    - Estructura de directorios del proyecto
-    - pom.xml
+    * Estructura de directorios del proyecto
+    * pom.xml
 
 Ejemplo con el arquetipo `maven-archetype-quickstart`
 
@@ -170,15 +170,16 @@ en el proyecto.
 
 #### Configuración específica del usuario y repositorio local
 
-`<home_directory>/.m2/settings.xml`
+#### <home_directory>/.m2/settings.xml
 
 Contiene la configuración específica del usuario para la autenticación, los repositorios, y otra información para personalizar el comportamiento de Maven.
 
-![](images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.005.jpg)
+![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.005.jpg)
 
-`<home_directory>/.m2/repository`
-![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.006.jpg)
-
+#### <home_directory>/.m2/repository
+<figure style="float:right;">
+  <img src="/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.006.jpg" alt="<home_directory>/.m2/repository" style="width:420px;height:359px;word-wrap: break-word;">     
+</figure>
 - Repositorio local maven
 - Almacena localmente los artefactos generados (archivos jar, war, ear, etc).
 - Almacena copias de dependencias descargadas de repositorios remotos.
@@ -200,20 +201,14 @@ Lo que significa:
 - `site`: se encarga de la creación del sitio de documentación de su proyecto.
 
 #### Fases del ciclo de vida
-
-![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.007.png)
-
 #### Fases predeterminadas
 
-Las partes del ciclo de vida principal del proyecto Maven son:
+Las partes del ciclo de vida principal del proyecto Maven son: **compile*,**test**,**package**,**install** y **deploy**.
 
-* mvn compile
-* mvn test
-* mvn package
-* mvn install
-* mvn deploy
 
-#### Fases predeterminadas
+<figure style="float:right;">
+  <img src="/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.007.jpg" alt="<home_directory>/.m2/repository" style="width:420px;height:359px;word-wrap: break-word;">     
+</figure>
 
 - mvn compile
    - Genera los ficheros .class
@@ -225,7 +220,7 @@ Las partes del ciclo de vida principal del proyecto Maven son:
    - Genera el fichero .jar
 
 - mvn install
-    - Copia el fichero .jar a un repo local
+    - Copia el fichero .jar a un repositorio local
 
 - mvn deploy
     - Copia el fichero .jar a un servidor remoto
@@ -242,7 +237,6 @@ Las partes del ciclo de vida principal del proyecto Maven son:
 
 ## Estructura del repositorio
 Cada artefacto se mantiene en una estructura de directorio que coincide con las coordenadas de un  proyecto
-
 `<groupId>/<artifactId>/<version>/<artifactId>-<version>.<packaging>`
 
 ![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.008.jpg)
@@ -265,16 +259,16 @@ Cada artefacto se mantiene en una estructura de directorio que coincide con las 
 - Plugin comunes pueden ser usados en diferentes proyectos
 - Un plugin puede ser modificado sin afectar las demás partes de un proyecto.
 - Los cambios/mejoras realizados a los plugins por parte de alguna comunidad es beneficioso para todos.
-- Ejemplos de plugins "listo para usar"
+- Ejemplos de plugins **"listo para usar"**
     - Archetype plugin
     - Jar plugin
     - Compiler plugin
     - Hibernate3 plugin
 
 ### Gestión de Dependencias
-#### Uso de dependencias**
+#### Uso de dependencias
 
-- Las dependencias son especificadas usando las coordenadas
+- Las dependencias son especificadas usando las coordenadas:
 ```xml
 <dependencies>
   <dependency></dependency>
