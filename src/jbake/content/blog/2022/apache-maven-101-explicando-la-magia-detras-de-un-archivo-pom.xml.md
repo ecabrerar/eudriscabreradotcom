@@ -116,9 +116,9 @@ Para `maven-archetype-quickstart`
     - Version
     - Package
 
-Resultado final
-    * Estructura de directorios del proyecto
-    * pom.xml
+- Resultado final
+    - Estructura de directorios del proyecto
+    - pom.xml
 
 Ejemplo con el arquetipo `maven-archetype-quickstart`
 
