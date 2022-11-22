@@ -147,7 +147,7 @@ Estos pueden ser transparentes, o no (modificando las peticiones que pasan por e
 
 ### Conclusión
 Con la publicación de la versión del protocolo HTTP/2 y recientemente HTTP/3, HTTP no ha dejado de evolucionar.
-Esta evolución demuestra su capacidad de ampliación y simplicidad, permitiendo así de forma deliverada su uso para muchas aplicaciones y favoreciendo el uso de este protocolo.
+Esta evolución demuestra su capacidad de ampliación y simplicidad, permitiendo así de forma deliberada su uso para muchas aplicaciones y favoreciendo el uso de este protocolo.
 
 ### Referencias
 
