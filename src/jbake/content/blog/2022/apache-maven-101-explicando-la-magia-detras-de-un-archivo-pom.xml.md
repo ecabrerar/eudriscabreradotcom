@@ -1,5 +1,5 @@
 ﻿title=Apache Maven 101: Explicando la magia detrás de un archivo pom.xml
-date=2022-11-19
+date=2022-11-22
 type=post
 tags=Apache Maven,Maven,Java
 status=published
@@ -203,7 +203,7 @@ Lo que significa:
 #### Fases del ciclo de vida
 #### Fases predeterminadas
 
-Las partes del ciclo de vida principal del proyecto Maven son: **compile*,**test**,**package**,**install** y **deploy**.
+Las partes del ciclo de vida principal del proyecto Maven son: **compile**,**test**,**package**,**install** y **deploy**.
 
 
 <figure style="float:right;">
@@ -235,14 +235,14 @@ Las partes del ciclo de vida principal del proyecto Maven son: **compile*,**test
 - Los repositorios  personalizados se pueden configurar para mantener plugins y artefactos no públicos
 - Cada artefacto se mantiene en una estructura de directorio que coincide con las coordenadas de un  proyecto `<groupId>/<artifactId>/<version>/<artifactId>-<version>.<packaging>`
 
-## Estructura del repositorio
+#### Estructura del repositorio
 Cada artefacto se mantiene en una estructura de directorio que coincide con las coordenadas de un  proyecto
 `<groupId>/<artifactId>/<version>/<artifactId>-<version>.<packaging>`
 
 ![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.008.jpg)
 
 
-## Maven Central
+#### Maven Central
 ![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.009.jpg)
 
 ### Plugins
