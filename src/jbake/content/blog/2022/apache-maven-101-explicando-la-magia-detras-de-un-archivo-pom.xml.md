@@ -31,9 +31,9 @@ Apache Maven es
 
 - Facilita el proceso de compilado y empaquetado.
 - Proporciona un sistema de compilado uniforme.
-- Proporciona información de útil sobre los proyectos.
+- Proporciona información útil sobre los proyectos.
 - Proporciona directrices para las mejores prácticas de desarrollo.
-- Permite  migración transparente a nuevas características.
+- Permite migración transparente a nuevas características.
 - Maven ofrece información útil sobre el proyecto que es en parte tomado de su POM y, en parte generada a partir de fuentes de su proyecto.
     - Lista de cambios (CHANGELOG) desde el control de versiones.
     - Dependencias transitivas.
@@ -95,7 +95,7 @@ Se pueden utilizar otros formatos para describir el modelo de objetos del proyec
 
 - Siempre es el padre de todos los proyectos Maven.
 - Define algunas variables de configuración estándar que son heredadas por todos los proyectos.
-- Define un único repositorio  remoto de Maven  con un ID de “**central**”. Ver <http://maven.apache.org/ref/> 
+- Define un único repositorio remoto de Maven con un ID de “**central**”. Ver <http://maven.apache.org/ref/> 
 
 ### Un proyecto maven simple
 
@@ -227,16 +227,15 @@ Las partes del ciclo de vida principal del proyecto Maven son: **compile**,**tes
 
 
 ### Repositorios Maven
-#### ¿Qué es un repositorio ?
+#### ¿Qué es un repositorio?
 
 - Mantiene plugins y artefactos
-- Los repositorios remotos predeterminados pueden mantener plugins  y artefactos públicos. Por ejemplo: Maven Central
-
-- Los repositorios  personalizados se pueden configurar para mantener plugins y artefactos no públicos
-- Cada artefacto se mantiene en una estructura de directorio que coincide con las coordenadas de un  proyecto `<groupId>/<artifactId>/<version>/<artifactId>-<version>.<packaging>`
+- Los repositorios remotos predeterminados pueden mantener plugins y artefactos públicos. Por ejemplo: Maven Central
+- Los repositorios personalizados se pueden configurar para mantener plugins y artefactos no públicos
+- Cada artefacto se mantiene en una estructura de directorio que coincide con las coordenadas de un proyecto `<groupId>/<artifactId>/<version>/<artifactId>-<version>.<packaging>`
 
 #### Estructura del repositorio
-Cada artefacto se mantiene en una estructura de directorio que coincide con las coordenadas de un  proyecto
+Cada artefacto se mantiene en una estructura de directorio que coincide con las coordenadas de un proyecto
 `<groupId>/<artifactId>/<version>/<artifactId>-<version>.<packaging>`
 
 ![](/images/blog/2022/bd682229-1fce-47c9-87cc-c00e38cfa2e4.008.jpg)
@@ -250,13 +249,13 @@ Cada artefacto se mantiene en una estructura de directorio que coincide con las 
 
 - Todas las tareas de Maven se realizan a través de plugins.
 - Los plugins son descargados al igual que las dependencias de repositorios remotos según sea necesario y son actualizados periódicamente.
-- Un plugin  maven es una colección de una o más unidades de tareas (goals).
+- Un plugin maven es una colección de una o más unidades de tareas (goals).
 - Usted puede crear plugins personalizados.
 - Un plugin personalizado puede ser escrito en diferentes lenguajes de programación: **Java**, **Groovy**, **Ant**, **Ruby**, entre otros.
 
 #### Beneficios del uso de plugins
 
-- Plugin comunes pueden ser usados en diferentes proyectos.
+- Plugins comunes pueden ser usados en diferentes proyectos.
 - Un plugin puede ser modificado sin afectar las demás partes de un proyecto.
 - Los cambios/mejoras realizados a los plugins por parte de alguna comunidad es beneficioso para todos.
 - Ejemplos de plugins **"listo para usar"**
@@ -294,12 +293,12 @@ Cada artefacto se mantiene en una estructura de directorio que coincide con las 
 Los principales scopes son los siguientes:
 
 - `compile`: predeterminado, se usa por defecto si no se especifica otro.
-- `provided` : indica que el jdk o el contenedor va a proveer la dependencia.
+- `provided` : indica que el JDK o el contenedor va a proveer la dependencia.
 - `runtime` : solo se necesita en tiempo de ejecución.
 - `test` : sólo es requerida en compilación de pruebas.
 
 ### Integración con IDE
-Existen plugins de Maven para crear archivos de configuración del IDE a partir de los POMs.
+Todos los entornos de desarrollo populares para la plataforma Java tienen integración con Apache Maven.
 
 Actualmente se soportan:
 
@@ -310,7 +309,7 @@ Actualmente se soportan:
 
 ### Recomendaciones
 
-- Podemos describir un proyecto en Maven como una directorio en la que tenemos un fichero descriptor de proyecto (pom.xml).
+- Podemos describir un proyecto Maven como un directorio en lo que tenemos un fichero descriptor de proyecto (pom.xml).
 
 En lugar de crear el proyecto a mano podemos hacer uso de un gran número de plantillas o archetype.
 
