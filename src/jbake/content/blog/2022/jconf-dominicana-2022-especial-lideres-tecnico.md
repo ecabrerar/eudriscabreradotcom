@@ -10,7 +10,7 @@ summary=En esta publicación vamos a resaltar los puntos más importantes sobre 
 ~~~~~~
 En el cierre de JConf Dominicana 2022 se realizó un panel sobre el perfil del líder técnico donde se analizaron las habilidades que debe tener un líder técnico y cómo puedes escalar hasta esa posición partiendo el viaje desde un nivel Junior. Estuvieron participando como panelistas Carlos Obregón, Christian Omar Gómez y Francisco Contreras. 
 
-**Perfil de los Panelistas**
+### Perfil de los Panelistas
 
 [Carlos Obregón](https://www.linkedin.com/in/carlos-obregon-1565aab/) ha trabajado por 14 años en la industria del desarrollo de software, los últimos 6 años como líder de proyectos. Adicionalmente creó y ha liderado el JUG de Bogotá, Bogotá JVM, donde ha dado charlas sobre Java en particular y desarrollo de software y sus mejores prácticas en general. Este año fue reconocido como [Java Champion](https://javachampions.org).
 
@@ -20,17 +20,17 @@ En el cierre de JConf Dominicana 2022 se realizó un panel sobre el perfil del l
 
 El panel estuvo moderado por [Eudris Cabrera](https://eudriscabrera.com), Desarrollador Informático, Co-fundador y Organizador del Java Users Group de la República Dominicana (aka Java Dominicano) y miembro del staff organizador de [JConf Dominicana](https://jconfdominicana.org).
 
-**¿Qué es un líder técnico?**
+### ¿Qué es un líder técnico?
 
 El panel inició poniendo en contexto a la audiencia sobre el perfil de un líder técnico.
 
 Segun wikipedia:
 
-***"El líder técnico es el responsable de definir en conjunto con el coordinador de proyectos la tarea de desarrollo e implementación del proyecto, así como también, la asignación del tiempo para cada una de las tareas y la asignación".***
+**"El líder técnico es el responsable de definir en conjunto con el coordinador de proyectos la tarea de desarrollo e implementación del proyecto, así como también, la asignación del tiempo para cada una de las tareas y la asignación".**
 
 Otra definición:
 
-***Es el experto a nivel técnico para la ejecución de la tarea de desarrollo.***
+**Es el experto a nivel técnico para la ejecución de la tarea de desarrollo.**
 
 Para **Carlos Obregon**, puede existir ciertas diferencias en lo que hace un líder técnico en cada empresa pero la primera definición está más alineada al concepto que él tiene sobre un líder técnico. Entiende que parte de la responsabilidad del líder técnico es traducir las necesidades del cliente en requerimientos técnicos. En muchas empresas existe el cargo de **business analyst** que usualmente es la persona que se encarga de escribir funcionalmente cómo se ven esos requerimientos del cliente pero obviamente el **business analyst** no es una persona técnica, entonces, digamos que el líder técnico usualmente es la persona que pinta un poco en las historias para de nuevo hacer esta traducción funcional a requerimientos técnicos.
 
@@ -44,7 +44,7 @@ Para **Christian Omar Gómez**, el perfil de un líder técnico depende mucho de
 Es importante resaltar que el perfil de líder técnico no es solamente habilidades duras, requiere muchas habilidades blandas, tener habilidades comunicacionales muy buenas para dirigirse al equipo, a los superiores y al cliente. El líder técnico debe tener un balance entre habilidades duras y blandas.
 
 
-**¿Cuáles son sus recomendaciones para prepararse cómo un líder técnico?**
+### ¿Cuáles son sus recomendaciones para prepararse cómo un líder técnico?
 
 Primeramente debes definir tus objetivos, es decir, a donde quieres llegar o hacia donde quieres enfocar tu carrera profesional. Luego que tienes claro hacia donde quieres enfocar tu carrera, debes empezar a formarte, adquirir las habilidades técnicas y blandas que debes tener para la posición que aspira. Es importante estar preparado antes de que uno reciba la promoción al puesto.
 
