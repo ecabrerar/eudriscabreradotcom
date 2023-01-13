@@ -20,7 +20,7 @@ En el panel participaron [Mareubi García](https://www.linkedin.com/in/mareubi-l
 
 Ellas contaron sus historias de cómo incursionaron en el mundo de la programación y especialmente en el ecosistema Java. Hablaron de los retos y desafíos que han tenido que enfrentar en sus carreras laborales.
 
-Así como también, ofrecieron excelentes recomendaciones para las mujeres que ya están cursando una carrera en tecnología y también para aquellas que tienen miedo a incursionar por los comentarios desfavorables que frecuentemente escuchamos.
+Así como también, ofrecieron excelentes recomendaciones para las mujeres que ya están cursando una carrera en tecnología y también para aquellas que tienen miedo de incursionar por los comentarios desfavorables que frecuentemente escuchamos.
 
 Ver panel completo en Youtube:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IwZHfyvcwCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
