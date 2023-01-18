@@ -5,7 +5,7 @@ tags=Java, Conferencias, JUG, Personal, End of Year Review
 status=published
 author=Eudris Cabrera
 description=Resumen de logros personales y actividades del 2022
-shareimage=/images/blog/2023/3eb1d88d-402c-482c-a00a-179afd24448c.001.jpeg
+shareimage=images/blog/2023/2022-year-review.jpg
 summary=A final de cada año me gusta tomar un momento para reflexionar y hacer un resumen sobre todo lo acontecido durante el año, lo que pasó, lo que salió bien, lo que se puede mejorar y realizar planes para el nuevo año. 
 ~~~~~~
 A final de cada año me gusta tomar un momento para reflexionar y hacer un resumen sobre todo lo acontecido durante el año, lo que pasó, lo que salió bien, lo que se puede mejorar y realizar planes para el nuevo año. 
@@ -105,6 +105,9 @@ Lamentablemente no pude concluir mi presentación por inestabilidad en mi conexi
 Para la edición 2022, el [Barcamp RD](https://barcamp.org.do) regresó a la modalidad presencial luego de 2 ediciones de forma virtual por motivo de la pandemia. Al momento que empezamos a organizar el evento teníamos expectativas muy altas, sería la décima edición y queríamos hacer un evento por todo lo alto. A medida que fueron pasando los días, empezamos a tener retos y desafíos que nos obligaron a replantear la agenda que habíamos creado. Entre los inconvenientes podemos mencionar, cambio de fecha del evento, enfermedad de miembros importantes del comité organizador, entre otros.
 
 Al final tuvimos un evento con una asistencia aceptable, por debajo del último evento celebrado de forma presencial en el 2019, pero es entendible porque era el primer evento presencial en 2 años.
+
+
+![](/images/blog/2023/barcamprd-2022.jpg)
 
 Nos sentimos satisfechos con el resultado obtenido porque cumplimos con todo lo que nos comprometimos a ofrecer en el evento y obtuvimos buena retroalimentación por parte de los asistentes.
 
