@@ -668,6 +668,10 @@ var linguJSON = {
     {
       'source': ': <strong>Conferences and Presentations</strong>',
       'target_es': ': <strong>Conferencias y Presentaciones</strong>'
+    },
+    {
+      'source': 'November 2022',
+      'target_es': 'Noviembre de 2022'
     }
 
   ]
