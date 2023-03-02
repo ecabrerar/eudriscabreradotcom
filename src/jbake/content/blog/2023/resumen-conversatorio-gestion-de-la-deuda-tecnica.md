@@ -44,6 +44,9 @@ A diferencia de un **"error"**, la deuda técnica no es un defecto visible y, po
   - Menor productividad del personal
   - Incapacidad de adaptarse rápidamente a las oportunidades o cambios en el mercado
 
+<div class="video-wrap"><div class="video" id="player"></div></div>
+
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(0)">7:33</a> - Carlos Obregon **nos cuenta su experiencia trabajando en una empresa donde la deuda técnica forzó la culminación del contrato por parte del cliente.**
 
 [7:33](https://www.youtube.com/watch?v=eUk5vNPlHls&list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=455s) - Carlos Obregon **nos cuenta su experiencia trabajando en una empresa donde la deuda técnica forzó la culminación del contrato por parte del cliente.**
 
@@ -68,8 +71,8 @@ Significado de algunos términos del gráfico:
 
 ### ¿Por qué ocurre la deuda técnica?
 
-- Tiempo : 
-  - Sacrificamos la calidad por entregar a tiempo,  algunas veces con la idea de que en algún momento vamos a pagar la deuda que estamos dejando, pero ese momento nunca llega y sigues agregando nuevas funcionalidades al proyecto y nunca terminas de pagar la deuda técnica que dejaste.
+- **Tiempo :** 
+    - Sacrificamos la calidad por entregar a tiempo,  algunas veces con la idea de que en algún momento vamos a pagar la deuda que estamos dejando, pero ese momento nunca llega y sigues agregando nuevas funcionalidades al proyecto y nunca terminas de pagar la deuda técnica que dejaste.
 - La tentación de ahorrar costos a corto plazo
 - Falta de formación o entrenamiento del equipo
 - No utilización de técnicas cómo code review y herramientas para analizar código cómo SonarLint, SonarQube, etc..
@@ -96,7 +99,7 @@ A continuación los comentarios de algunos participantes sobre por qué ocurre l
 
 [37:16](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2236) - Francisco Contreras **comenta sobre cómo calcular el impacto de la deuda técnica.**
 
-[38:47](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2328) - Luis Ventoncilla **comenta sobre su experiencia sobre cómo mitigar la deuda. técnica**
+[38:47](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2328) - Luis Ventoncilla **comenta sobre su experiencia sobre cómo mitigar la deuda técnica**
 
 [41:26](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2486) - Carlos Obregon **comenta sobre la técnica de peer review como herramienta para mitigar la deuda técnica.**
 
@@ -127,7 +130,7 @@ Algunas empresas utilizan un umbral para abordar la deuda técnica, errores iden
 
 [58:49](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=3529) - Carlos Obregon comenta **"si hay código que no se ha cambiado en un año y está funcionando eso no es deuda técnica"**
 
-[1:04:29](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=3869)  - Eudris Cabrera **presenta la herramienta [SonarQube**](https://www.sonarsource.com/open-source-editions/)**
+[1:04:29](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=3869)  - Eudris Cabrera **presenta la herramienta** [SonarQube](https://www.sonarsource.com/open-source-editions/)
 
 [1:19:44](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=4787) - Carlos Obregon **entiende que es responsabilidad de cada desarrollador utilizar herramientas de análisis de código estático**.
 
@@ -161,3 +164,63 @@ Hasta aquí el resumen sobre cómo gestionar la deuda técnica en el desarrollo 
 - [Prioritizing Technical Debt as if Time and Money Matters • Adam Tornhill • GOTO 2019](https://www.youtube.com/watch?v=fl4aZ2KXBsQ) 
 - <https://www.sonarsource.com/open-source-editions/> 
 - <https://www.sonarsource.com/products/sonarlint/> 
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+
+var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+  var player;
+
+  window.onYouTubeIframeAPIReady = function() {
+    player = new YT.Player('player', {
+      width: '600',
+      height: '340',
+      videoId: 'eUk5vNPlHls',
+      playerVars: {
+            'playsinline': 1,
+            'autoplay':1
+          },
+    });
+  }
+
+   window.setCurrentTime = function(slideNum) {
+    var object = [ 455, 1369, 1590 ];
+    player.seekTo(object[slideNum]);
+  }
+
+  console.log("page is fully loaded");
+});
+  </script>
+
+<style>
+  @keyframes fade-in-up {
+  0% { opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.video-wrap {
+  text-align: center;
+}
+
+.video {  
+  iframe {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  &.stuck {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transform: translateY(100%);
+    width: 260px;
+    height: 145px;
+    animation: fade-in-up .25s ease forwards;
+  }
+}
+
+</style>
