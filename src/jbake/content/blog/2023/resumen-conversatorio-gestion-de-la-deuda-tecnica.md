@@ -46,9 +46,7 @@ A diferencia de un **"error"**, la deuda técnica no es un defecto visible y, po
 
 <div class="video-wrap"><div class="video"><div id="player"></div></div></div>
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(0)">7:33</a> 
-
-[7:33](https://www.youtube.com/watch?v=eUk5vNPlHls&list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=455s) - Carlos Obregon **nos cuenta su experiencia trabajando en una empresa donde la deuda técnica forzó la culminación del contrato por parte del cliente.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(0)">7:33</a> - Carlos Obregon **nos cuenta su experiencia trabajando en una empresa donde la deuda técnica forzó la culminación del contrato por parte del cliente.**
 
 
 Al analizar una comparación de la deuda técnica y financiera, una de las diferencias clave es que la primera no tiene un control formal. Con la deuda financiera, generalmente hay comités de crédito, equipos de gestión de activos y pasivos y personal de tesorería que monitorea los niveles con mucho empeño. 
@@ -67,9 +65,7 @@ Significado de algunos términos del gráfico:
 - **P & L Visibility (Profit and Loss) :** Visibilidad de pérdidas y ganancias
 - **Balance Sheet Visibility:** Salud financiera de un negocio, ahorros, deudas y lo que los inversionistas tienen invertido
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(1)">22:47</a> 
-
-[22:47](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=1369) **-** Francisco Contreras **comenta** **sobre algunos aspectos de la deuda técnica y la deuda financiera.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(1)">22:47</a> - Francisco Contreras **comenta** **sobre algunos aspectos de la deuda técnica y la deuda financiera.**
 
 ### ¿Por qué ocurre la deuda técnica?
 
@@ -81,55 +77,39 @@ Significado de algunos términos del gráfico:
 
 A continuación los comentarios de algunos participantes sobre por qué ocurre la deuda técnica:
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(2)">26:30</a> 
-[26:30](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=1590)- Francisco Contreras **comenta sobre por qué ocurre la deuda técnica.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(2)">26:30</a> - Francisco Contreras **comenta sobre por qué ocurre la deuda técnica.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(3)">28:04</a>
-[28:04](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=1684) - Carlos Obregon **comenta sobre la falta de formación o entrenamiento del equipo.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(3)">28:04</a> - Carlos Obregon **comenta sobre la falta de formación o entrenamiento del equipo.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(4)">29:34</a>
-[29:34](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=1775)- Francisco Contreras **sugiere establecer el alcance del proyecto desde el principio con el cliente.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(4)">29:34</a> - Francisco Contreras **sugiere establecer el alcance del proyecto desde el principio con el cliente.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(5)">30:23</a>
-[30:23](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=1823)- Carlos Obregon **responde al comentario de Francisco Contreras.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(5)">30:23</a> - Carlos Obregon **responde al comentario de Francisco Contreras.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(6)">31:02</a>
-[31:02](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=1861) - Epson **plantea que se debe cuestionar el objetivo a largo plazo.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(6)">31:02</a> - Epson **plantea que se debe cuestionar el objetivo a largo plazo.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(7)">31:58</a>
-[31:58](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=1918)- Carlos Obregon **responde al comentario de Epson.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(7)">31:58</a> - Carlos Obregon **responde al comentario de Epson.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(8)">34:16</a>
-[34:16](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2056)- Omar Berroteran **habla sobre por qué ocurre la deuda técnica.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(8)">34:16</a> - Omar Berroteran **habla sobre por qué ocurre la deuda técnica.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(9)">36:04</a>
-[36:04](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2164) - Luis Ventoncilla **expresa su opinión sobre por qué ocurre la deuda técnica**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(9)">36:04</a> - Luis Ventoncilla **expresa su opinión sobre por qué ocurre la deuda técnica**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(10)">36:53</a>
-[36:53](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2213)- Omar Berroteran **entiende que muchas veces los líderes técnicos no le dan la importancia que tiene la deuda técnica.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(10)">36:53</a> - Omar Berroteran **entiende que muchas veces los líderes técnicos no le dan la importancia que tiene la deuda técnica.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(11)">37:16</a>
-[37:16](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2236) - Francisco Contreras **comenta sobre cómo calcular el impacto de la deuda técnica.**
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(12)">38:47</a>
-[38:47](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2328) - Luis Ventoncilla **comenta sobre su experiencia sobre cómo mitigar la deuda técnica**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(11)">37:16</a> - Francisco Contreras **comenta sobre cómo calcular el impacto de la deuda técnica.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(13)">41:26</a>
-[41:26](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2486) - Carlos Obregon **comenta sobre la técnica de peer review como herramienta para mitigar la deuda técnica.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(12)">38:47</a> - Luis Ventoncilla **comenta sobre su experiencia sobre cómo mitigar la deuda técnica**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(14)">44:22</a>
-[44:22](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2662) - Epson **habla sobre el rol del arquitecto de software.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(13)">41:26</a> - Carlos Obregon **comenta sobre la técnica de peer review como herramienta para mitigar la deuda técnica.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(15)">46:23</a>
-[46:23](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2783)- Francisco Contreras **entiende que mitigar la deuda técnica es responsabilidad de todos y no de un rol en específico.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(14)">44:22</a> - Epson **habla sobre el rol del arquitecto de software.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(16)">48:34</a>
-[48:34](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2914) - Luis Ventoncilla **entiende que todo el equipo debe estar de acuerdo con que se debe mitigar la deuda técnica.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(15)">46:23</a> - Francisco Contreras **entiende que mitigar la deuda técnica es responsabilidad de todos y no de un rol en específico.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(17)">49:56</a>
-[49:56](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=2996)- Carlos Obregon **opina que el problema de la deuda técnica no es de roles sino de procesos.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(16)">48:34</a> - Luis Ventoncilla **entiende que todo el equipo debe estar de acuerdo con que se debe mitigar la deuda técnica.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(18)">50:24</a>
-[50:24](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=3024) - Luis Ventoncilla **reitera que todo el equipo debe estar de acuerdo con que se debe mitigar la deuda técnica.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(17)">49:56</a> - Carlos Obregon **opina que el problema de la deuda técnica no es de roles sino de procesos.**
+
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(18)">50:24</a> - Luis Ventoncilla **reitera que todo el equipo debe estar de acuerdo con que se debe mitigar la deuda técnica.**
 
 
 ### ¿Cómo podemos abordar un problema de deuda técnica actual?
@@ -144,17 +124,13 @@ Luego que identificas cuál es tu deuda técnica, entonces, tienes que **tomar u
 
 Algunas empresas utilizan un umbral para abordar la deuda técnica, errores identificados como **bloqueantes** o mayores (majors), se trabajan inmediatamente y errores marcados como menores (minors), se resuelve más adelante y por orden de importancia.
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(19)">56:04</a>
-[56:04](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=3366) - Francisco Contreras **habla sobre una técnica para crear un plan de pago para la deuda técnica.**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(19)">56:04</a> - Francisco Contreras **habla sobre una técnica para crear un plan de pago para la deuda técnica.**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(20)">58:49</a>
-[58:49](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=3529) - Carlos Obregon comenta **"si hay código que no se ha cambiado en un año y está funcionando eso no es deuda técnica"**
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(20)">58:49</a> - Carlos Obregon comenta **"si hay código que no se ha cambiado en un año y está funcionando eso no es deuda técnica"**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(21)">1:04:29</a>
-[1:04:29](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=3869)  - Eudris Cabrera **presenta la herramienta** [SonarQube](https://www.sonarsource.com/open-source-editions/)
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(21)">1:04:29</a> - Eudris Cabrera **presenta la herramienta** [SonarQube](https://www.sonarsource.com/open-source-editions/)
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(22)">1:19:44</a>
-[1:19:44](https://youtu.be/eUk5vNPlHls?list=PLvQES47f2pt7trd5uDeXy9xrOYbGQXTHi&t=4787) - Carlos Obregon **entiende que es responsabilidad de cada desarrollador utilizar herramientas de análisis de código estático**.
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(22)">1:19:44</a> - Carlos Obregon **entiende que es responsabilidad de cada desarrollador utilizar herramientas de análisis de código estático**.
 
 
 ### Recomendaciones para gestionar la deuda técnica en el futuro
@@ -173,14 +149,15 @@ Gran parte de la deuda técnica es pequeña y está relacionada con la escritura
 
 - Implementar revisión de código y herramientas para analizar código cómo **SonarLint** o **SonarQube**
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(23)">1:26:09</a>
-[1:26:09](https://www.youtube.com/live/eUk5vNPlHls?feature=share&t=5169)  Carlos Obregon reitera que la revisión del código es una herramienta muy efectiva, pero hay que tener reglas claras dentro del equipo sobre cómo realizarla.
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(23)">1:26:09</a> - Carlos Obregon reitera que la revisión del código es una herramienta muy efectiva, pero hay que tener reglas claras dentro del equipo sobre cómo realizarla.
 
-<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(24)">1:32:46</a>
-[1:32:46](https://www.youtube.com/live/eUk5vNPlHls?feature=share&t=5566) Francisco Contreras menciona algunas formas de cómo hacer que la revisión del código sea efectiva
+<a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(24)">1:32:46</a> - Francisco Contreras menciona algunas formas de cómo hacer que la revisión del código sea efectiva
 
 Hasta aquí el resumen sobre cómo gestionar la deuda técnica en el desarrollo de software, tratamos de incluir la mayor cantidad de contenido, pero fue imposible cubrir todo, puedes [ver la sesión completa en youtube](https://www.youtube.com/live/eUk5vNPlHls) para más detalles.
 
+
+### Agradecimientos
+Agradecer a [Emilio Ariel Santos Mateo](https://www.linkedin.com/in/emilio-santos-m/) y [Edwing Mejia](https://github.com/elmm-programing)  por sus sugerencias y correcciones ortográficas a la publicación.
 
 ### Referencias:
 
