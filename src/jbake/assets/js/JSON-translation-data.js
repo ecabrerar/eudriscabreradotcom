@@ -590,6 +590,22 @@ var linguJSON = {
       'source': 'Designed and developed components of a point of sales application.',
       'target_es': 'Diseño y desarrollo de componentes de una aplicación de punto de venta.'
     },
+    ,
+    {
+      'source': 'Leading software development projects in the government industry.',
+      'target_es': 'Líder técnico de proyectos de desarrollo de software en el sector gubernamental.'
+    },   
+    
+    {
+      'source': 'Presenting recommendations from analysis of current solution.',
+      'target_es': 'Presentar recomendaciones técnicas sobre las soluciones informáticas actuales.'
+    },
+    
+    {
+      'source': 'Coordinated a mentorship strategy to continually improve the activities of the development team.',
+      'target_es': 'Planificación y ejecución de una estrategia de mentoría para mejorar continuamente las actividades del equipo de desarrollo.'
+    },
+    
     {
       'source': 'Name',
       'target_es': 'Nombre'
