@@ -590,7 +590,7 @@ var linguJSON = {
       'source': 'Designed and developed components of a point of sales application.',
       'target_es': 'Diseño y desarrollo de componentes de una aplicación de punto de venta.'
     },
-    ,
+   
     {
       'source': 'Leading software development projects in the government industry.',
       'target_es': 'Líder técnico de proyectos de desarrollo de software en el sector gubernamental.'
