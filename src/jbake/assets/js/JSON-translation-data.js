@@ -509,8 +509,8 @@ var linguJSON = {
       'target_es': 'Una breve lista de cursos en los que fui instructor'
     },
     {
-      'source': 'I contribute in different ways (code, documentation, blog and conference). See my contribution activities at my github account',
-      'target_es': 'Contribuyo de diferentes formas (código, documentación, blog y conferencia). Ver mis actividades de contribución en mi cuenta de github'
+      'source': 'I contribute in different ways (code, documentation, blog and conference). See my contribution activities at my github account:',
+      'target_es': 'Contribuyo de diferentes formas (código, documentación, blog y conferencia). Ver mis actividades de contribución en mi cuenta de github:'
     },
     {
       'source': 'Read my posts at',
@@ -590,22 +590,22 @@ var linguJSON = {
       'source': 'Designed and developed components of a point of sales application.',
       'target_es': 'Diseño y desarrollo de componentes de una aplicación de punto de venta.'
     },
-   
+    
     {
       'source': 'Leading software development projects in the government industry.',
       'target_es': 'Líder técnico de proyectos de desarrollo de software en el sector gubernamental.'
-    },   
-    
+    },
+
     {
       'source': 'Presenting recommendations from analysis of current solution.',
       'target_es': 'Presentar recomendaciones técnicas sobre las soluciones informáticas actuales.'
     },
-    
+
     {
       'source': 'Coordinated a mentorship strategy to continually improve the activities of the development team.',
       'target_es': 'Planificación y ejecución de una estrategia de mentoría para mejorar continuamente las actividades del equipo de desarrollo.'
     },
-    
+
     {
       'source': 'Name',
       'target_es': 'Nombre'
@@ -682,12 +682,39 @@ var linguJSON = {
     },
 
     {
-      'source': ': <strong>Conferences and Presentations</strong>',
-      'target_es': ': <strong>Conferencias y Presentaciones</strong>'
-    },
-    {
       'source': 'November 2022',
       'target_es': 'Noviembre de 2022'
+    },
+    {
+      'source': 'July 2023',
+      'target_es': 'Julio 2023'
+    },
+
+    {
+      'source': '<strong>Certifications</strong>',
+      'target_es': '<strong>Certificaciones</strong>'
+    },
+
+    {
+      'source': 'June 2023',
+      'target_es': 'Junio 2023'
+    },
+
+    {
+      'source': 'Issued Jun 2023 - Expires Jun 2026',
+      'target_es': 'Emitido Junio 2023 - Expira Junio 2026'
+    },
+    {
+      'source': 'February 2020',
+      'target_es': 'Febrero 2020'
+    },
+    {
+      'source': '<strong>Podcasts and Interviews</strong>',
+      'target_es': '<strong>Podcasts y Entrevistas</strong>'
+    },
+    {
+      'source': 'I had the pleasure of doing a few podcasts and interviews, e.g. talking about Java User Groups in Latin American, my career, and software engineering in general.',
+      'target_es': 'Tuve el placer de hacer algunos podcasts y entrevistas, por ejemplo, hablando sobre los Grupos de Usuarios de Java en América Latina, mi carrera, y la ingeniería de software en general.'
     }
 
   ]

@@ -6,16 +6,15 @@ status=published
 author=Eudris Cabrera
 description=Resumen conversatorio cómo gestionar la deuda técnica en el desarrollo de software
 shareimage=images/blog/2023/efae995e-cd8d-4166-be87-c793837f7e1c.001.jpg
-summary=La deuda técnica hace referencia al costo implícito del trabajo adicional causado por decisiones anteriores que se tomaron para ahorrar tiempo o dinero al implementar sistemas nuevos o mantener los existentes.Al igual que la deuda financiera, la deuda técnica devenga intereses, cuanto más se acumula la deuda técnica o la lista de problemas ignorados, más costoso se vuelve su rectificación.Alguna vez te has preguntado, ¿Quién debe pagar la deuda técnica? ¿Cuales técnicas puedes utilizar para mitigar la deuda técnica?.En esta publicación vamos a hacer un resumen sobre el conversatorio “Cómo gestionar la deuda técnica en el desarrollo de software”.
+summary=La deuda técnica hace referencia al costo implícito del trabajo adicional causado por decisiones anteriores que se tomaron para ahorrar tiempo o dinero al implementar sistemas nuevos o mantener los existentes.Al igual que la deuda financiera, la deuda técnica devenga intereses, cuanto más se acumula la deuda técnica o la lista de problemas ignorados, más costoso se vuelve su rectificación.Alguna vez te has preguntado, ¿Quién debe pagar la deuda técnica? ¿Cuales técnicas puedes utilizar para mitigar la deuda técnica?.En esta publicación vamos a hacer un resumen sobre el conversatorio "Cómo gestionar la deuda técnica en el desarrollo de software".
 ~~~~~~
-
 En el pasado mes de octubre de 2022 se realizó una desconferencia sobre **cómo gestionar la deuda técnica en el desarrollo de software** con la participación de las comunidades Java de Nicaragua, Bogotá, Bolivia, Medellín, México, Mérida, Ecuador, Buenos Aires, Guadalajara y República Dominicana.
 
 **Fue una de las sesiones donde hubo mayor participación de los asistentes y tuvo una duración de alrededor de dos horas. Será un poco difícil resumir todas las opiniones de los participantes, por tal motivo en algunas ocasiones voy a colocar un enlace donde pueden escuchar las opiniones de los participantes de forma directa.**
 
 Para entrar en contexto es necesario definir lo que es una **deuda técnica**. Existen muchas definiciones pero nos quedaremos con la siguiente:
 
-**“La deuda técnica hace referencia al costo implícito del trabajo adicional causado por decisiones anteriores que se tomaron para ahorrar tiempo o dinero al implementar sistemas nuevos o mantener los existentes.”**
+**"La deuda técnica hace referencia al costo implícito del trabajo adicional causado por decisiones anteriores que se tomaron para ahorrar tiempo o dinero al implementar sistemas nuevos o mantener los existentes."**
 
 
 ![](/images/blog/2023/efae995e-cd8d-4166-be87-c793837f7e1c.001.jpg)
@@ -28,7 +27,7 @@ El siguiente diagrama es un gráfico útil para enmarcar cómo la deuda tecnoló
 
 
 ![](/images/blog/2023/efae995e-cd8d-4166-be87-c793837f7e1c.002.jpg)
-**Imagen tomada de [The Financial Implications of Technical Debt](https://www.toptal.com/finance/part-time-cfos/technical-debt)** 
+**Imagen tomada de [The Financial Implications of Technical Debt](https://www.toptal.com/finance/part-time-cfos/technical-debt)**
 
 A diferencia de un **"error"**, la deuda técnica no es un defecto visible y, por lo tanto, muchas veces no se puede detectar fácilmente.  Ahí radica el peligro, ya que mientras más se acumula la deuda, mayor será el costo de rectificación en el futuro.
 
@@ -49,7 +48,7 @@ A diferencia de un **"error"**, la deuda técnica no es un defecto visible y, po
 <a href="javascript:void(0);" title="Pulsar aquí" onclick="setCurrentTime(0)">7:33</a> - Carlos Obregon **nos cuenta su experiencia trabajando en una empresa donde la deuda técnica forzó la culminación del contrato por parte del cliente.**
 
 
-Al analizar una comparación de la deuda técnica y financiera, una de las diferencias clave es que la primera no tiene un control formal. Con la deuda financiera, generalmente hay comités de crédito, equipos de gestión de activos y pasivos y personal de tesorería que monitorea los niveles con mucho empeño. 
+Al analizar una comparación de la deuda técnica y financiera, una de las diferencias clave es que la primera no tiene un control formal. Con la deuda financiera, generalmente hay comités de crédito, equipos de gestión de activos y pasivos y personal de tesorería que monitorea los niveles con mucho empeño.
 
 Sin embargo, con la deuda técnica, muy pocos de estos controles existen en los negocios tradicionales.
 
@@ -57,7 +56,7 @@ Al igual que la deuda financiera, la deuda técnica devenga intereses, cuanto m�
 
 
 ![](/images/blog/2023/efae995e-cd8d-4166-be87-c793837f7e1c.003.jpg)
-**Imagen tomada de [The Financial Implications of Technical Debt](https://www.toptal.com/finance/part-time-cfos/technical-debt)** 
+**Imagen tomada de [The Financial Implications of Technical Debt](https://www.toptal.com/finance/part-time-cfos/technical-debt)**
 
 Significado de algunos términos del gráfico:
 
@@ -69,7 +68,7 @@ Significado de algunos términos del gráfico:
 
 ### ¿Por qué ocurre la deuda técnica?
 
-- **Tiempo :** 
+- **Tiempo :**
     - Sacrificamos la calidad por entregar a tiempo,  algunas veces con la idea de que en algún momento vamos a pagar la deuda que estamos dejando, pero ese momento nunca llega y sigues agregando nuevas funcionalidades al proyecto y nunca terminas de pagar la deuda técnica que dejaste.
 - La tentación de ahorrar costos a corto plazo
 - Falta de formación o entrenamiento del equipo
@@ -114,9 +113,9 @@ A continuación los comentarios de algunos participantes sobre por qué ocurre l
 
 ### ¿Cómo podemos abordar un problema de deuda técnica actual?
 
-El primer paso para abordar la deuda técnica es hacerla **visible**, es decir, **identificar o calcular la magnitud de la deuda que tienes**. 
+El primer paso para abordar la deuda técnica es hacerla **visible**, es decir, **identificar o calcular la magnitud de la deuda que tienes**.
 
-Para esto existen herramientas que nos pueden ayudar, hemos mencionado anteriormente a SonarQube. 
+Para esto existen herramientas que nos pueden ayudar, hemos mencionado anteriormente a SonarQube.
 
 También una forma de identificarla o calcularla es haciendo una comparación entre los bugs resueltos y los bugs reportados.
 
@@ -161,10 +160,10 @@ Agradecer a [Emilio Ariel Santos Mateo](https://www.linkedin.com/in/emilio-santo
 
 ### Referencias:
 
-- [Refactor First - Improving Talks Series](https://www.youtube.com/watch?v=lI_sRZt-llI) 
-- [Prioritizing Technical Debt as if Time and Money Matters • Adam Tornhill • GOTO 2019](https://www.youtube.com/watch?v=fl4aZ2KXBsQ) 
-- <https://www.sonarsource.com/open-source-editions/> 
-- <https://www.sonarsource.com/products/sonarlint/> 
+- [Refactor First - Improving Talks Series](https://www.youtube.com/watch?v=lI_sRZt-llI)
+- [Prioritizing Technical Debt as if Time and Money Matters • Adam Tornhill • GOTO 2019](https://www.youtube.com/watch?v=fl4aZ2KXBsQ)
+- <https://www.sonarsource.com/open-source-editions/>
+- <https://www.sonarsource.com/products/sonarlint/>
 
 
 <script>
@@ -174,7 +173,7 @@ var tag = document.createElement('script');
   tag.src = "https://www.youtube.com/iframe_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-  
+
   var player;
 
   window.onYouTubeIframeAPIReady = function() {
@@ -196,4 +195,3 @@ var tag = document.createElement('script');
 
 });
   </script>
-
