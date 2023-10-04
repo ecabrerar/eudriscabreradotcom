@@ -567,8 +567,8 @@ var linguJSON = {
     },
 
     {
-      'source': "I'm frequently posting about Java, Linux, open source, computer science and other topics related to sports, music and our lifestyle.",
-      'target_es': 'Con frecuencia publico sobre Java, Linux, código abierto, ciencia de la computación y otros temas relacionados con los deportes, la música y nuestro estilo de vida.'
+      'source': "I occasionally post about Java, Linux, open source, computer science, and other topics related to sports, music, and our lifestyle.",
+      'target_es': ' Ocasionalmente escribo sobre Java, Linux, código abierto, informática y otros temas relacionados con el deporte, la música y nuestro estilo de vida.'
     },
 
     {
