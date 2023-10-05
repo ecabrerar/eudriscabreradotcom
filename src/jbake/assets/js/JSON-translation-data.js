@@ -475,10 +475,14 @@ var linguJSON = {
       'target_es': ', evento que se realiza de forma seguida desde el año 2013. Miembro del staff organizador de'
     },
     {
-      'source': '. Member of the Program Committee of the first version of',
-      'target_es': '. Miembro del Comité del programa de la primera versión de'
+      'source': '. Member of the Program Committee of',
+      'target_es': '. Miembro del comité organizador de'
     },
 
+    {
+      'source': 'in the editions 2020, 2021, and 2023.',
+      'target_es': 'en las ediciones 2020, 2021 y 2023.'
+    },
     {
       'source': 'In his leisure time, he writes articles, organize meetups and helps review technical documentation in the Java Ecosystem and the open source world.',
       'target_es': 'En el tiempo libre, escribe artículos, realiza charlas y ayuda en la revisión de documentación técnica en el mundo Java y el código abierto.'
@@ -497,8 +501,8 @@ var linguJSON = {
       'target_es': 'JConf Dominicana'
     },
     {
-      'source': 'JakartaOne in Spanish',
-      'target_es': 'JakartaOne Hispano'
+      'source': 'JakartaOne Livestream in Spanish',
+      'target_es': 'JakartaOne Livestream en Español'
     },
     {
       'source': '<strong>Courses and Resources</strong>',
@@ -715,6 +719,10 @@ var linguJSON = {
     {
       'source': 'I had the pleasure of doing a few podcasts and interviews, e.g. talking about Java User Groups in Latin American, my career, and software engineering in general.',
       'target_es': 'Tuve el placer de hacer algunos podcasts y entrevistas, por ejemplo, hablando sobre los Grupos de Usuarios de Java en América Latina, mi carrera, y la ingeniería de software en general.'
+    },
+    {
+      'source': 'Occasionally, I blog about topics related to software engineering, sports, music, and our lifestyle. Read my posts at',
+      'target_es': 'Ocasionalmente, escribo sobre temas relacionados con la ingeniería de software, los deportes, la música y nuestro estilo de vida. Leer mis publicaciones en'
     }
 
   ]
