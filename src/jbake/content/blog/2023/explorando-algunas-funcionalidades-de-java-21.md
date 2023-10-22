@@ -16,7 +16,7 @@ El pasado 19 de octubre de 2023, la [comunidad de usuarios y desarrolladores Jav
 
 El evento inició conversando sobre la evolución de Java y las razones que han motivado a que Java evolucione más rápido. Cómo parte de la introducción se explicó en qué consisten las funcionalidades en modo preview, cómo habilitarlas y que tiene de especial Java 21.
 
-También se presentó [Java Playground](https://dev.java/playground), una herramienta en línea que permite probar las más recientes funcionalidades Java sin la necesidad de instalar. La herramienta fue publicada recientemente, entiendo que luego vendrán algunas mejoras, pero para iniciar son suficientes.
+También se presentó [Java Playground](https://dev.java/playground), una herramienta en línea que permite probar las más recientes funcionalidades Java sin la necesidad de instalar. La herramienta fue publicada recientemente, entiendo que luego vendrán algunas mejoras, pero para iniciar, las funcionalidades que tiene son suficientes.
 
 A continuación, los temas tratados:
 
