@@ -121,8 +121,8 @@ var linguJSON = {
     },
 
     {
-      'source': '<strong>Interests</strong>',
-      'target_es': '<strong>Intereses</strong>'
+      'source': '<strong>Personal Interests</strong>',
+      'target_es': '<strong>Intereses Personales</strong>'
     },
     {
       'source': '<strong>Professional Experience</strong>',
@@ -546,8 +546,8 @@ var linguJSON = {
     },
 
     {
-      'source': 'The technical migration of an outdated web application developed in PHP 4 and mysql to a platform based on PHP 5, Apache web server and PostgresSQL, used to manage network equipment and servers.',
-      'target_es': 'Migración técnica de una una aplicación web obsoleta desarrollada en PHP 4 y mysql a una plataforma basada en PHP 5, servidor web Apache y PostgresSQL, utilizada para la gestión de los equipos de redes y servidores.'
+      'source': 'Migration of legacy applications to a new stack of technologies.',
+      'target_es': 'Migración de aplicaciones desactualizadas a un nuevo stack de tecnologías.'
     },
     {
       'source': 'Develop several modules (PDO / PHP5 and Oracle 10g) for the corporate intranet, where employees can visualize the payments of the last 100 days, see details of the payment, including the different discounts.',
@@ -723,6 +723,29 @@ var linguJSON = {
     {
       'source': 'Occasionally, I blog about topics related to software engineering, sports, music, and our lifestyle. Read my posts at',
       'target_es': 'Ocasionalmente, escribo sobre temas relacionados con la ingeniería de software, los deportes, la música y nuestro estilo de vida. Leer mis publicaciones en'
+    },
+    {
+      'source': 'Define high-level architecture designs for software development projects.',
+      'target_es': 'Definir diseños de arquitectura de alto nivel para proyectos de desarrollo de software.'
+    },
+
+    {
+      'source': 'Maintaining and enhancing existing application source code through refactoring techniques and implementing design patterns.',
+      'target_es': 'Mejorar y mantener el código fuente de las aplicaciones existentes mediante la técnica de refactorización y la implementación de patrones de diseños.'
+    },
+    {
+      'source': 'Design and development of an web-based tool that allowed to perform the fundamental operations of a telephone exchange.',
+      'target_es': 'Diseño y desarrollo de una herramienta que permitía realizar las operaciones fundamentales de una central telefónica desde una aplicación web.'
+    },
+
+    {
+      'source': 'Design and development of components for an application to synchronize and collect data from municipalities and decentralized institutions.',
+      'target_es': 'Diseño y desarrollo de componentes de una aplicación que permite sincronizar y recopilar datos de los ayuntamientos y las instituciones descentralizadas.'
+    },
+
+    {
+      'source': 'Managing a team of 20 developers, helping them progress in their careers by setting goals, conducting quarterly reviews, and having 1:1 meetings.',
+      'target_es': 'Gestionar un equipo de 20 desarrolladores, ayudándoles a progresar en sus carreras mediante el establecimiento de objetivos, la realización de revisiones trimestrales y la celebración de reuniones uno a uno (1:1).'
     }
 
   ]
