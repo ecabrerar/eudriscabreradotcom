@@ -54,7 +54,28 @@
 						<a th:each="tag : ${tags}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
 						th:href="${rootpath}+${tag.uri}" href="/tag/performance" th:utext="${# strings.replace (tag.name, '-', ' ')}"></a>
 				</div>
+				<hr />
+				<div class="row">
+				<div class="col-xs-4 col-md-3" th:each="post, iterStat : ${published_posts}"  th:if="${iterStat.index} > 0 and ${iterStat.index} < 4">
+							<!-- Content -->
+	 <div class="thumbnail"> 
+	 <img th:with="cover=(${post.shareimage} ?: (${post.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))" th:src="'/'+${cover}" alt="...">    
+      <div class="caption">
+        <p><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${post.uri}" href="#" th:utext="${post.title}">title</a></p>
+        <ul class="list-inline">
+													<li><span th:with="author=(${post.author != null} ? ${post.author} : '')" th:text='${author}'>Author:</span></li>
+													<li> | </li>
+													<li><span th:text='${#dates.format(post.date,"dd MMMM yyyy")}'>date</span></li>
+												</ul>
+      </div>
+    </div>
+							
+																								
+								
+				</div>
+			</div>
 			</section>
+			
 
 		</article>
 
