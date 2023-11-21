@@ -3921,19 +3921,20 @@ a.post_more:hover {
 	margin: 50px 0 0;
 }
 
-
-.post_tags>a {
+.post_tags > a {
 	display: inline-block;
 	margin: 0 6px 10px 0;
-	padding: 6px 12px 7px;
+	padding: 1px 10px 1px;
 	color: #4b4b4b;
 	border-radius: 3px;
 	background-color: #f2f2f2;
-	font-size: 12px;
+	font-size: 11px;
+	font-weight: normal;
 }
 
-.post_tags>a:hover {
+.post_tags > a:hover {
 	background-color: #e8e8e8;
+	text-decoration: none;
 }
 
 .left::before {
@@ -4048,4 +4049,27 @@ a.post_more:hover {
 html {
 	-webkit-text-size-adjust: 100%;
 	line-height: 1.35;
+}
+
+.related_img>img {
+	height: 200px;
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 100%
+}
+
+.related_date {
+	margin-left: 10px;
+	padding-left: 15px;
+	position: relative
+}
+
+.related_date:before {
+	background-color: #ccc;
+	content: "";
+	height: 15px;
+	left: 0;
+	position: absolute;
+	top: 4px;
+	width: 1px
 }
