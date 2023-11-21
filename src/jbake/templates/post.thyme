@@ -56,8 +56,8 @@
 				</div>
 				<hr />
 				<div class="row">
-					<div class="col-xs-4 col-md-3" th:each="post, iterStat : ${published_posts}"  th:if="${content.uri != post.uri} and ${iterStat.count} < 5">
-								<!-- Content -->
+					<div class="col-xs-4 col-md-3" th:each="post, iterStat : ${published_posts}" th:if="${content.uri != post.uri} and ${iterStat.count} <= 5">
+					<!-- Content -->
 					<div class="related_img"> 
 						<img th:with="cover=(${post.shareimage} ?: (${post.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))" th:src="'/'+${cover}" alt="...">    
 						<div class="caption">
