@@ -4073,3 +4073,10 @@ html {
 	top: 4px;
 	width: 1px
 }
+
+/* here the rules for small windows */
+@media (max-width: 500px) { 
+    #relatedposts {
+         display: none;
+    }   
+}
