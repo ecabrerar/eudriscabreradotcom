@@ -54,8 +54,24 @@
 						<a th:each="tag : ${tags}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
 						th:href="${rootpath}+${tag.uri}" href="/tag/performance" th:utext="${# strings.replace (tag.name, '-', ' ')}"></a>
 				</div>
-			</section>
-
+				<hr />
+				<div class="row">
+					<div class="col-xs-4 col-md-3" th:each="post, iterStat : ${published_posts}" th:if="${content.uri != post.uri} and ${iterStat.count} <= 5">
+					<!-- Content -->
+					<div class="related_img"> 
+						<img th:with="cover=(${post.shareimage} ?: (${post.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))" th:src="'/'+${cover}" alt="...">    
+						<div class="caption">
+							<p><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${post.uri}" href="#" th:utext="${post.title}">title</a></p>
+							<ul class="list-inline">
+								<li><span th:with="author=(${post.author != null} ? ${post.author} : '')" th:text='${author}'>Author:</span></li>
+								<li><time class="related_date" th:text='${#dates.format(post.date,"dd MMMM yyyy")}'>date</time></li>
+							</ul>
+						</div>
+					</div>			
+				</div>
+			</div>
+		</section>
+	
 		</article>
 
 		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet">
