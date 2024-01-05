@@ -746,6 +746,10 @@ var linguJSON = {
     {
       'source': 'Managing a team of 20 developers, helping them progress in their careers by setting goals, conducting quarterly reviews, and having 1:1 meetings.',
       'target_es': 'Gestionar un equipo de 20 desarrolladores, ayudándoles a progresar en sus carreras mediante el establecimiento de objetivos, la realización de revisiones trimestrales y la celebración de reuniones uno a uno (1:1).'
+    },
+    {
+      'source': 'If you have any questions regarding Java, Linux, software development, open source, secure coding, software dependency management, code quality, and other topics related to Java, please feel free to contact me.',
+      'target_es': 'Si tiene alguna pregunta sobre Java, Linux, desarrollo de software, código abierto, codificación segura, gestión de dependencias de software, calidad del código y otros temas relacionados con Java, no dude en ponerse en contacto conmigo.'
     }
 
   ]
