@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-	<head th:fragment="head">
-	    <meta charset="utf-8">
-			<title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
-	    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-			<meta name="description" content="" th:content="${content.description} ?: ${config.site_description}">
-  		<meta name="author" content="" th:content="${content.author} ?: ${config.site_author}">
-	    <meta name="keywords" content="" th:content="${#strings.arrayJoin(content.tags,',')}">
-			<meta name="generator" content="JBake">
 
-			<!--Facebook Card-->
-			<meta property="og:site_name" content="Eudris Cabrera Personal Site">
-			<meta property="og:type" content="website">
-			<meta property="og:title"  content="Eudris Cabrera's Personal Site" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}">
-			<meta property="og:description" content="Thoughts, stories and ideas." th:content="${content.description} ?: ${config.site_description}">
-			<meta property="og:image" content="https://eudriscabrera.com/images/banner.jpg"
+<head th:fragment="head">
+	<meta charset="utf-8">
+	<title th:with="title=(${content.title} ?: ${config.site_title})" th:text="${title}">Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="" th:content="${content.description} ?: ${config.site_description}">
+	<meta name="author" content="" th:content="${content.author} ?: ${config.site_author}">
+	<meta name="keywords" content="Java,JVM, Eudris Cabrera" th:content="${#strings.arrayJoin(content.tags,',')}">
+	<meta name="generator" content="JBake">
+
+	<!--Facebook Card-->
+	<meta property="og:site_name" content="Eudris Cabrera Personal Site">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Eudris Cabrera's Personal Site"
+		th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}">
+	<meta property="og:description" content="Thoughts, stories and ideas."
+		th:content="${content.description} ?: ${config.site_description}">
+	<meta property="og:image" content="https://eudriscabrera.com/images/banner.jpg"
+		th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))"
+		th:content="|${config.site_host}/${cover}|">
+	<meta property="og:url" content="https://eudriscabrera.com" th:with="uri=${content.uri}?: 'index.html'"
+		th:content="|${config.site_host}/${uri}">
+
+	<!--Twitter card -->
+	<th:block th:if="${config.twitter_username}">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Eudris Cabrera's Personal site"
+			th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}">
+		<meta name="twitter:creator" content="@eudriscabrera" th:content="'@'+${config.twitter_username}">
+		<meta name="twitter:description" content="Thoughts, stories and ideas."
+			th:content="${content.description} ?: ${config.site_description}">
+		<meta name="twitter:image" content="https://eudriscabrera.com/images/banner.jpg"
 			th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))"
 			th:content="|${config.site_host}/${cover}|">
-	    <meta property="og:url" content="https://eudriscabrera.com" th:with="uri=${content.uri}?: 'index.html'" th:content="|${config.site_host}/${uri}">
+		<meta name="twitter:url" content="https://eudriscabrera.com" th:with="uri=${content.uri}"
+			th:content="|${config.site_host}/${uri}">
+		<meta name="twitter:site" content="@eudriscabrera">
+		<meta property="og:image:width" content="581">
+		<meta property="og:image:height" content="581">
 
-			<!--Twitter card -->
-			<th:block th:if="${config.twitter_username}">
-				<meta name="twitter:card" content="summary_large_image">
-				<meta name="twitter:title" content="Eudris Cabrera's Personal site" th:with="title=(${content.title} ?: ${config.site_title})" th:content="${title}">
-				<meta name="twitter:creator" content="@eudriscabrera" th:content="'@'+${config.twitter_username}">
-				<meta name="twitter:description" content="Thoughts, stories and ideas." th:content="${content.description} ?: ${config.site_description}">
-				<meta name="twitter:image" content="https://eudriscabrera.com/images/banner.jpg"
-				th:with="cover=(${content.shareimage} ?: (${content.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))"
-				th:content="|${config.site_host}/${cover}|">
-				<meta name="twitter:url" content="https://eudriscabrera.com" th:with="uri=${content.uri}" th:content="|${config.site_host}/${uri}">
-				<meta name="twitter:site" content="@eudriscabrera">
-				<meta property="og:image:width" content="581">
-				<meta property="og:image:height" content="581">
+	</th:block>
 
-			</th:block>
-
-		    <!-- Le styles -->
-	    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/bootstrap.min.css'" rel="stylesheet">
+	<!-- Le styles -->
+	<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+		th:href="${rootpath}+'css/bootstrap.min.css'" rel="stylesheet">
 
 
-			<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/main.css'" rel="stylesheet">
-			<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'css/prettify.css'" rel="stylesheet">
-			<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/base.css'" rel="stylesheet">
+	<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+		th:href="${rootpath}+'css/main.css'" rel="stylesheet">
+	<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+		th:href="${rootpath}+'css/prettify.css'" rel="stylesheet">
+	<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+		th:href="${rootpath}+'css/base.css'" rel="stylesheet">
 
-			<noscript>
-				<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"   th:href="${rootpath}+'css/noscript.css'" rel="stylesheet">
-			</noscript>
+	<noscript>
+		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+			th:href="${rootpath}+'css/noscript.css'" rel="stylesheet">
+	</noscript>
 
-	    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-	    <!--[if lt IE 9]>
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
 	      <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath}+'js/html5shiv.min.js'"></script>
 	    <![endif]-->
 
-	    <!-- Fav and touch icons -->
-	    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png"/>
+	<!-- Fav and touch icons -->
+	<!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png"/>
 	    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png"/>
 	    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png"/>
 	    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"/>-->
-	    <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" rel="shortcut icon" th:href="${rootpath}+'favicon.ico'">
-	</head>
+	<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" rel="shortcut icon"
+		th:href="${rootpath}+'favicon.ico'">
+</head>
+
 </html>

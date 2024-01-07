@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
-<head th:replace="header.thyme::head"/>
+
+<head th:replace="header.thyme::head" />
+
 <body class="right-sidebar" onload="prettyPrint()">
 	<div id="page-wrapper">
-		<header th:insert="menu.thyme::menu" id="header"/>
+		<header th:insert="menu.thyme::menu" id="header" />
 
 		<!-- Main -->
 		<article id="main">
@@ -13,71 +15,84 @@
 			</header>
 
 			<section class="style1 container special">
-					<div class="row">
-							<div class="col col-12-narrower">
-							  	<a href="/blog"><i class="fas fa-arrow-left"></i>All posts</a>
-							</div>
-	     	</div>
-    	</section>
+				<div class="row">
+					<div class="col col-12-narrower">
+						<a href="/blog"><i class="fas fa-arrow-left"></i>All posts</a>
+					</div>
+				</div>
+			</section>
 
 			<!-- One -->
 			<section class="wrapper style4 container">
-      <div class="row"  style="margin-bottom: 35px;">
-				<header>
+				<div class="row" style="margin-bottom: 35px;">
+					<header>
 						<h2 th:text='${content.title}'>title</h2>
 						<ul class="list-inline">
 
-							<li><span th:with="author=(${content.author != null} ? ${content.author} + ' on ' : '')" th:text='${author}'>Author:</span></li>
+							<li><span th:with="author=(${content.author != null} ? ${content.author} + ' on ' : '')"
+									th:text='${author}'>Author:</span></li>
 							<li th:each="tag : ${content.tags}">
 								<a th:with="rootpath=(${config.tag_path != null} ? '/'+ ${config.tag_path}+'/'+${tag}+'.html' : '')"
 									th:href="${rootpath}" href="#" th:utext='${tag}'></a>
 							</li>
 							<li> | </li>
-							<li> 	<span><em th:text='${#dates.format(content.date,"dd MMMM yyyy")}'>date</em></span> </li>
+							<li> <span><em th:text='${#dates.format(content.date,"dd MMMM yyyy")}'>date</em></span>
+							</li>
 						</ul>
 						<div class="s9-widget-wrapper"></div>
 
-				</header>
-			</div>
+					</header>
+				</div>
 
 				<div class="row gtr-150">
 					<div class="col-8 col-12">
 						<!-- Content -->
 						<div class="content">
 							<section class="post-body">
-					   		<p th:remove="tag" th:utext='${content.body}'>body</p>
+								<p th:remove="tag" th:utext='${content.body}'>body</p>
 							</section>
-							</div>
+						</div>
 					</div>
 				</div>
 				<div class="post_tags">
-						<a th:each="tag : ${tags}" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
-						th:href="${rootpath}+${tag.uri}" href="/tag/performance" th:utext="${# strings.replace (tag.name, '-', ' ')}"></a>
+					<a th:each="tag : ${tags}"
+						th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+						th:href="${rootpath}+${tag.uri}" href="/tag/performance"
+						th:utext="${# strings.replace (tag.name, '-', ' ')}"></a>
 				</div>
 				<hr />
 				<div id="relatedposts" class="row">
-					<div  class="col-xs-4 col-md-3" th:each="post, iterStat : ${published_posts}" th:if="${content.uri != post.uri} and ${iterStat.count} <= 5">
-					<!-- Content -->
-					<div class="related_img"> 
-						<img th:with="cover=(${post.shareimage} ?: (${post.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))" th:src="'/'+${cover}" alt="...">    
-						<div class="caption">
-							<p><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${post.uri}" href="#" th:utext="${post.title}">title</a></p>
-							<ul class="list-inline">
-								<li><span th:with="author=(${post.author != null} ? ${post.author} : '')" th:text='${author}'>Author:</span></li>
-								<li><time class="related_date" th:text='${#dates.format(post.date,"dd MMMM yyyy")}'>date</time></li>
-							</ul>
+					<div class="col-xs-4 col-md-3" th:each="post, iterStat : ${published_posts}"
+						th:if="${content.uri != post.uri} and ${iterStat.count} <= 5">
+						<!-- Content -->
+						<div class="related_img">
+							<img th:with="cover=(${post.shareimage} ?: (${post.coverimage} ?: 'images/eudriscabrera-twitter-card.jpg'))"
+								th:src="'/'+${cover}" alt="...">
+							<div class="caption">
+								<p><a th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+										th:href="${rootpath}+${post.uri}" href="#" th:utext="${post.title}">title</a>
+								</p>
+								<ul class="list-inline">
+									<li><span th:with="author=(${post.author != null} ? ${post.author} : '')"
+											th:text='${author}'>Author:</span></li>
+									<li><time class="related_date"
+											th:text='${#dates.format(post.date,"dd MMMM yyyy")}'>date</time></li>
+								</ul>
+							</div>
 						</div>
-					</div>			
+					</div>
 				</div>
-			</div>
-		</section>
-	
+			</section>
+
 		</article>
 
-		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet">
+		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
+			th:href="${rootpath}+'css/blog.css'" rel="stylesheet">
 		<div th:replace="footer.thyme::footer"></div>
 	</div>
-	<script id="s9-sdk" async defer content="e4dea1ef680e4ea4a0e1bb34fe489e73" src="//cdn.social9.com/js/socialshare.min.js"></script>
+	<script id="s9-sdk" async defer content="e4dea1ef680e4ea4a0e1bb34fe489e73"
+		src="//cdn.social9.com/js/socialshare.min.js"></script>
 
-	</body>
-	</html>
+</body>
+
+</html>
