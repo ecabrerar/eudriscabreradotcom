@@ -4080,3 +4080,7 @@ html {
          display: none;
     }   
 }
+
+.container .content section header h2 {
+	color: inherit;
+}
