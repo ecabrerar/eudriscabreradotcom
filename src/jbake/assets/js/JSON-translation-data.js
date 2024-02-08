@@ -750,6 +750,30 @@ var linguJSON = {
     {
       'source': 'If you have any questions regarding Java, Linux, software development, open source, secure coding, software dependency management, code quality, and other topics related to Java, please feel free to contact me.',
       'target_es': 'Si tiene alguna pregunta sobre Java, Linux, desarrollo de software, código abierto, codificación segura, gestión de dependencias de software, calidad del código y otros temas relacionados con Java, no dude en ponerse en contacto conmigo.'
+    },
+    {
+      'source': 'Consulting',
+      'target_es': 'Consultoría'
+    },
+    {
+      'source': 'Need help for Java or Jakarta EE project migration? Are your Java applications running at a slow pace and need assistance with performance tuning?',
+      'target_es': '¿Necesita ayuda para la migración de proyectos Java o Jakarta EE? ¿Sus aplicaciones Java funcionan a un ritmo lento y necesita ayuda para ajustar el rendimiento?'
+    },
+    {
+      'source': 'I offer tech consulting services for companies or individuals who require assistance with their Java applications.',
+      'target_es': 'Ofrezco servicios de consultoría tecnológica para empresas o particulares que necesiten ayuda con sus aplicaciones Java.'
+    },
+    {
+      'source': 'Whether it be upgrading JDK or Jakarta EE (Java EE) versions, refactoring, testing, performance tuning, or building new applications, I am able to lend a hand.',
+      'target_es': 'Tanto si se trata de actualizar versiones de JDK o Jakarta EE (Java EE), refactorizar, pruebas, ajustar el rendimiento o crear nuevas aplicaciones, puedo proveer asistencia técnica.'
+    },
+    {
+      'source': 'To discuss how we can assist you based on your needs, you can schedule a 30-minute conversation',
+      'target_es': 'Para discutir cómo podemos ayudarle en función de sus necesidades, puede programar una conversación de 30 minutos'
+    },
+    {
+      'source': 'here',
+      'target_es': 'aquí'
     }
 
   ]
