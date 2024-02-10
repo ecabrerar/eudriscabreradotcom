@@ -1,10 +1,10 @@
-﻿title=Resumen de Desarrollar una Applicación que Soporte Alta Concurrencia
+﻿title=Resumen de Desarrollar una Aplicación que Soporte Alta Concurrencia
 date=2024-02-10
 type=post
 tags=Java, JUG Events, Latam
 status=published
 author=Eudris Cabrera
-description=Resumen de Desarrollar una Applicación que Soporte Alta Concurrencia 
+description=Resumen de Desarrollar una Aplicación que Soporte Alta Concurrencia 
 shareimage=images/blog/2024/9d05f6e4-48f8-4be2-845b-e86b39471310.001.jpeg
 summary=Luego de un diciembre super activo generando contenido para la iniciativa del Calendario de Adviento (https://github.com/JavaDominicano/jvm-advent) de la comunidad Java de República Dominicana, enero fue un mes muy pasivo. Tratando de romper la inercia esta será mi primera publicación del año y vamos a resumir la charla realizada por Carlos Camacho (https://twitter.com/ccamachog) en JConf Dominicana 2023 y luego en una sesión de JDK Fundamental Talks, El camino de desarrollar una aplicación de alta concurrencia y no morir en el intento.
 ~~~~~~
