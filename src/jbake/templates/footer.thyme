@@ -68,6 +68,9 @@
 			th:src="${rootpath} + 'js/lingumania.min.js'"></script>
 		<script th:replace="commons.thyme::googleAnalytics"></script>
 
+		 <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  
+		 th:src="${rootpath} + 'plugins/prism/prism.js'" src="/assets/plugins/prism/prism.js"></script>
+
 	</div>
 </body>
 

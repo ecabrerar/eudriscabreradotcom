@@ -54,6 +54,9 @@
 	<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
 		th:href="${rootpath}+'css/base.css'" rel="stylesheet">
 
+		 <!-- Plugins CSS -->
+     <link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'plugins/prism/prism.css'" rel="stylesheet" href="/assets/plugins/prism/prism.css">
+
 	<noscript>
 		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"
 			th:href="${rootpath}+'css/noscript.css'" rel="stylesheet">
