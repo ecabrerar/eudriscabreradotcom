@@ -774,7 +774,11 @@ var linguJSON = {
     {
       'source': 'here',
       'target_es': 'aquí'
-    }
+    },
+    {
+      'source': 'since March, 2024.',
+      'target_es': 'desde marzo de 2024.'
+    }    
 
   ]
 }
