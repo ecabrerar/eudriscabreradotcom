@@ -60,6 +60,5 @@
 		<div th:replace="footer.thyme::footer"></div>
 </div>
 		<link th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')"  th:href="${rootpath}+'css/blog.css'" rel="stylesheet"/>
-	<script id="s9-sdk" async defer content="e4dea1ef680e4ea4a0e1bb34fe489e73" src="//cdn.social9.com/js/socialshare.min.js"></script>
-	</body>
+		</body>
 	</html>

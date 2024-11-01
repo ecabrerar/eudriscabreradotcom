@@ -90,8 +90,6 @@
 			th:href="${rootpath}+'css/blog.css'" rel="stylesheet">
 		<div th:replace="footer.thyme::footer"></div>
 	</div>
-	<script id="s9-sdk" async defer content="e4dea1ef680e4ea4a0e1bb34fe489e73"
-		src="//cdn.social9.com/js/socialshare.min.js"></script>
 
 </body>
 
