@@ -18,7 +18,7 @@ Antes de continuar es importante saber que es una [funcionalidad preview](https:
 
 Es una nueva funcionalidad del lenguaje Java, la máquina virtual Java o la API de Java SE que está totalmente especificada, totalmente implementada y, sin embargo, no es permanente.
 
-### ¿Cuales son los objectivos que se buscan con liberar una funcionalidad en vista previa?
+### ¿Cuales son los objetivos que se buscan con liberar una funcionalidad en vista previa?
 
 - Dar a conocer una nueva funcionalidad que estará disponible en aproximadamente 12 meses.
 - Definir un modo de separar las nuevas características de lenguaje, VM y API en función de si son permanentes o no.
@@ -48,7 +48,7 @@ IDE como Eclipse, IntelliJ IDEA, Netbeans, VS Code, entre otros, han publicado b
 
 **En conclusión, las funcionalidades en modo preview están disponibles en una versión del JDK para provocar retroalimentación de los desarrolladores basados ​​en el uso en el mundo real; esto puede hacer que se vuelva permanente en una futura plataforma Java SE.**
  
-**Debido a que estas no han alcanzado el estado final y permanente en la plataforma Java SE, un código escrito con una funcionalidad en modo preview de una versión anterior de la plataforma Java SE no necesariamente se compilará o ejecutará en una versión más reciente.** 
+**Debido a que estas no han alcanzado el estado final y permanente en la plataforma Java SE, un código escrito con una funcionalidad en modo preview de una versión anterior de la plataforma Java SE, no necesariamente se compilará o ejecutará en una versión más reciente.** 
 
 **Basado en la retroalimentación recibida de parte de la comunidad Java, la funcionalidad puede sufrir cambios en su implementación e incluso, pudiera ser retirada para ser reestructurada y luego ser reintroducida en una futura versión**
 
