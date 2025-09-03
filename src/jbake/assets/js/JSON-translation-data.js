@@ -363,8 +363,8 @@ var linguJSON = {
       'target_es': 'Mayo 2020'
     },
     {
-      'source': '<strong>Jan 2017 → Current</strong>',
-      'target_es': '<strong>Enero 2017 → Actual</strong>'
+      'source': '<strong>Jan 2017 → May 2024</strong>',
+      'target_es': '<strong>Enero 2017 → Mayo 2024</strong>'
     },
 
     {
@@ -471,8 +471,8 @@ var linguJSON = {
     },
 
     {
-      'source': ', an event that has been held continuously since 2013.Member of the organizing staff of',
-      'target_es': ', evento que se realiza de forma seguida desde el año 2013. Miembro del staff organizador de'
+      'source': ', an event that has been held continuously since 2013.Member of the Program Committee of',
+      'target_es': ', evento que se realiza de forma seguida desde el año 2013. Miembro del comité organizador de'
     },
     {
       'source': '. Member of the Program Committee of',
@@ -778,7 +778,14 @@ var linguJSON = {
     {
       'source': 'since March, 2024.',
       'target_es': 'desde marzo de 2024.'
-    }    
-
+    } ,
+    {
+          'source': '<strong>Jun 2024 → Current</strong>',
+          'target_es': '<strong>Junio 2024 → Actual</strong>'
+        },
+        {
+          'source': 'and',
+          'target_es': ' y '
+        },
   ]
 }
