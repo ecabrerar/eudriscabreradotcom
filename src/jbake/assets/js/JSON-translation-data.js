@@ -787,5 +787,22 @@ var linguJSON = {
           'source': 'and',
           'target_es': ' y '
         },
+        {
+          'source': 'September 2025',
+          'target_es': 'Septiembre de 2025'
+        },
+        {
+           'source': 'October 2025',
+          'target_es': 'Octubre de 2025'
+        },
+        {
+            'source': 'Issued Sep 2025 - Expires Sep 2027',
+            'target_es': 'Emitido en Septiembre de 2025 - Vence en Septiembre de 2027'
+        },
+        {
+            'source': 'Issued Oct 2025 - Expires Oct 2027',
+            'target_es': 'Emitido en Octubre de 2025 - Vence en Octubre de 2027'
+        }
+
   ]
 }
